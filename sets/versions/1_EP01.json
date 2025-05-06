@@ -1,5 +1,5 @@
 ﻿{
-    "name": "",
+    "name": "Extended Play 01 \u2014 Universes Beyond",
     "formats": "",
     "trimmed": "n",
     "image_type": "png",
@@ -872,7 +872,7 @@
             "notes": ""
         },
         {
-            "card_name": "Hyun's Dojo",
+            "card_name": "Hyuns Dojo",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -887,7 +887,7 @@
             "set": "EP01",
             "loyalty": "",
             "artist": "KeroKrow",
-            "notes": ""
+            "notes": "!exportname Hyuns Dojo"
         },
         {
             "card_name": "Panchaku",
