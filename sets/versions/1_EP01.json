@@ -52,7 +52,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nDraw two cards. Create two 3/3 white Soldier creature tokens.\nTorment yourself. [i](You lose 3 life unless you discard a card or sacrifice a nonland permanent.)[/i]\nDestroy all creatures.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Draw two cards. Create two 3/3 white Soldier creature tokens.\nII, III, IV \u2014 Torment yourself. [i](You lose 3 life unless you discard a card or sacrifice a nonland permanent.)[/i]\nV \u2014 Destroy all creatures.",
             "shape": "saga",
             "set": "EP01",
             "loyalty": "",
@@ -84,11 +84,11 @@
             "type": "Enchantment \u2014 Saga",
             "number": 21,
             "color_identity": "G",
-            "cost": "{G}",
+            "cost": "{1}{G}",
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nCreate a Jelly token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Untap target permanent. Activate only as a sorcery.\u201d)[/i]\nYou may sacrifice three artifacts. If you don't, remove a lore counter from this Saga and create a Jelly token.\nPut three +1/+1 counters on target creature you control.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Create a Jelly token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Untap target permanent. Activate only as a sorcery.\u201d)[/i]\nII \u2014 You may sacrifice three artifacts. If you don't, remove two lore counters from this Saga.\nIII \u2014 Put three +1/+1 counters on target creature you control.",
             "shape": "saga",
             "set": "EP01",
             "loyalty": "",
@@ -129,7 +129,7 @@
             "set": "EP01",
             "loyalty": "",
             "artist": "tredlocity",
-            "notes": ""
+            "notes": "!tag yuri"
         },
         {
             "card_name": "Mecha Mayhem",
@@ -203,7 +203,7 @@
             "number": 5,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Whenever an opponent draws their second card each turn, create a Treasure token.\nAt the beginning of combat on your turn, if you control ten or more permanents, upgrade The Watcher. If you can't, each player draws two cards. [i](Give it one of the listed counters it doesn't already have.)[/i]\n\u2022 Flying \u2022 Double strike \u2022 Ward {2}",
+            "rules_text": "Whenever an opponent draws their second card each turn or casts their second spell each turn, create a Treasure token.\n{5}: Put a +1/+1 counter on The Watcher, then upgrade her. [i](Give her one of the listed counters it doesn't already have.)[/i]\n\u2022 Flying \u2022 Double strike \u2022 Ward {2}",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -239,7 +239,7 @@
             "number": 13,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Flash\nWhen Siffrin enters, return to your hand target card in your graveyard that was put there from your hand, your library, or the battlefield this turn.\nWander {3}{B}. Wander only outside of combat. [i](You may cast this from the battlefield for its wander cost.)[/i]",
+            "rules_text": "Flash\nWhen Siffrin enters, return to your hand target card in your graveyard that was put there from anywhere this turn.\nWander {3}{B}. Wander only outside of combat. [i](You may cast this from the battlefield for its wander cost.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -373,7 +373,7 @@
             "set": "EP01",
             "loyalty": "",
             "artist": "tredlocity",
-            "notes": ""
+            "notes": "!tag yuri"
         },
         {
             "card_name": "Seraph, the Traitor",
@@ -481,7 +481,7 @@
             "set": "EP01",
             "loyalty": "",
             "artist": "tama-s",
-            "notes": "Instigate was the perfect mechanic to stick onto Croix, especially with the Noire Fuel Spirit plot"
+            "notes": "Instigate was the perfect mechanic to stick onto Croix, especially with the Noire Fuel Spirit plot\n\n!tag yuri"
         },
         {
             "card_name": "Crow's Nest",
@@ -607,7 +607,7 @@
             "set": "EP01",
             "loyalty": "",
             "artist": "sapphicsparkles (tumblr)",
-            "notes": "Anthy being a wheel-monarch is perfect flavor. 1. The whole \"revolution\" thing, and 2. The one-shot duels"
+            "notes": "Anthy being a wheel-monarch is perfect flavor. 1. The whole \"revolution\" thing, and 2. The one-shot duels\n\n!tag yuri"
         },
         {
             "card_name": "Volibear, Relentless Storm",
@@ -643,7 +643,7 @@
             "set": "EP01",
             "loyalty": "",
             "artist": "Claire K. Niebergall",
-            "notes": "Vigilance\nWhenever Freja Skov enters or attacks, you may pay XW/U. If you do, choose X\u2014\n\u2022 Tap target creature.\n\u2022 Put a stun counter on target creature.\n\u2022 Target creature gains flying until end of turn."
+            "notes": "!tag yuri"
         },
         {
             "card_name": "Tessa, Lost Element",
@@ -674,7 +674,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Time loop [i](As this Saga enters and after your draw step, add a lore counter. Remove all lore counters after III.)[/i]\nCreate a Weapon token. [i](It's an artifact with \u201cEquipped creature gets +1/+1\u201d and equip {2}.)[/i]\nWhenever an equipped creature deals combat damage to a player this turn, you draw a card and lose 1 life.\nExile target artifact or creature card from your graveyard. Copy it. You may cast the copy.",
+            "special_text": "Time loop [i](As this Saga enters and after your draw step, add a lore counter. Remove all lore counters after III.)[/i]\nI \u2014 Create a Weapon token. [i](It's an artifact with \u201cEquipped creature gets +1/+1\u201d and equip {2}.)[/i]\nII \u2014 Whenever an equipped creature deals combat damage to a player this turn, you draw a card and lose 1 life.\nIII \u2014 Exile target artifact or creature card from your graveyard. Copy it. You may cast the copy.",
             "shape": "saga",
             "set": "EP01",
             "loyalty": "",
@@ -787,7 +787,7 @@
             "set": "EP01",
             "loyalty": "",
             "artist": "harryzroze",
-            "notes": "When RM01 enters, create a Lead Pipe token. (It's a B Equipment artifact with \u201cEquipped creature gets +2/+0,\u201d \u201cWhenever equipped creature dies, each opponent loses 1 life,\u201d \u201c2, Sacrifice this Equipment: Draw a card,\u201d and equip 2.)"
+            "notes": "When RM01 enters, create a Lead Pipe token. (It's a B Equipment artifact with \u201cEquipped creature gets +2/+0,\u201d \u201cWhenever equipped creature dies, each opponent loses 1 life,\u201d \u201c2, Sacrifice this Equipment: Draw a card,\u201d and equip 2.)\n\n!tag yuri"
         },
         {
             "card_name": "Hidden Mushrooms",
