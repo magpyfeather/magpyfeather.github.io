@@ -5,6 +5,10 @@
 	<link rel="stylesheet" href="/resources/header.css">
 	<title>AINT Demo visual preview</title>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -82,7 +86,7 @@
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -118,36 +122,49 @@
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
-			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 10%;
+			width: fit-content;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: flex;
+			flex-direction: column;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
 		}
 		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
 		.footer {
@@ -173,98 +190,99 @@
 		</div>
 	</div>
 
-	<div class="icon-bar">
-			<div class="icon"><a href="AINT Demo"><img src="/sets/AINT Demo-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ASC Demo"><img src="/sets/ASC Demo-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="EP01"><img src="/sets/EP01-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="EP02"><img src="/sets/EP02-files/icon.png"></img></a></div>
-
+	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="AINT Demo"><img src="/sets/AINT Demo-files/icon.png">Ain’t Got The Love Demo</a>
+	
+		<a class="set-bar inactive" href="ASC Demo"><img src="/sets/ASC Demo-files/icon.png">Act So Cinematic Demo</a>
+	
+		<a class="set-bar inactive" href="EP01"><img src="/sets/EP01-files/icon.png">Extended Play 01 — Universes Beyond</a>
+	
+		<a class="set-bar inactive" href="EP02"><img src="/sets/EP02-files/icon.png">Extended Play 02 — Universes Beyond: The Teams</a>
+	
 		</div>
 		<div class="banner">
 		<img class="logo" src="/sets/AINT Demo-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="/sets\AINT Demo-files\img\2_Dreamcraft.png" id="2_Dreamcraft" data-flag="@X" onclick="openSidebar('2_Dreamcraft',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\7_Ceta, Self-Reassembler.png" id="7_Ceta, Self-Reassembler" data-flag="@X" onclick="openSidebar('7_Ceta, Self-Reassembler',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\18_Unchecked Aggression.png" id="18_Unchecked Aggression" data-flag="@X" onclick="openSidebar('18_Unchecked Aggression',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\22_In Ambition's Audience.png" id="22_In Ambitions Audience" data-flag="@X" onclick="openSidebar('22_In Ambitions Audience',true)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\26_Duelist's Augments.png" id="26_Duelists Augments" data-flag="@X" onclick="openSidebar('26_Duelists Augments',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\1_Break Apart.png" id="1_Break Apart" data-flag="@X" onclick="openSidebar('1_Break Apart',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\10_Master One's Magic.png" id="10_Master Ones Magic" data-flag="@X" onclick="openSidebar('10_Master Ones Magic',true)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\14_Floriosis.png" id="14_Floriosis" data-flag="@X" onclick="openSidebar('14_Floriosis',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\20_Armament Fascination.png" id="20_Armament Fascination" data-flag="@X" onclick="openSidebar('20_Armament Fascination',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\31_Scrapyard Shieldbearer.png" id="31_Scrapyard Shieldbearer" data-flag="@X" onclick="openSidebar('31_Scrapyard Shieldbearer',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\3_Long-Lost Weapon.png" id="3_Long-Lost Weapon" data-flag="@X" onclick="openSidebar('3_Long-Lost Weapon',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\8_Freedom of Movement.png" id="8_Freedom of Movement" data-flag="@X" onclick="openSidebar('8_Freedom of Movement',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\15_Lurking Danger.png" id="15_Lurking Danger" data-flag="@X" onclick="openSidebar('15_Lurking Danger',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\19_Aimed Fireburst.png" id="19_Aimed Fireburst" data-flag="@X" onclick="openSidebar('19_Aimed Fireburst',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\27_Imposing Appearance.png" id="27_Imposing Appearance" data-flag="@X" onclick="openSidebar('27_Imposing Appearance',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\4_Meet Again.png" id="4_Meet Again" data-flag="@X" onclick="openSidebar('4_Meet Again',true)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\9_Look Within the Self.png" id="9_Look Within the Self" data-flag="@X" onclick="openSidebar('9_Look Within the Self',true)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\16_Possessed Ravager.png" id="16_Possessed Ravager" data-flag="@X" onclick="openSidebar('16_Possessed Ravager',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\21_Charged Runaway.png" id="21_Charged Runaway" data-flag="@X" onclick="openSidebar('21_Charged Runaway',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\28_Push It To The Limit.png" id="28_Push It To The Limit" data-flag="@X" onclick="openSidebar('28_Push It To The Limit',true)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\5_Shining Bravery.png" id="5_Shining Bravery" data-flag="@X" onclick="openSidebar('5_Shining Bravery',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\11_Part for the Night.png" id="11_Part for the Night" data-flag="@X" onclick="openSidebar('11_Part for the Night',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\17_Supercharged Hooligan.png" id="17_Supercharged Hooligan" data-flag="@X" onclick="openSidebar('17_Supercharged Hooligan',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\23_Into the Action.png" id="23_Into the Action" data-flag="@X" onclick="openSidebar('23_Into the Action',true)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\29_Reclaim and Reuse.png" id="29_Reclaim and Reuse" data-flag="@X" onclick="openSidebar('29_Reclaim and Reuse',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\6_Wonder at the Skies.png" id="6_Wonder at the Skies" data-flag="@X" onclick="openSidebar('6_Wonder at the Skies',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\12_Prototype Aerobot.png" id="12_Prototype Aerobot" data-flag="@X" onclick="openSidebar('12_Prototype Aerobot',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\24_Smooth Rider.png" id="24_Smooth Rider" data-flag="@X" onclick="openSidebar('24_Smooth Rider',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\30_Reliable Hauler.png" id="30_Reliable Hauler" data-flag="@X" onclick="openSidebar('30_Reliable Hauler',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\13_Strategic Halt.png" id="13_Strategic Halt" data-flag="@X" onclick="openSidebar('13_Strategic Halt',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\25_Unyielding Will.png" id="25_Unyielding Will" data-flag="@X" onclick="openSidebar('25_Unyielding Will',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\32_Shattered Wings.png" id="32_Shattered Wings" data-flag="@X" onclick="openSidebar('32_Shattered Wings',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="gold" class="anchor"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\41_Tobi, Roaming Shadow.png" id="41_Tobi, Roaming Shadow" data-flag="@X" onclick="openSidebar('41_Tobi, Roaming Shadow',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\39_Ray, the Socialite.png" id="39_Ray, the Socialite" data-flag="@X" onclick="openSidebar('39_Ray, the Socialite',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\36_Emi, Tainted Outsider.png" id="36_Emi, Tainted Outsider" data-flag="@X" onclick="openSidebar('36_Emi, Tainted Outsider',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\34_Battle-Worn Kineticist.png" id="34_Battle-Worn Kineticist" data-flag="@X" onclick="openSidebar('34_Battle-Worn Kineticist',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\38_Old-Model Veteran.png" id="38_Old-Model Veteran" data-flag="@X" onclick="openSidebar('38_Old-Model Veteran',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\33_Avis, Rising Fledgling.png" id="33_Avis, Rising Fledgling" data-flag="@X" onclick="openSidebar('33_Avis, Rising Fledgling',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\35_Dark-Stained Student.png" id="35_Dark-Stained Student" data-flag="@X" onclick="openSidebar('35_Dark-Stained Student',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\37_Emi's Protege.png" id="37_Emis Protege" data-flag="@X" onclick="openSidebar('37_Emis Protege',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\40_Squadron Leader.png" id="40_Squadron Leader" data-flag="@X" onclick="openSidebar('40_Squadron Leader',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="colorless" class="anchor"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\44_Programmed Super-Fighter.png" id="44_Programmed Super-Fighter" data-flag="@X" onclick="openSidebar('44_Programmed Super-Fighter',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\42_Excavated Titan.png" id="42_Excavated Titan" data-flag="@X" onclick="openSidebar('42_Excavated Titan',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\43_Hyper-Tuned Headgear.png" id="43_Hyper-Tuned Headgear" data-flag="@X" onclick="openSidebar('43_Hyper-Tuned Headgear',false)"></div>
-			<div class="container"><img alt="/sets\AINT Demo-files\img\45_Slapdash Surveyor.png" id="45_Slapdash Surveyor" data-flag="@X" onclick="openSidebar('45_Slapdash Surveyor',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img alt="/sets\AINT Demo-files\img\2_Dreamcraft.png" id="2_Dreamcraft" data-flag="@X" onclick="openSidebar('2_Dreamcraft',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\7_Ceta, Self-Reassembler.png" id="7_Ceta, Self-Reassembler" data-flag="@X" onclick="openSidebar('7_Ceta, Self-Reassembler',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\18_Unchecked Aggression.png" id="18_Unchecked Aggression" data-flag="@X" onclick="openSidebar('18_Unchecked Aggression',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\22_In Ambition's Audience.png" id="22_In Ambitions Audience" data-flag="@X" onclick="openSidebar('22_In Ambitions Audience',true)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\26_Duelist's Augments.png" id="26_Duelists Augments" data-flag="@X" onclick="openSidebar('26_Duelists Augments',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\1_Break Apart.png" id="1_Break Apart" data-flag="@X" onclick="openSidebar('1_Break Apart',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\10_Master One's Magic.png" id="10_Master Ones Magic" data-flag="@X" onclick="openSidebar('10_Master Ones Magic',true)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\14_Floriosis.png" id="14_Floriosis" data-flag="@X" onclick="openSidebar('14_Floriosis',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\20_Armament Fascination.png" id="20_Armament Fascination" data-flag="@X" onclick="openSidebar('20_Armament Fascination',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\31_Scrapyard Shieldbearer.png" id="31_Scrapyard Shieldbearer" data-flag="@X" onclick="openSidebar('31_Scrapyard Shieldbearer',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\3_Long-Lost Weapon.png" id="3_Long-Lost Weapon" data-flag="@X" onclick="openSidebar('3_Long-Lost Weapon',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\8_Freedom of Movement.png" id="8_Freedom of Movement" data-flag="@X" onclick="openSidebar('8_Freedom of Movement',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\15_Lurking Danger.png" id="15_Lurking Danger" data-flag="@X" onclick="openSidebar('15_Lurking Danger',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\19_Aimed Fireburst.png" id="19_Aimed Fireburst" data-flag="@X" onclick="openSidebar('19_Aimed Fireburst',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\27_Imposing Appearance.png" id="27_Imposing Appearance" data-flag="@X" onclick="openSidebar('27_Imposing Appearance',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\4_Meet Again.png" id="4_Meet Again" data-flag="@X" onclick="openSidebar('4_Meet Again',true)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\9_Look Within the Self.png" id="9_Look Within the Self" data-flag="@X" onclick="openSidebar('9_Look Within the Self',true)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\16_Possessed Ravager.png" id="16_Possessed Ravager" data-flag="@X" onclick="openSidebar('16_Possessed Ravager',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\21_Charged Runaway.png" id="21_Charged Runaway" data-flag="@X" onclick="openSidebar('21_Charged Runaway',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\28_Push It To The Limit.png" id="28_Push It To The Limit" data-flag="@X" onclick="openSidebar('28_Push It To The Limit',true)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\5_Shining Bravery.png" id="5_Shining Bravery" data-flag="@X" onclick="openSidebar('5_Shining Bravery',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\11_Part for the Night.png" id="11_Part for the Night" data-flag="@X" onclick="openSidebar('11_Part for the Night',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\17_Supercharged Hooligan.png" id="17_Supercharged Hooligan" data-flag="@X" onclick="openSidebar('17_Supercharged Hooligan',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\23_Into the Action.png" id="23_Into the Action" data-flag="@X" onclick="openSidebar('23_Into the Action',true)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\29_Reclaim and Reuse.png" id="29_Reclaim and Reuse" data-flag="@X" onclick="openSidebar('29_Reclaim and Reuse',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\6_Wonder at the Skies.png" id="6_Wonder at the Skies" data-flag="@X" onclick="openSidebar('6_Wonder at the Skies',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\12_Prototype Aerobot.png" id="12_Prototype Aerobot" data-flag="@X" onclick="openSidebar('12_Prototype Aerobot',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\24_Smooth Rider.png" id="24_Smooth Rider" data-flag="@X" onclick="openSidebar('24_Smooth Rider',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\30_Reliable Hauler.png" id="30_Reliable Hauler" data-flag="@X" onclick="openSidebar('30_Reliable Hauler',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\13_Strategic Halt.png" id="13_Strategic Halt" data-flag="@X" onclick="openSidebar('13_Strategic Halt',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\25_Unyielding Will.png" id="25_Unyielding Will" data-flag="@X" onclick="openSidebar('25_Unyielding Will',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\32_Shattered Wings.png" id="32_Shattered Wings" data-flag="@X" onclick="openSidebar('32_Shattered Wings',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\41_Tobi, Roaming Shadow.png" id="41_Tobi, Roaming Shadow" data-flag="@X" onclick="openSidebar('41_Tobi, Roaming Shadow',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\39_Ray, the Socialite.png" id="39_Ray, the Socialite" data-flag="@X" onclick="openSidebar('39_Ray, the Socialite',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\36_Emi, Tainted Outsider.png" id="36_Emi, Tainted Outsider" data-flag="@X" onclick="openSidebar('36_Emi, Tainted Outsider',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\34_Battle-Worn Kineticist.png" id="34_Battle-Worn Kineticist" data-flag="@X" onclick="openSidebar('34_Battle-Worn Kineticist',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\38_Old-Model Veteran.png" id="38_Old-Model Veteran" data-flag="@X" onclick="openSidebar('38_Old-Model Veteran',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\33_Avis, Rising Fledgling.png" id="33_Avis, Rising Fledgling" data-flag="@X" onclick="openSidebar('33_Avis, Rising Fledgling',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\35_Dark-Stained Student.png" id="35_Dark-Stained Student" data-flag="@X" onclick="openSidebar('35_Dark-Stained Student',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\37_Emi's Protege.png" id="37_Emis Protege" data-flag="@X" onclick="openSidebar('37_Emis Protege',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\40_Squadron Leader.png" id="40_Squadron Leader" data-flag="@X" onclick="openSidebar('40_Squadron Leader',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\44_Programmed Super-Fighter.png" id="44_Programmed Super-Fighter" data-flag="@X" onclick="openSidebar('44_Programmed Super-Fighter',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\42_Excavated Titan.png" id="42_Excavated Titan" data-flag="@X" onclick="openSidebar('42_Excavated Titan',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\43_Hyper-Tuned Headgear.png" id="43_Hyper-Tuned Headgear" data-flag="@X" onclick="openSidebar('43_Hyper-Tuned Headgear',false)"></div>
+				<div class="container"><img alt="/sets\AINT Demo-files\img\45_Slapdash Surveyor.png" id="45_Slapdash Surveyor" data-flag="@X" onclick="openSidebar('45_Slapdash Surveyor',false)"></div>
+				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
 	</div>
-</div>
+	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
 			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
@@ -295,7 +313,7 @@
 				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
-		
+
 		let images_loaded = [];
 
 		do {
@@ -385,7 +403,7 @@
 	function openSidebar(id, h = false) {
 		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
-		
+
 		document.getElementById('sidebar').style.display = 'grid';
 
 		const rotated_img = document.getElementById('sidebar_h_img');
@@ -416,7 +434,7 @@
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
 		document.getElementById('main-content').style.width = '60%';
-		
+
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
 		setSidebarTop();
@@ -427,10 +445,28 @@
 
 		document.getElementById('sidebar').style.display = 'none';
 		document.getElementById('main-content').style.width = '100%';
-		
+
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {

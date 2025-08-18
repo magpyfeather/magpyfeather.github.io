@@ -1,4 +1,101 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Wonder at the Skies
+
+Long-Lost Weapon
+
+Meet Again
+
+Shining Bravery
+
+Prototype Aerobot
+
+Look Within the Self
+
+Part for the Night
+
+Freedom of Movement
+
+Strategic Halt
+
+Possessed Ravager
+
+Lurking Danger
+
+Charged Runaway
+
+Smooth Rider
+
+Into the Action
+
+Unyielding Will
+
+Reclaim and Reuse
+
+Reliable Hauler
+
+Push It To The Limit
+
+Imposing Appearance
+
+Slapdash Surveyor
+
+Excavated Titan
+
+Hyper-Tuned Headgear
+
+Emi's Protege
+
+Battle-Worn Kineticist
+
+Old-Model Veteran
+
+Squadron Leader
+
+Dark-Stained Student
+
+Ceta, Self-Reassembler
+
+Avis, Rising Fledgling
+
+Ray, the Socialite
+
+Tobi, Roaming Shadow
+
+Scrapyard Shieldbearer
+
+Programmed Super-Fighter
+
+Armament Fascination
+
+Dreamcraft
+
+Master One's Magic
+
+Unchecked Aggression
+
+Duelist's Augments
+
+Break Apart
+
+Floriosis
+
+Aimed Fireburst
+
+Shattered Wings
+type: Instant => Sorcery
+
+Emi, Tainted Outsider
+
+In Ambition's Audience
+
+Supercharged Hooligan
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

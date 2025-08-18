@@ -4,6 +4,7 @@
     "trimmed": "y",
     "image_type": "png",
     "draft_structure": "none",
+    "unpreviewed": "card back",
     "cards": [
         {
             "card_name": "Wonder at the Skies",
@@ -21,6 +22,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "fluffy2038",
+            "alias": "",
             "notes": "Flying, lifelink\nRebuild 1 3WW (3WW: Return this card from your graveyard to the battlefield with a finality counter and a +1/+1 counter on it. Rebuild as a sorcery.)"
         },
         {
@@ -39,6 +41,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Olya Chibrikova",
+            "alias": "",
             "notes": ""
         },
         {
@@ -57,6 +60,7 @@
             "set": "AINT Demo",
             "loyalty": "6",
             "artist": "Yushi Xie",
+            "alias": "",
             "notes": ""
         },
         {
@@ -75,6 +79,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "nerney",
+            "alias": "",
             "notes": "During your turn, CW04 has first strike and vigilance."
         },
         {
@@ -93,6 +98,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Michelle Tolo",
+            "alias": "",
             "notes": ""
         },
         {
@@ -111,6 +117,7 @@
             "set": "AINT Demo",
             "loyalty": "6",
             "artist": "456log",
+            "alias": "",
             "notes": ""
         },
         {
@@ -129,6 +136,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Mateuz Michalski",
+            "alias": "",
             "notes": ""
         },
         {
@@ -147,6 +155,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Gozena",
+            "alias": "",
             "notes": ""
         },
         {
@@ -165,6 +174,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "qys3",
+            "alias": "",
             "notes": ""
         },
         {
@@ -183,6 +193,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "iralion",
+            "alias": "",
             "notes": ""
         },
         {
@@ -201,6 +212,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "shoutarotttt",
+            "alias": "",
             "notes": ""
         },
         {
@@ -219,6 +231,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Saki",
+            "alias": "",
             "notes": "attunement hoarder"
         },
         {
@@ -237,6 +250,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Santiago Fuentes",
+            "alias": "",
             "notes": ""
         },
         {
@@ -255,6 +269,7 @@
             "set": "AINT Demo",
             "loyalty": "6",
             "artist": "qust3",
+            "alias": "",
             "notes": ""
         },
         {
@@ -273,6 +288,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Saki",
+            "alias": "",
             "notes": "Double strike"
         },
         {
@@ -291,6 +307,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Osu",
+            "alias": "",
             "notes": ""
         },
         {
@@ -309,6 +326,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Raul Cruz",
+            "alias": "",
             "notes": ""
         },
         {
@@ -327,6 +345,7 @@
             "set": "AINT Demo",
             "loyalty": "6",
             "artist": "Martin Vos",
+            "alias": "",
             "notes": ""
         },
         {
@@ -345,6 +364,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Francois Boursain",
+            "alias": "",
             "notes": ""
         },
         {
@@ -363,6 +383,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Dao Trong Le",
+            "alias": "",
             "notes": ""
         },
         {
@@ -381,6 +402,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Wasan Techawibulchai",
+            "alias": "",
             "notes": ""
         },
         {
@@ -399,6 +421,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "asuka111",
+            "alias": "",
             "notes": ""
         },
         {
@@ -417,6 +440,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "x_xtsuki_x",
+            "alias": "",
             "notes": "emi's pactbound?\n\u201cOne step closer,\u201d Emi breathed, closing her eyes and bowing her head. \u201cOne step closer to getting her back.\u201d\nEvery new demon is a step closer to Emi's goal."
         },
         {
@@ -435,6 +459,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "daichi",
+            "alias": "",
             "notes": ""
         },
         {
@@ -453,6 +478,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "squarepanda",
+            "alias": "",
             "notes": "When UX03 ramper enters, search your library and/or graveyard for a basic land card and put it onto the battlefield tapped. If you searched your library, shuffle.\nRebuild 1\u20144BG (4BG: Return this card from your graveyard to the battlefield with a finality counter and a +1/+1 counter on it. Rebuild as a sorcery.)"
         },
         {
@@ -471,6 +497,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Lupo",
+            "alias": "",
             "notes": ""
         },
         {
@@ -489,6 +516,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "alphabetgir1s",
+            "alias": "",
             "notes": ""
         },
         {
@@ -507,6 +535,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Saki",
+            "alias": "",
             "notes": ""
         },
         {
@@ -525,7 +554,8 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "kirinottk",
-            "notes": ""
+            "alias": "",
+            "notes": "!tag yuri"
         },
         {
             "card_name": "Ray, the Socialite",
@@ -543,6 +573,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "theobliviousowl",
+            "alias": "",
             "notes": ""
         },
         {
@@ -561,6 +592,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "99__yen",
+            "alias": "",
             "notes": ""
         },
         {
@@ -579,6 +611,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Dong Geon Son",
+            "alias": "",
             "notes": ""
         },
         {
@@ -597,6 +630,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Jim Rowden",
+            "alias": "",
             "notes": ""
         },
         {
@@ -615,6 +649,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Saki",
+            "alias": "",
             "notes": "battle experience"
         },
         {
@@ -633,6 +668,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "zer0h",
+            "alias": "",
             "notes": "During each of your turns, as long as there are four or more card types among permanents you control, you may cast one permanent spell with mana value 3 or less from your graveyard. If you cast a spell this way, that permanent enters with a finality counter on it. (If a permanent with a finality counter on it would die, exile it instead.)\n\nFT incarnation stuff\nFT"
         },
         {
@@ -651,6 +687,7 @@
             "set": "AINT Demo",
             "loyalty": "5",
             "artist": "",
+            "alias": "",
             "notes": ""
         },
         {
@@ -669,6 +706,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Andres Romeo",
+            "alias": "",
             "notes": ""
         },
         {
@@ -687,6 +725,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Leslie Cope",
+            "alias": "",
             "notes": ""
         },
         {
@@ -705,6 +744,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Alexander Aronson",
+            "alias": "",
             "notes": ""
         },
         {
@@ -723,6 +763,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Sakiyama",
+            "alias": "",
             "notes": "Scryfall gag name: \"Unholy Hex\"\n\n\"feather this may be the twelfth card I've seen you design referencing hanahaki disease. what's up man\" \u2014 plaster \"tara\" girl"
         },
         {
@@ -741,13 +782,14 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "qys3",
+            "alias": "",
             "notes": ""
         },
         {
             "card_name": "Shattered Wings",
             "color": "G",
             "rarity": "common",
-            "type": "Instant",
+            "type": "Sorcery",
             "number": 32,
             "color_identity": "G",
             "cost": "{2}{G}",
@@ -759,6 +801,7 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "shieriru_55",
+            "alias": "",
             "notes": "reprint from EOE"
         },
         {
@@ -777,7 +820,8 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "popopopopoopw",
-            "notes": ""
+            "alias": "",
+            "notes": "!tag yuri"
         },
         {
             "card_name": "In Ambition's Audience",
@@ -795,6 +839,7 @@
             "set": "AINT Demo",
             "loyalty": "6",
             "artist": "Gozena (edited)",
+            "alias": "",
             "notes": "(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Creatures with power 2 or less can't protect this battle.)\n\n(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack this with only one creature, put a +1/+1 counter on it.)\n\n(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever a player attacks it, they choose a creature that opponent controls. Either it or two or more other creatures must block this combat.)\n\n(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you cast another spell, remove a defense counter from this Challenge.)"
         },
         {
@@ -813,8 +858,9 @@
             "set": "AINT Demo",
             "loyalty": "",
             "artist": "Artem Solop",
+            "alias": "",
             "notes": ""
         }
     ],
-    "version": 1
+    "version": 2
 }
