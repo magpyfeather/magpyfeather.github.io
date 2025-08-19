@@ -1,5 +1,5 @@
 ﻿{
-    "name": "Seize Divinity",
+    "name": "Seize Divinity Demo",
     "formats": "microsets",
     "trimmed": "y",
     "image_type": "png",
@@ -881,5 +881,5 @@
             "notes": "FT we're going to save the world"
         }
     ],
-    "version": 1
+    "version": 2
 }
