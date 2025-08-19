@@ -19,6 +19,11 @@
             "set_code": "EP02",
             "set_name": "Extended Play 02 \u2014 Universes Beyond: The Teams",
             "formats": "extended_play"
+        },
+        {
+            "set_code": "SZD Demo",
+            "set_name": "Seize Divinity",
+            "formats": "microsets"
         }
     ]
 }
