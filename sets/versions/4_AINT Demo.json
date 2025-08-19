@@ -52,7 +52,7 @@
             "number": 4,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "[i](As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)[/i]\nWhen Meet Again enters, return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield.",
+            "rules_text": "[i](As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)[/i]\nWhen Meet Again enters or is defeated, return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -745,7 +745,7 @@
             "loyalty": "",
             "artist": "Alexander Aronson",
             "alias": "",
-            "notes": ""
+            "notes": "!tag yuri"
         },
         {
             "card_name": "Floriosis",

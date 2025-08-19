@@ -1,4 +1,33 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+No changes.
+
+VERSION 4 CHANGELOG
+====================
+
+Lacerator Unit added.
+Muldan Engineering added.
+Lightless Herald added.
+Armoried Vessel added.
+Crystalline Spellcrafter added.
+
+UX01 Lacerator Unit removed.
+UX02 Muldan Engineering removed.
+UX03 Lightless Herald removed.
+UX04 Armoried Vessel removed.
+UX05 Crystalline Spellcrafter removed.
+
+
+VERSION 3 CHANGELOG
+====================
+
+
+
+Soul Decay
+
+
+VERSION 2 CHANGELOG
 ====================
 
 No changes.

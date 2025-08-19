@@ -1,4 +1,23 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Meet Again
+rules_text: [i](As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)[/i]
+When Meet Again enters, return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield. => [i](As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)[/i]
+When Meet Again enters or is defeated, return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield.
+
+
+VERSION 3 CHANGELOG
+====================
+
+
+
+Break Apart
+
+
+VERSION 2 CHANGELOG
 ====================
 
 
