@@ -1,0 +1,168 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Kamen Rider Geats",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human God Warrior",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/10_Kamen Rider Geats.png"
+			}
+		},
+		{
+			"name": "Meta Knight",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Orb Knight",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/11_Meta Knight.png"
+			}
+		},
+		{
+			"name": "Flowey, Ruthless Guide",
+			"rarity": "special",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Plant",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/6_Flowey, Ruthless Guide.png"
+			}
+		},
+		{
+			"name": "Samus Aran",
+			"rarity": "special",
+			"mana_cost": "{G}{U}{R}",
+			"type": "Legendary Creature — Human Bird Mercenary",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/13_Samus Aran.png"
+			}
+		},
+		{
+			"name": "John Constantine",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Legendary Creature — Human Mystic",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/9_John Constantine.png"
+			}
+		},
+		{
+			"name": "Steve",
+			"rarity": "special",
+			"mana_cost": "{R}{G}{W}{U}",
+			"type": "Legendary Creature — Artificer Scout",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/16_Steve.png"
+			}
+		},
+		{
+			"name": "Sakuya Izayoi",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{U}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/12_Sakuya Izayoi.png"
+			}
+		},
+		{
+			"name": "Frieren, Spell Collector",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Elf Wizard",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/7_Frieren, Spell Collector.png"
+			}
+		},
+		{
+			"name": "Hatsune Miku",
+			"rarity": "special",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Construct Bard Performer",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/8_Hatsune Miku.png"
+			}
+		},
+		{
+			"name": "Henry Stickmin",
+			"rarity": "special",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Stickfigure Rogue",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/3_Henry Stickmin.png"
+			}
+		},
+		{
+			"name": "Ash Williams",
+			"rarity": "special",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/5_Ash Williams.png"
+			}
+		},
+		{
+			"name": "Springtrap, William Afton",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Artifact Creature — Spirit",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/15_Springtrap, William Afton.png"
+			}
+		},
+		{
+			"name": "The Slender Man",
+			"rarity": "special",
+			"mana_cost": "{X}{B}{B}{B}",
+			"type": "Legendary Creature — Horror",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/4_The Slender Man.png"
+			}
+		},
+		{
+			"name": "Pac-Man",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Orb",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/2_Pac-Man.png"
+			}
+		},
+		{
+			"name": "Shantae, Half-Genie Hero",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}{W}",
+			"type": "Legendary Creature — Human Djinn",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/1_Shantae, Half-Genie Hero.png"
+			}
+		},
+		{
+			"name": "Spider-Man",
+			"rarity": "special",
+			"mana_cost": "{G}{W}{U}",
+			"type": "Legendary Creature — Human Spider Hero",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/DBCI-files/img/14_Spider-Man.png"
+			}
+		}
+	]
+
+[rare(1)]
+	5 Shantae, Half-Genie Hero
+[uncommon(3)]
+[common(10)]

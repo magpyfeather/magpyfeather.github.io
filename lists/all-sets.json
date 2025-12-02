@@ -11,6 +11,11 @@
             "formats": "extended_play"
         },
         {
+            "set_code": "DBCI",
+            "set_name": "Extended Play \u2014 Death Battle Champions Island",
+            "formats": "extended_play"
+        },
+        {
             "set_code": "EP01",
             "set_name": "Extended Play 01 \u2014 Universes Beyond",
             "formats": "extended play"

@@ -1,0 +1,183 @@
+﻿[
+    {
+        "card_name": "Pac-Man",
+        "number": 2,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Henry Stickmin",
+        "number": 3,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "The Slender Man",
+        "number": 4,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Hatsune Miku",
+        "number": 8,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Springtrap, William Afton",
+        "number": 15,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Ash Williams",
+        "number": 5,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Meta Knight",
+        "number": 11,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Frieren, Spell Collector",
+        "number": 7,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Flowey, Ruthless Guide",
+        "number": 6,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Kamen Rider Geats",
+        "number": 10,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Shantae, Half-Genie Hero",
+        "number": 1,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "John Constantine",
+        "number": 9,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Sakuya Izayoi",
+        "number": 12,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Samus Aran",
+        "number": 13,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Spider-Man",
+        "number": 14,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "Steve",
+        "number": 16,
+        "shape": "normal",
+        "set": "DBCI"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]
