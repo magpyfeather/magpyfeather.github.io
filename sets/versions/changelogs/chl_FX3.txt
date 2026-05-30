@@ -1,4 +1,14 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Yung Venuz
+
+Candeloro
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

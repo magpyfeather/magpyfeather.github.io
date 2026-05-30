@@ -2657,7 +2657,7 @@
             "alias2": "",
             "rules_text3": "",
             "rotated": false,
-            "notes": "!tag yuri\n\nmaximum technique: ball knowledge"
+            "notes": ""
         },
         {
             "card_name": "Midori Asakusa",
@@ -3308,7 +3308,7 @@
             "alias": "",
             "position": "148",
             "rotated": false,
-            "notes": "!tag yuri"
+            "notes": ""
         },
         {
             "card_name": "Homulily",
@@ -4016,5 +4016,5 @@
             "notes": "!TIMELOOPS"
         }
     ],
-    "version": 1
+    "version": 2
 }
