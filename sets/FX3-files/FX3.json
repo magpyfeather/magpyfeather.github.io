@@ -1676,7 +1676,7 @@
             "alias": "",
             "position": "75",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag yuri"
         },
         {
             "card_name": "Giha Village",
@@ -1760,7 +1760,7 @@
             "alias": "",
             "position": "79",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag yuri"
         },
         {
             "card_name": "The Time Machine Plan",
@@ -2951,7 +2951,7 @@
             "alias": "",
             "position": "130",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag yuri"
         },
         {
             "card_name": "URLAND2",
@@ -3098,7 +3098,7 @@
             "alias": "",
             "position": "137",
             "rotated": false,
-            "notes": "@ urus"
+            "notes": "!tag yuri\n@ urus\n"
         },
         {
             "card_name": "AD_84",
@@ -3812,7 +3812,7 @@
             "alias": "",
             "position": "172",
             "rotated": false,
-            "notes": ""
+            "notes": "!tag yuri"
         },
         {
             "card_name": "Mugann",
@@ -4016,5 +4016,5 @@
             "notes": "!TIMELOOPS"
         }
     ],
-    "version": 2
+    "version": 3
 }
