@@ -1,4 +1,12 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Phoenix of the Burning Star
+
+
+VERSION 4 CHANGELOG
 ====================
 
 
