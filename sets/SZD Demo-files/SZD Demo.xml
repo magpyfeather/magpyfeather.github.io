@@ -1,0 +1,821 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>SZD Demo</name>
+			<longname>Seize Divinity Demo</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-05-30</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Pristine Blade</name>
+			<text>Duty-bound (When this Equipment enters, create a 1/1 white Human creature token, or pay {3} to create a 3/2 Soldier. Attach this to the token.)
+Equipped creature gets +1/+0 and has vigilance.
+Equip {3}</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/7_Pristine Blade.png" num="7">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Newly-Entrusted Knight</name>
+			<text>When Newly-Entrusted Knight enters, create a Quest token. (It&apos;s a D{2} battle protected by an opponent of your choice. When it&apos;s defeated, target player draws a card. Put a +1/+1 counter on up to one target creature.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/6_Newly-Entrusted Knight.png" num="6">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Taken by Overgrowth</name>
+			<text>When Taken by Overgrowth enters, exile another target nonland permanent until Taken by Overgrowth leaves the battlefield.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/9_Taken by Overgrowth.png" num="9">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Abhorrent Protector</name>
+			<text>Glimpse {1}{W} (You may cast this spell for its glimpse cost. If you do, exile it as it enters. Cast it after by also sacrificing a creature.)
+Flying
+When Abhorrent Protector enters, put a +1/+1 counter on up to one other target creature. It gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/2_Abhorrent Protector.png" num="2">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Push Through It</name>
+			<text>Target creature you control gets +0/+3 and gains hexproof until end of turn.
+Create a Quest token. (It&apos;s a D{2} battle protected by an opponent of your choice. When it&apos;s defeated, target player draws a card. Put a +1/+1 counter on up to one target creature.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/16_Push Through It.png" num="16">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blessed-Steel Wings</name>
+			<text>Duty-bound (When this Equipment enters, create a 1/1 white Human creature token, or pay {3} to create a 3/2 Soldier. Attach this to the token.)
+Equipped creature gets +0/+1 and has flying.
+Equip {3}</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/11_Blessed-Steel Wings.png" num="11">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Acolyte of Essida</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+As long as you have Apotheosis, Acolyte of Essida gets +1/+0 and can&apos;t be blocked.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/10_Acolyte of Essida.png" num="10">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lull Into Sleep</name>
+			<text>This spell costs {1} less to cast for each card you&apos;ve drawn this turn.
+The owner of target nonland permanent puts it on top or on the bottom of their library.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/15_Lull Into Sleep.png" num="15">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Soul Decay</name>
+			<text>Destroy target creature. If that creature was a Demon, you lose 4 life unless you pay {2}.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/22_Soul Decay.png" num="22">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dark-Stained Puppet</name>
+			<text>Glimpse {1}{B} (You may cast this spell for its glimpse cost. If you do, exile it as it enters. Cast it after by also sacrificing a creature.)
+Menace
+When Dark-Stained Puppet enters, each opponent loses 3 life unless they discard a card or sacrifice a creature.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/19_Dark-Stained Puppet.png" num="19">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Missing Beyond the Walls</name>
+			<text>As an additional cost to cast this spell, sacrifice a nonland permanent.
+Draw two cards. Create a Quest token. (It&apos;s a D{2} battle protected by an opponent of your choice. When it&apos;s defeated, target player draws a card. Put a +1/+1 counter on up to one target creature.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/21_Missing Beyond the Walls.png" num="21">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Blackguard</name>
+			<text>Revolt — At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a +1/+1 counter on Hallowed Blackguard. Each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/20_Hallowed Blackguard.png" num="20">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Army&apos;s Advance</name>
+			<text>When Army&apos;s Advance enters, you may discard a card. If you do, draw two cards.
+{R}, Sacrifice Army&apos;s Advance: Put a trample counter on target creature. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/23_Army&apos;s Advance.png" num="23">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bloodied Bandit</name>
+			<text>When Bloodied Bandit enters, it deals 2 damage to target player, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/25_Bloodied Bandit.png" num="25">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Senses Overwhelmed</name>
+			<text>Senses Overwhelmed deals 6 damage to target creature and 2 damage to up to one other target token.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/28_Senses Overwhelmed.png" num="28">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Battle-Worn Greatsword</name>
+			<text>Duty-bound (When this Equipment enters, create a 1/1 white Human creature token, or pay {3} to create a 3/2 Soldier. Attach this to the token.)
+Equipped creature gets +3/+1 and has trample.
+Equip {4}</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/24_Battle-Worn Greatsword.png" num="24">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Colossal Growth</name>
+			<text>Target creature gets +3/+3 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/31_Colossal Growth.png" num="31">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vital Channeler</name>
+			<text>Vital Channeler can&apos;t be blocked by creatures with power 2 or less.
+When Vital Channeler enters, put a +1/+1 counter on each of up to two target creatures.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/34_Vital Channeler.png" num="34">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Searching for Survivors</name>
+			<text>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Create a Quest token. (It&apos;s a D{2} battle protected by an opponent of your choice. When it&apos;s defeated, target player draws a card. Put a +1/+1 counter on up to one target creature.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/32_Searching for Survivors.png" num="32">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Abyssal Seer</name>
+			<text>Glimpse {2}{G} (You may cast this spell for its glimpse cost. If you do, exile it as it enters. Cast it after by also sacrificing a creature.)
+Trample
+When Abyssal Seer enters, mill three cards. Put a permanent card from among them into your hand.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/30_Abyssal Seer.png" num="30">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>6G</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infantry Armor</name>
+			<text>Duty-bound (When this Equipment enters, create a 1/1 white Human creature token, or pay {3} to create a 3/2 Soldier. Attach this to the token.)
+Equipped creature gets +1/+2.
+Equip {2}</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/45_Infantry Armor.png" num="45">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blooming Shrine</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+{7}, {T}: Sacrifice Blooming Shrine: Destroy target permanent. This ability costs {3} less if you have Apotheosis.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/42_Blooming Shrine.png" num="42">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Warped Vessel</name>
+			<text>Glimpse {2} (You may cast this spell for its glimpse cost. If you do, exile it as it enters. Cast it after by also sacrificing a creature.)
+When Warped Vessel enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/46_Warped Vessel.png" num="46">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lacerator Unit</name>
+			<text>Menace
+Whenever Lacerator Unit or another creature you control dies, each opponent loses 1 life. Then if that creature wasn&apos;t a token, create a 1/1 Construct artifact creature token.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/39_Lacerator Unit.png" num="39">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Muldan Engineering</name>
+			<text>When Muldan Engineering enters, create a 1/1 Construct artifact creature token. When you do, attach up to one target Equipment you control to that token.
+Equipped creatures you control get +1/+1 and gain menace.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/41_Muldan Engineering.png" num="41">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lightless Herald</name>
+			<text>Glimpse {1}{B}{G} (You may cast this spell for its glimpse cost. If you do, exile it as it enters. Cast it after by also sacrificing a creature.)
+When Lightless Herald enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/40_Lightless Herald.png" num="40">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4BG</manacost>
+				<cmc>6</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armoried Vessel</name>
+			<text>Armoried Vessel gets +1/+0 for each creature you control.
+Whenever another creature you control enters, it deals 1 damage to target player, planeswalker, or battle.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/35_Armoried Vessel.png" num="35">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>0/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crystalline Spellcrafter</name>
+			<text>{T}: Add {G} or {U}.
+{3}{G}: Put a +1/+1 counter on Crystalline Spellcrafter.
+{3}{U}: Draw a card, then discard a card.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/37_Crystalline Spellcrafter.png" num="37">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sybelle, Hollow Queen</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+Whenever Sybelle enters or attacks, create a 2/2 white Knight creature token with vigilance. Then if you have Apotheosis, put a +1/+1 counter on Sybelle and that token.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/8_Sybelle, Hollow Queen.png" num="8">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deathless Magistrate</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+At the beginning of your end step, draw a card for each card you&apos;ve drawn each turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/13_Deathless Magistrate.png" num="13">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avis, Audan Protector</name>
+			<text>Avis attacks each turn if able.
+Whenever Avis attacks, you may pay {1}{W}. If you do, put a first strike counter on her. If she already has first strike, instead put your choice of a +1/+1 counter or a double strike counter on her.
+{1}{R}: Target creature an opponent controls can&apos;t block this turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/36_Avis, Audan Protector.png" num="36">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emi, the Disgraced</name>
+			<text>Flash
+When Emi enters, another target creature you control gains hexproof and indestructible until end of turn. If that creature was legendary, put a +1/+1 counter on it.
+{1}{B}, Sacrifice another creature: Put a +1/+1 counter on up to two target creatures. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/3_Emi, the Disgraced.png" num="3">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Icon-1, Shane&apos;s Champion</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+{2}, {T}: Add {W}{U}{B}{R}{G}. Spend this mana only to cast permanent spells.
+As long as you have Apotheosis, Icon-1 is an artifact creature with flying.</text>
+			<set rarity="mythic" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/44_Icon-1, Shane&apos;s Champion.png" num="44">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Field Consecrators</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+At the beginning of combat on your turn, target creature gets +1/+1 until end of turn. If you have Apotheosis, instead put a +1/+1 counter on that creature.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/4_Field Consecrators.png" num="4">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ceta&apos;s Ensouling</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+Enchant artifact
+Enchanted artifact is a 4/4 Construct artifact creature. If you have Apotheosis, it has flying.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/12_Ceta&apos;s Ensouling.png" num="12">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ethereal Caretaker</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+When Ethereal Caretaker enters and whenever you draw your second card each turn, create a 1/1 white Spirit creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/38_Ethereal Caretaker.png" num="38">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Challenge Impossible Odds</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+Whenever you attack, target opponent loses 1 life and you gain 1 life. If you have Apotheosis, instead they lose 2 life and you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/18_Challenge Impossible Odds.png" num="18">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Traveling Hero</name>
+			<text>Traveling Hero can attack planeswalkers and battles as though it had haste.
+Trample
+Whenever a battle an opponent controls is defeated, put a +1/+1 counter on Traveling Hero and you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/33_Traveling Hero.png" num="33">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Essence-Steeped Obelisk</name>
+			<text>Seize divinity ({8}: You get an Apotheosis emblem with &quot;At the beginning of your end step, draw a card.&quot; Each creature you tap for this ability pays for {1}. Activate only if you don&apos;t have Apotheosis.)
+{T}: Add one mana of any color.
+As long as you have Apotheosis, creatures you control get +2/+0.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/43_Essence-Steeped Obelisk.png" num="43">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reaver of Ties</name>
+			<text>Glimpse {2}{R} (You may cast this spell for its glimpse cost. If you do, exile it as it enters. Cast it after by also sacrificing a creature.)
+When Reaver of Ties enters, gain control of target creature until end of turn. Untap it. It gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/27_Reaver of Ties.png" num="27">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heartless Watcher</name>
+			<text>Glimpse {2}{U} (You may cast this spell for its glimpse cost. If you do, exile it as it enters. Cast it after by also sacrificing a creature.)
+Flying
+When Heartless Watcher enters, tap up to one target creature and put a stun counter on it.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/14_Heartless Watcher.png" num="14">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burning-Heart Adherent</name>
+			<text>Reach
+Revolt — At the beginning of your end step, Burning-Heart Adherent deals 1 damage to each opponent. If a permanent you controlled left the battlefield this turn, instead Burning-Heart Adherent deals 2 damage to each opponent.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/26_Burning-Heart Adherent.png" num="26">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Memorial</name>
+			<text>When Hallowed Memorial enters, create two 1/1 white Human creature tokens.
+{4}{W}, {T}, Sacrifice Hallowed Memorial: Return target creature card with mana value 3 or less from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/5_Hallowed Memorial.png" num="5">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Caustic Blade-Dancer</name>
+			<text>Deathtouch
+Revolt — Whenever Caustic Blade-Dancer attacks, if a permanent you controlled left the battlefield this turn, another target attacking creature gains deathtouch until end of turn.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/17_Caustic Blade-Dancer.png" num="17">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shane, Salvager Outcast</name>
+			<text>Whenever Shane attacks, you may discard a card. If you do, draw a card.
+{1}{UB}, Discard a card: Exile target artifact card from your graveyard. Copy it. You may cast the copy (still paying its mana cost). Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/29_Shane, Salvager Outcast.png" num="29">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shane, Steel Challenger</name>
+			<text>At the beginning of your second main phase, the next spell you cast this turn gains instigate. (It costs {1} less for each creature you attacked with this turn.)
+At the beginning of your end step, if you&apos;ve cast a spell with mana value 5 or greater this turn, create a 3/2 colorless Construct artifact creature token.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/SZD Demo-files/img/0_Shane, Steel Challenger.png" num="0">SZD Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UBR</manacost>
+				<cmc>3</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

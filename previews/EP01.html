@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/EP01-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/EP01-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>EP01 visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -39,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -126,12 +133,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -173,150 +181,169 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/EP01-files/logo.png" />
-	<img class="preload-hidden" src="/sets/AINT Demo-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ASC Demo-files/icon.png" />
-		<img class="preload-hidden" src="/sets/DBCI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/EP01-files/icon.png" />
-		<img class="preload-hidden" src="/sets/EP02-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SZD Demo-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/EP01-files/logo.png" />
+	<img class="preload-hidden" src="../sets/AINT Demo-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ASC Demo-files/icon.png" />
+		<img class="preload-hidden" src="../sets/DBCI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/EP01-files/icon.png" />
+		<img class="preload-hidden" src="../sets/EP02-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FX3-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SZD Demo-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="EP01"><img src="/sets/EP01-files/icon.png">Extended Play 01 — Universes Beyond</a>
+		<a class="set-bar" href="../previews/EP01"><img src="../sets/EP01-files/icon.png">Extended Play 01 — Universes Beyond</a>
 	
-		<a class="set-bar inactive" href="AINT Demo"><img src="/sets/AINT Demo-files/icon.png">Ain’t Got The Love Demo</a>
+		<a class="set-bar inactive" href="../previews/AINT Demo"><img src="../sets/AINT Demo-files/icon.png">Ain’t Got The Love Demo</a>
 	
-		<a class="set-bar inactive" href="ASC Demo"><img src="/sets/ASC Demo-files/icon.png">Act So Cinematic Demo</a>
+		<a class="set-bar inactive" href="../previews/ASC Demo"><img src="../sets/ASC Demo-files/icon.png">Act So Cinematic Demo</a>
 	
-		<a class="set-bar inactive" href="DBCI"><img src="/sets/DBCI-files/icon.png">Extended Play — Death Battle Champions Island</a>
+		<a class="set-bar inactive" href="../previews/DBCI"><img src="../sets/DBCI-files/icon.png">Extended Play — Death Battle Champions Island</a>
 	
-		<a class="set-bar inactive" href="EP02"><img src="/sets/EP02-files/icon.png">Extended Play 02 — Universes Beyond: The Teams</a>
+		<a class="set-bar inactive" href="../previews/EP02"><img src="../sets/EP02-files/icon.png">Extended Play 02 — Universes Beyond: The Teams</a>
 	
-		<a class="set-bar inactive" href="SZD Demo"><img src="/sets/SZD Demo-files/icon.png">Seize Divinity Demo</a>
+		<a class="set-bar inactive" href="../previews/FX3"><img src="../sets/FX3-files/icon.png">Featherfall Crossover Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/SZD Demo"><img src="../sets/SZD Demo-files/icon.png">Seize Divinity Demo</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/EP01-files/logo.png">
+		<img class="logo" src="../sets/EP01-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\EP01-files\img\1_Fragment of Cycles.png" id="1_Fragment of Cycles" data-flag="@X" onclick="openSidebar('1_Fragment of Cycles',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\6_Detective or Retail Mk. 15.png" id="6_Detective or Retail Mk. 15" data-flag="@X" onclick="openSidebar('6_Detective or Retail Mk. 15',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\11_Abberant Dragonmark.png" id="11_Abberant Dragonmark" data-flag="@X" onclick="openSidebar('11_Abberant Dragonmark',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\16_Broken Worlds.png" id="16_Broken Worlds" data-flag="@X" onclick="openSidebar('16_Broken Worlds',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\21_Candy Crush Saga.png" id="21_Candy Crush Saga" data-flag="@X" onclick="openSidebar('21_Candy Crush Saga',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\2_Hyuna, Human Leader.png" id="2_Hyuna, Human Leader" data-flag="@X" onclick="openSidebar('2_Hyuna, Human Leader',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\7_Engineer-Model Guardian.png" id="7_Engineer-Model Guardian" data-flag="@X" onclick="openSidebar('7_Engineer-Model Guardian',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\12_Mecha Mayhem.png" id="12_Mecha Mayhem" data-flag="@X" onclick="openSidebar('12_Mecha Mayhem',false)"></div>
-				<div class="container"><img data-alt_src="/sets\EP01-files\img\17_Core Drill_back.png" alt="/sets\EP01-files\img\17_Core Drill_front.png" id="17_Core Drill" data-flag="@XD" onclick="openSidebar('17_Core Drill',false)"><button class="flip-btn" onclick="imgFlip('17_Core Drill')"></button></div>
-				<div class="container"><img alt="/sets\EP01-files\img\22_Loot Llama.png" id="22_Loot Llama" data-flag="@X" onclick="openSidebar('22_Loot Llama',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\3_Pomme, Superstar Songstress.png" id="3_Pomme, Superstar Songstress" data-flag="@X" onclick="openSidebar('3_Pomme, Superstar Songstress',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\8_Four, Enthusiastic Host.png" id="8_Four, Enthusiastic Host" data-flag="@X" onclick="openSidebar('8_Four, Enthusiastic Host',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\13_Siffrin, Time Looper.png" id="13_Siffrin, Time Looper" data-flag="@X" onclick="openSidebar('13_Siffrin, Time Looper',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\18_Hakari, Restless Gambler.png" id="18_Hakari, Restless Gambler" data-flag="@X" onclick="openSidebar('18_Hakari, Restless Gambler',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\23_Minnow, Crew Technician.png" id="23_Minnow, Crew Technician" data-flag="@X" onclick="openSidebar('23_Minnow, Crew Technician',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\4_Seraph, the Traitor.png" id="4_Seraph, the Traitor" data-flag="@X" onclick="openSidebar('4_Seraph, the Traitor',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\9_The Ice King.png" id="9_The Ice King" data-flag="@X" onclick="openSidebar('9_The Ice King',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\14_A Tale of Perishing.png" id="14_A Tale of Perishing" data-flag="@X" onclick="openSidebar('14_A Tale of Perishing',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\19_Lio Fotia, Firebrand.png" id="19_Lio Fotia, Firebrand" data-flag="@X" onclick="openSidebar('19_Lio Fotia, Firebrand',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\24_Orisa, Artificial Hero.png" id="24_Orisa, Artificial Hero" data-flag="@X" onclick="openSidebar('24_Orisa, Artificial Hero',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\5_The Watcher.png" id="5_The Watcher" data-flag="@X" onclick="openSidebar('5_The Watcher',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\10_SCP-914, The Clockworks.png" id="10_SCP-914, The Clockworks" data-flag="@X" onclick="openSidebar('10_SCP-914, The Clockworks',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\15_Tessa, Lost Element.png" id="15_Tessa, Lost Element" data-flag="@X" onclick="openSidebar('15_Tessa, Lost Element',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\20_Yung Venuz.png" id="20_Yung Venuz" data-flag="@X" onclick="openSidebar('20_Yung Venuz',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\25_Sauron, Dino-Geneticist.png" id="25_Sauron, Dino-Geneticist" data-flag="@X" onclick="openSidebar('25_Sauron, Dino-Geneticist',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\EP01-files\img\1_Fragment of Cycles.png" id="EP01_1_Fragment of Cycles" data-flag="@X" onclick="openSidebar('EP01_1_Fragment of Cycles',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\6_Detective or Retail Mk. 15.png" id="EP01_6_Detective or Retail Mk. 15" data-flag="@X" onclick="openSidebar('EP01_6_Detective or Retail Mk. 15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\11_Abberant Dragonmark.png" id="EP01_11_Abberant Dragonmark" data-flag="@X" onclick="openSidebar('EP01_11_Abberant Dragonmark',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\16_Broken Worlds.png" id="EP01_16_Broken Worlds" data-flag="@X" onclick="openSidebar('EP01_16_Broken Worlds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\21_Candy Crush Saga.png" id="EP01_21_Candy Crush Saga" data-flag="@X" onclick="openSidebar('EP01_21_Candy Crush Saga',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\2_Hyuna, Human Leader.png" id="EP01_2_Hyuna, Human Leader" data-flag="@X" onclick="openSidebar('EP01_2_Hyuna, Human Leader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\7_Engineer-Model Guardian.png" id="EP01_7_Engineer-Model Guardian" data-flag="@X" onclick="openSidebar('EP01_7_Engineer-Model Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\12_Mecha Mayhem.png" id="EP01_12_Mecha Mayhem" data-flag="@X" onclick="openSidebar('EP01_12_Mecha Mayhem',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\EP01-files\img\17_Core Drill_back.png" alt="sets\EP01-files\img\17_Core Drill_front.png" id="EP01_17_Core Drill" data-flag="@XD" onclick="openSidebar('EP01_17_Core Drill',false)"><button class="flip-btn" onclick="imgFlip('EP01_17_Core Drill')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\22_Loot Llama.png" id="EP01_22_Loot Llama" data-flag="@X" onclick="openSidebar('EP01_22_Loot Llama',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\3_Pomme, Superstar Songstress.png" id="EP01_3_Pomme, Superstar Songstress" data-flag="@X" onclick="openSidebar('EP01_3_Pomme, Superstar Songstress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\8_Four, Enthusiastic Host.png" id="EP01_8_Four, Enthusiastic Host" data-flag="@X" onclick="openSidebar('EP01_8_Four, Enthusiastic Host',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\13_Siffrin, Time Looper.png" id="EP01_13_Siffrin, Time Looper" data-flag="@X" onclick="openSidebar('EP01_13_Siffrin, Time Looper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\18_Hakari, Restless Gambler.png" id="EP01_18_Hakari, Restless Gambler" data-flag="@X" onclick="openSidebar('EP01_18_Hakari, Restless Gambler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\23_Minnow, Crew Technician.png" id="EP01_23_Minnow, Crew Technician" data-flag="@X" onclick="openSidebar('EP01_23_Minnow, Crew Technician',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\4_Seraph, the Traitor.png" id="EP01_4_Seraph, the Traitor" data-flag="@X" onclick="openSidebar('EP01_4_Seraph, the Traitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\9_The Ice King.png" id="EP01_9_The Ice King" data-flag="@X" onclick="openSidebar('EP01_9_The Ice King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\14_A Tale of Perishing.png" id="EP01_14_A Tale of Perishing" data-flag="@X" onclick="openSidebar('EP01_14_A Tale of Perishing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\19_Lio Fotia, Firebrand.png" id="EP01_19_Lio Fotia, Firebrand" data-flag="@X" onclick="openSidebar('EP01_19_Lio Fotia, Firebrand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\24_Orisa, Artificial Hero.png" id="EP01_24_Orisa, Artificial Hero" data-flag="@X" onclick="openSidebar('EP01_24_Orisa, Artificial Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\5_The Watcher.png" id="EP01_5_The Watcher" data-flag="@X" onclick="openSidebar('EP01_5_The Watcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\10_SCP-914, The Clockworks.png" id="EP01_10_SCP-914, The Clockworks" data-flag="@X" onclick="openSidebar('EP01_10_SCP-914, The Clockworks',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\15_Tessa, Lost Element.png" id="EP01_15_Tessa, Lost Element" data-flag="@X" onclick="openSidebar('EP01_15_Tessa, Lost Element',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\20_Yung Venuz.png" id="EP01_20_Yung Venuz" data-flag="@X" onclick="openSidebar('EP01_20_Yung Venuz',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\25_Sauron, Dino-Geneticist.png" id="EP01_25_Sauron, Dino-Geneticist" data-flag="@X" onclick="openSidebar('EP01_25_Sauron, Dino-Geneticist',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\40_Professor Dynamo.png" id="40_Professor Dynamo" data-flag="@X" onclick="openSidebar('40_Professor Dynamo',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\37_Milo, Bitter Heir.png" id="37_Milo, Bitter Heir" data-flag="@X" onclick="openSidebar('37_Milo, Bitter Heir',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\31_Crow's Nest.png" id="31_Crows Nest" data-flag="@X" onclick="openSidebar('31_Crows Nest',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\38_Mole Knight.png" id="38_Mole Knight" data-flag="@X" onclick="openSidebar('38_Mole Knight',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\32_Elena, Joyous Princess.png" id="32_Elena, Joyous Princess" data-flag="@X" onclick="openSidebar('32_Elena, Joyous Princess',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\34_Enter the Gungeon.png" id="34_Enter the Gungeon" data-flag="@X" onclick="openSidebar('34_Enter the Gungeon',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\42_Quantium Golem.png" id="42_Quantium Golem" data-flag="@X" onclick="openSidebar('42_Quantium Golem',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\41_Qing Yan.png" id="41_Qing Yan" data-flag="@X" onclick="openSidebar('41_Qing Yan',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\33_Emperor Belos.png" id="33_Emperor Belos" data-flag="@X" onclick="openSidebar('33_Emperor Belos',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\36_Kunishige Rokuhira.png" id="36_Kunishige Rokuhira" data-flag="@X" onclick="openSidebar('36_Kunishige Rokuhira',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\43_REX, the Last Hybrid.png" id="43_REX, the Last Hybrid" data-flag="@X" onclick="openSidebar('43_REX, the Last Hybrid',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\26_Aika, Nonchalant Guardian.png" id="26_Aika, Nonchalant Guardian" data-flag="@X" onclick="openSidebar('26_Aika, Nonchalant Guardian',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\35_Hidden Mushrooms.png" id="35_Hidden Mushrooms" data-flag="@X" onclick="openSidebar('35_Hidden Mushrooms',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\39_Naota, Awakened Vessel.png" id="39_Naota, Awakened Vessel" data-flag="@X" onclick="openSidebar('39_Naota, Awakened Vessel',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\45_Yagorath, the Devourer.png" id="45_Yagorath, the Devourer" data-flag="@X" onclick="openSidebar('45_Yagorath, the Devourer',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\27_Anthy, the Rose Bride.png" id="27_Anthy, the Rose Bride" data-flag="@X" onclick="openSidebar('27_Anthy, the Rose Bride',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\44_Volibear, Relentless Storm.png" id="44_Volibear, Relentless Storm" data-flag="@X" onclick="openSidebar('44_Volibear, Relentless Storm',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\28_Cheline, Sapphire Phoenix.png" id="28_Cheline, Sapphire Phoenix" data-flag="@X" onclick="openSidebar('28_Cheline, Sapphire Phoenix',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\29_Condiment King.png" id="29_Condiment King" data-flag="@X" onclick="openSidebar('29_Condiment King',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\30_Croix Meridies.png" id="30_Croix Meridies" data-flag="@X" onclick="openSidebar('30_Croix Meridies',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\40_Professor Dynamo.png" id="EP01_40_Professor Dynamo" data-flag="@X" onclick="openSidebar('EP01_40_Professor Dynamo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\37_Milo, Bitter Heir.png" id="EP01_37_Milo, Bitter Heir" data-flag="@X" onclick="openSidebar('EP01_37_Milo, Bitter Heir',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\31_Crow's Nest.png" id="EP01_31_Crows Nest" data-flag="@X" onclick="openSidebar('EP01_31_Crows Nest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\38_Mole Knight.png" id="EP01_38_Mole Knight" data-flag="@X" onclick="openSidebar('EP01_38_Mole Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\32_Elena, Joyous Princess.png" id="EP01_32_Elena, Joyous Princess" data-flag="@X" onclick="openSidebar('EP01_32_Elena, Joyous Princess',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\34_Enter the Gungeon.png" id="EP01_34_Enter the Gungeon" data-flag="@X" onclick="openSidebar('EP01_34_Enter the Gungeon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\42_Quantium Golem.png" id="EP01_42_Quantium Golem" data-flag="@X" onclick="openSidebar('EP01_42_Quantium Golem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\41_Qing Yan.png" id="EP01_41_Qing Yan" data-flag="@X" onclick="openSidebar('EP01_41_Qing Yan',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\33_Emperor Belos.png" id="EP01_33_Emperor Belos" data-flag="@X" onclick="openSidebar('EP01_33_Emperor Belos',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\36_Kunishige Rokuhira.png" id="EP01_36_Kunishige Rokuhira" data-flag="@X" onclick="openSidebar('EP01_36_Kunishige Rokuhira',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\43_REX, the Last Hybrid.png" id="EP01_43_REX, the Last Hybrid" data-flag="@X" onclick="openSidebar('EP01_43_REX, the Last Hybrid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\26_Aika, Nonchalant Guardian.png" id="EP01_26_Aika, Nonchalant Guardian" data-flag="@X" onclick="openSidebar('EP01_26_Aika, Nonchalant Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\35_Hidden Mushrooms.png" id="EP01_35_Hidden Mushrooms" data-flag="@X" onclick="openSidebar('EP01_35_Hidden Mushrooms',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\39_Naota, Awakened Vessel.png" id="EP01_39_Naota, Awakened Vessel" data-flag="@X" onclick="openSidebar('EP01_39_Naota, Awakened Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\45_Yagorath, the Devourer.png" id="EP01_45_Yagorath, the Devourer" data-flag="@X" onclick="openSidebar('EP01_45_Yagorath, the Devourer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\27_Anthy, the Rose Bride.png" id="EP01_27_Anthy, the Rose Bride" data-flag="@X" onclick="openSidebar('EP01_27_Anthy, the Rose Bride',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\44_Volibear, Relentless Storm.png" id="EP01_44_Volibear, Relentless Storm" data-flag="@X" onclick="openSidebar('EP01_44_Volibear, Relentless Storm',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\28_Cheline, Sapphire Phoenix.png" id="EP01_28_Cheline, Sapphire Phoenix" data-flag="@X" onclick="openSidebar('EP01_28_Cheline, Sapphire Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\29_Condiment King.png" id="EP01_29_Condiment King" data-flag="@X" onclick="openSidebar('EP01_29_Condiment King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\30_Croix Meridies.png" id="EP01_30_Croix Meridies" data-flag="@X" onclick="openSidebar('EP01_30_Croix Meridies',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\46_Gunbuster.png" id="46_Gunbuster" data-flag="@X" onclick="openSidebar('46_Gunbuster',false)"></div>
-				<div class="container"><img data-alt_src="/sets\EP01-files\img\47_Macromedia Flash 8_back.png" alt="/sets\EP01-files\img\47_Macromedia Flash 8_front.png" id="47_Macromedia Flash 8" data-flag="@XD" onclick="openSidebar('47_Macromedia Flash 8',false)"><button class="flip-btn" onclick="imgFlip('47_Macromedia Flash 8')"></button></div>
-				<div class="container"><img alt="/sets\EP01-files\img\48_Panchaku.png" id="48_Panchaku" data-flag="@X" onclick="openSidebar('48_Panchaku',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\50_Statue of Liberty, Gun Goddess.png" id="50_Statue of Liberty, Gun Goddess" data-flag="@X" onclick="openSidebar('50_Statue of Liberty, Gun Goddess',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\EP01-files\img\49_Hyuns Dojo.png" id="49_Hyuns Dojo" data-flag="@X" onclick="openSidebar('49_Hyuns Dojo',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\46_Gunbuster.png" id="EP01_46_Gunbuster" data-flag="@X" onclick="openSidebar('EP01_46_Gunbuster',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\EP01-files\img\47_Macromedia Flash 8_back.png" alt="sets\EP01-files\img\47_Macromedia Flash 8_front.png" id="EP01_47_Macromedia Flash 8" data-flag="@XD" onclick="openSidebar('EP01_47_Macromedia Flash 8',false)"><button class="flip-btn" onclick="imgFlip('EP01_47_Macromedia Flash 8')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\48_Panchaku.png" id="EP01_48_Panchaku" data-flag="@X" onclick="openSidebar('EP01_48_Panchaku',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\50_Statue of Liberty, Gun Goddess.png" id="EP01_50_Statue of Liberty, Gun Goddess" data-flag="@X" onclick="openSidebar('EP01_50_Statue of Liberty, Gun Goddess',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\EP01-files\img\49_Hyuns Dojo.png" id="EP01_49_Hyuns Dojo" data-flag="@X" onclick="openSidebar('EP01_49_Hyuns Dojo',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="EP01_e" data-flag="@E" onclick="openSidebar('EP01_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="EP01_er" data-flag="@E" onclick="openSidebar('EP01_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -329,19 +356,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -376,13 +495,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -408,27 +530,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -440,17 +586,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -483,6 +631,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -492,6 +641,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -508,16 +658,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -527,7 +677,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

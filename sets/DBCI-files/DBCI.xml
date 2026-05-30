@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>DBCI</name>
+			<longname>Extended Play — Death Battle Champions Island</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-05-30</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Kamen Rider Geats</name>
+			<text>Geats gets +1/+0 for each nonland permanent you control.
+At the beginning of your upkeep, exile the top card of your library. Put it into your hand if it&apos;s an Equipment or Aura. Otherwise, you may play it until end of turn.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/10_Kamen Rider Geats.png" num="10">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human God Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Meta Knight</name>
+			<text>Flying, vigilance
+Exalted (Whenever a creature you control attacks alone, that creature gets +1/+1 until end of turn.)
+Whenever an opponent attacks, they lose X life, where X is the number of attacking creatures minus 1.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/11_Meta Knight.png" num="11">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Orb Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flowey, Ruthless Guide</name>
+			<text>Reach
+Whenever another creature dies, put a +1/+1 counter on Flowey.
+Pay 2 life, Remove two +1/+1 counters from Flowey: Draw a card. Create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/6_Flowey, Ruthless Guide.png" num="6">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Plant</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Samus Aran</name>
+			<text>Trample
+Whenever Samus attacks, she explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+Whenever a land or artifact you control enters, Samus deals 1 damage to each opponent.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/13_Samus Aran.png" num="13">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bird Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>GUR</manacost>
+				<cmc>3</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>John Constantine</name>
+			<text>Ward—{2}, Pay 4 life
+At the beginning of your upkeep, draw two cards, then you may cast a spell from your hand without paying its mana cost.
+At the beginning of each other player&apos;s upkeep, they may cast a spell from their hand without paying its mana cost.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/9_John Constantine.png" num="9">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mystic</type>
+				<maintype>Creature</maintype>
+				<manacost>1UBR</manacost>
+				<cmc>4</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steve</name>
+			<text>Whenever you cast an artifact spell, create a tapped colorless land token named Everywhere that is every basic land type.
+Whenever you cast a creature spell, draw a card.
+Whenever you cast an enchantment spell, put a +1/+1 counter on each creature you control.
+Whenever you cast a battle spell, create a 3/3 green Beast creature token.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/16_Steve.png" num="16">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Artificer Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>RGWU</manacost>
+				<cmc>4</cmc>
+				<colors>WURG</colors>
+				<coloridentity>WURG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sakuya Izayoi</name>
+			<text>Flash
+This spell can&apos;t be countered.
+The first spell you cast each turn can&apos;t be countered.
+Whenever you cast a spell, if it isn&apos;t your main phase, draw a card. Each player loses 1 life.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/12_Sakuya Izayoi.png" num="12">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1WUB</manacost>
+				<cmc>4</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frieren, Spell Collector</name>
+			<text>When Frieren enters, create a legendary artifact token named Frieren&apos;s Grimoires with &quot;{T}: Exile target instant or sorcery spell from your graveyard. Copy it. You may cast the copy. Activate only as a sorcery.&quot;
+Whenever you cast a noncreature spell, put a +1/+1 counter on target creature. It gains flying until end of turn.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/7_Frieren, Spell Collector.png" num="7">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hatsune Miku</name>
+			<text>Whenever you cast a spell from your hand targeting Miku, copy it, then exile the spell you cast with a song counter on it.
+Whenever Miku attacks, copy each card you own in exile with a song counter on it. You may cast any number of those cards. (You still pay their costs.)</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/8_Hatsune Miku.png" num="8">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Construct Bard Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Henry Stickmin</name>
+			<text>Whenever you cast a noncreature spell, tap target creature an opponent controls.
+Whenever Henry Stickmin deals combat damage to a player, mill three cards, then put a card from among them into your hand.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/3_Henry Stickmin.png" num="3">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Stickfigure Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ash Williams</name>
+			<text>Whenever Ash enters or attacks, repeat the following process once if you lost life this turn, once if you discarded a card this turn, and once if you sacrificed a permanent this turn. An opponent of your choice may have Ash deal 3 damage to them. If that player doesn&apos;t, you may discard a card. If you do, draw two cards.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/5_Ash Williams.png" num="5">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Springtrap, William Afton</name>
+			<text>At the beginning of each opponent&apos;s upkeep, they lose 3 life unless they discard a card or sacrifice a creature. Then, they return up to one creature card with mana value 3 or less from their graveyard to the battlefield with a soul counter on it. It&apos;s a 1/1 Spirit artifact creature.
+Whenever Springtrap attacks, gain control of target creature with a soul counter on it.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/15_Springtrap, William Afton.png" num="15">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Slender Man</name>
+			<text>Menace
+When The Slender Man enters, destroy target creature an opponent controls with mana value X or less.
+Whenever another creature dies, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/4_The Slender Man.png" num="4">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>XBBB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pac-Man</name>
+			<text>Whenever you gain life, put a +1/+1 counter on Pac-Man. When you do, tap target creature an opponent controls.
+{1}{W}, Discard a card: Pac-Man gains indestructible until end of turn. Tap him.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/2_Pac-Man.png" num="2">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Orb</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shantae, Half-Genie Hero</name>
+			<text>Haste
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+{1}: Choose another target permanent.
+Shantae has all activated and triggered abilities of the last chosen permanent.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/1_Shantae, Half-Genie Hero.png" num="1">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Djinn</type>
+				<maintype>Creature</maintype>
+				<manacost>URW</manacost>
+				<cmc>3</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spider-Man</name>
+			<text>Flash
+Backup 1 (When this creature enters, put a +1/+1 counter on target creature. If that&apos;s another creature, it gains the following abilities until end of turn.)
+{1}: Return this creature to its owner&apos;s hand.
+{1}: This creature gains flying until end of turn.
+{1}: Untap this creature.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/DBCI-files/img/14_Spider-Man.png" num="14">DBCI</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Spider Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>GWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

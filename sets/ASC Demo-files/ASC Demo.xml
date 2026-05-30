@@ -1,0 +1,813 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>ASC Demo</name>
+			<longname>Act So Cinematic Demo</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-05-30</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Deconstitute</name>
+			<text>Enchant nonland permanent
+Enchanted permanent is an enchantment, and loses all other card types and abilities. (It can&apos;t be attacked if it was a battle, and it can&apos;t attack or block if it was a creature.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/2_Deconstitute.png" num="2">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mana-Thrust Skater</name>
+			<text>During your turn, Mana-Thrust Skater has first strike.
+When Mana-Thrust Skater enters or attacks, another target creature you control gets +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/5_Mana-Thrust Skater.png" num="5">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deep-Focus Automaton</name>
+			<text>Amp — {3}, {T}: Tap target creature. (This ability costs {2} less to activate if you&apos;ve attacked with an equipped creature this turn.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/3_Deep-Focus Automaton.png" num="3">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leadership</name>
+			<text>Flying
+When Leadership enters, create two 1/1 white Human creature tokens.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/4_Leadership.png" num="4">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rooftop Runners</name>
+			<text>Whenever Rooftop Runners enters or attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Amp — {3}{U}: Rooftop Runners gains flying until end of turn. (This ability costs {2} less to activate if you&apos;ve attacked with an equipped creature this turn.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/10_Rooftop Runners.png" num="10">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tune In</name>
+			<text>Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.
+Jump-start (You may cast this card from your graveyard by discarding a card in addition to paying its other costs. Then exile this card.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/12_Tune In.png" num="12">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Soaring Gearheads</name>
+			<text>Flying
+When Soaring Gearheads enters, create a Weapon token. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/11_Soaring Gearheads.png" num="11">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flight of Fancy</name>
+			<text>Choose one—
+• Put a flying counter on target creature you control.
+• Target nonland permanent&apos;s owner puts it on their choice of the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/9_Flight of Fancy.png" num="9">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rearm</name>
+			<text>Return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield.
+Create a Weapon token. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/17_Rearm.png" num="17">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Junkyard Emergent</name>
+			<text>When Junkyard Emergent dies, it deals 2 damage to target player, planeswalker, or battle, and you gain 2 life.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/15_Junkyard Emergent.png" num="15">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ambient Shellcrafter</name>
+			<text>During your turn, Ambient Shellcrafter has lifelink.
+{3}, Sacrifice two artifacts: Create a 4/4 Incarnation creature token that&apos;s all colors. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/29_Ambient Shellcrafter.png" num="29">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Model Weapon</name>
+			<text>When Model Weapon enters, create a 3/2 Construct artifact creature token.
+Equipped creature gets +1/+0 and has menace.
+Equip {3}</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/16_Model Weapon.png" num="16">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Combat Apprentice</name>
+			<text>Whenever you attack with one or more equipped creatures, Combat Apprentice deals 1 damage to target player, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/19_Combat Apprentice.png" num="19">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Weapon Surge</name>
+			<text>Choose one—
+• Weapon Surge deals 4 damage to target creature, planeswalker, or battle.
+• Destroy target artifact.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/22_Weapon Surge.png" num="22">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Patchwork Collector</name>
+			<text>When Patchwork Collector enters, create a Weapon token. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/20_Patchwork Collector.png" num="20">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roving Skaters</name>
+			<text>Whenever Roving Skaters enters or attacks, you may discard a card. If you do, draw a card.
+Amp — {3}{R}: Roving Skaters gains menace until end of turn. (This ability costs {2} less to activate if you&apos;ve attacked with an equipped creature this turn.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/21_Roving Skaters.png" num="21">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>New Sights to See</name>
+			<text>Search your library for a basic land card card, put it onto the battlefield tapped, then shuffle. When you search your library this way, put a +1/+1 counter on target creature.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/25_New Sights to See.png" num="25">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Traveling Aspirants</name>
+			<text>Trample
+{3}{G}: Put a +1/+1 counter on Traveling Aspirants.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/27_Traveling Aspirants.png" num="27">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Internal Weaponcraft</name>
+			<text>Create a Weapon token, then attach it to target creature you control. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)
+{1}{G}, Exile Internal Weaponcraft from your graveyard: Create a Weapon token, then attach it to target creature you control. Activate only if an opponent lost life or a battle was dealt damage this turn.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/24_Internal Weaponcraft.png" num="24">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Greatsword Student</name>
+			<text>When Greatsword Student enters, create a Weapon token. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)
+Greatsword Student can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/23_Greatsword Student.png" num="23">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Personal Headphones</name>
+			<text>Equipped creature gets +1/+1.
+Amp — {3}, {T}, Draw a card, then discard a card. (This ability costs {2} less to activate if you&apos;ve attacked with an equipped creature this turn.)
+Equip {2}</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/45_Personal Headphones.png" num="45">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Infused Heirloom</name>
+			<text>{3}, {T}, Sacrifice Infused Heirloom: Destroy target token nonland permanent.
+{7}, {T}, Sacrifice Infused Heirloom: Destroy target nontoken, nonland permanent.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/44_Infused Heirloom.png" num="44">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Potential</name>
+			<text>When Potential enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/1_Potential.png" num="1">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Self-Experimentalist</name>
+			<text>When Self-Experimentalist dies, create a Weapon token. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/7_Self-Experimentalist.png" num="7">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Genius Attuner</name>
+			<text>{T}: Add {G} or {U}.
+At the beginning of combat on your turn, if you&apos;ve spent five or more mana to cast spells this turn, put a +1/+1 counter on target creature. Untap it. It gains vigilance until end of turn.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/35_Genius Attuner.png" num="35">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soaring Masterwork</name>
+			<text>Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)
+Flying
+When Soaring Masterwork enters, mill four cards. Put a nonland permanent card from among the milled cards into your hand. If it was an artifact, you gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/39_Soaring Masterwork.png" num="39">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4WU</manacost>
+				<cmc>6</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Local Hero</name>
+			<text>When Local Hero enters, create a Weapon token. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)
+Local Hero gets +1/+1 for each nonland permanent you control.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/37_Local Hero.png" num="37">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Free-Wheeling Musician</name>
+			<text>Menace
+At the beginning of your second main phase, if you&apos;ve discarded a card this turn, exile the top card of your library. You may play it until the end of your next turn.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/34_Free-Wheeling Musician.png" num="34">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Celebration</name>
+			<text>Menace
+Whenever Celebration enters or attacks, discard your hand, then draw three cards.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/18_Celebration.png" num="18">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Town Trasher</name>
+			<text>Town Trasher can&apos;t be blocked by creatures with power 2 or less.
+At the beginning of your second main phase, if an opponent lost life or a battle was dealt damage this turn, put a +1/+1 counter on Town Trasher. It deals 1 damage to each opponent and to each battle they protect.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/41_Town Trasher.png" num="41">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vivid Pyrokinetic</name>
+			<text>Noncreature spells you cast cost {1} less to cast.
+When Vivid Pyrokinetic enters, mill three cards. When you do, return target noncreature, nonland card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/42_Vivid Pyrokinetic.png" num="42">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crafty Combatant</name>
+			<text>When Crafty Combatant enters, create a Weapon token. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)
+Whenever you attack, target attacking equipped creature gains your choice of first strike or trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/32_Crafty Combatant.png" num="32">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Verdant Repose</name>
+			<text>When Verdant Repose enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Verdant Repose gets +1/+1 for each land you control.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/28_Verdant Repose.png" num="28">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ambient Summoner</name>
+			<text>When Ambient Summoner enters, create a 4/4 Incarnation creature token that&apos;s all colors.
+Whenever you attack, attacking creatures with power 4 or greater can&apos;t be blocked by creatures with power 2 or less until end of turn.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/30_Ambient Summoner.png" num="30">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spellwork Enthusiast</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever you cast a noncreature spell, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/40_Spellwork Enthusiast.png" num="40">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Calm</name>
+			<text>When Calm enters, tap target artifact or creature. Put two stun counters on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/8_Calm.png" num="8">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fateful Encounter</name>
+			<text>As an additional cost to cast this spell, pay {4} or sacrifice an artifact or creature.
+Destroy target creature.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/14_Fateful Encounter.png" num="14">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Quick Slash</name>
+			<text>Choose one—
+• Put a +1/+1 counter on target creature. It gets an additional +1/+1 until end of turn.
+• Destroy target noncreature, nonland permanent.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/6_Quick Slash.png" num="6">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Outpace</name>
+			<text>Target creature you control deals damage equal to its power to another target creature, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/26_Outpace.png" num="26">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Dark Whisper</name>
+			<text>When A Dark Whisper enters, you draw two cards and you lose 2 life.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/13_A Dark Whisper.png" num="13">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ambition</name>
+			<text>Whenever Ambition enters or attacks, it deals X damage to target creature, planeswalker, or battle, where X is the number of creatures and battles you control. Excess damage is dealt to that permanent&apos;s controller instead.</text>
+			<set rarity="mythic" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/31_Ambition.png" num="31">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4BR</manacost>
+				<cmc>6</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>7/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Creation</name>
+			<text>Whenever Creation enters or attacks, create a 1/1 Servo artifact creature token. When you do, you may have each token you control become a copy of target permanent not named Creation, except it&apos;s not legendary.</text>
+			<set rarity="mythic" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/33_Creation.png" num="33">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5GU</manacost>
+				<cmc>7</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Introspection</name>
+			<text>Whenever Introspection enters or attacks, reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.</text>
+			<set rarity="mythic" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/36_Introspection.png" num="36">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5UB</manacost>
+				<cmc>7</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>5/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Love</name>
+			<text>Whenever Love enters or attacks, up to two target creatures gain double strike until end of turn. Untap them.</text>
+			<set rarity="mythic" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/38_Love.png" num="38">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4RW</manacost>
+				<cmc>6</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wanderlust</name>
+			<text>Whenever Wanderlust enters or attacks, mill six cards, then put up to two permanent cards with total mana value 3 or less from from among the milled cards onto the battlefield.</text>
+			<set rarity="mythic" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/43_Wanderlust.png" num="43">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5GW</manacost>
+				<cmc>7</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>7/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Love</name>
+			<text>Whenever Love enters or attacks, up to two target creatures gain double strike until end of turn. Untap them.</text>
+			<set rarity="special" picurl="https://magpyfeather.github.io/sets/ASC Demo-files/img/0_Love.png" num="0">ASC Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4RW</manacost>
+				<cmc>6</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

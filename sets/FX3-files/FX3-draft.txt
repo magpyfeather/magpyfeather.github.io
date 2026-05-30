@@ -1,0 +1,1985 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "The Veldt",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/0.png"
+			}
+		},
+		{
+			"name": "Basilisk Vandal",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Artist Rogue",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/1.png"
+			}
+		},
+		{
+			"name": "Kriemhild Gretchen",
+			"rarity": "special",
+			"mana_cost": "{8}{W/B}{W/B}",
+			"type": "Legendary Creature — Nightmare",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/2.png"
+			}
+		},
+		{
+			"name": "The Beheaded",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Ooze Warrior",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/3.png"
+			}
+		},
+		{
+			"name": "Larry Da Vinci",
+			"rarity": "special",
+			"mana_cost": "{2}{W/U}{W/U}",
+			"type": "Legendary Creature — Toy Artist",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/4.png"
+			}
+		},
+		{
+			"name": "Spheromancer Apollo",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Avatar Wizard",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/5.png"
+			}
+		},
+		{
+			"name": "GR-18 Delivery Robot",
+			"rarity": "special",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Robot Scout",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/6.png"
+			}
+		},
+		{
+			"name": "Squid, Mapmaker AI",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Artifact Creature — Construct",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/7.png"
+			}
+		},
+		{
+			"name": "Shining Kuneko",
+			"rarity": "special",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Legendary Creature — Cat Angel Demon",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/8.png"
+			}
+		},
+		{
+			"name": "Grandma",
+			"rarity": "special",
+			"mana_cost": "{G}",
+			"type": "Creature — Elder Human",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/9.png"
+			}
+		},
+		{
+			"name": "Himeko Kurusugawa",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/10.png"
+			}
+		},
+		{
+			"name": "The Tatami Galaxy",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment — Saga",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/11.png"
+			}
+		},
+		{
+			"name": "Togo Shiba",
+			"rarity": "special",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/12.png"
+			}
+		},
+		{
+			"name": "Rikki, Star Luminous",
+			"rarity": "special",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/13.png"
+			}
+		},
+		{
+			"name": "Olruggio of the Torch",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Human Wizard Artificer",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/14.png"
+			}
+		},
+		{
+			"name": "Sayaka Kanamori",
+			"rarity": "special",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/15.png"
+			}
+		},
+		{
+			"name": "The Acolyte",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/16.png"
+			}
+		},
+		{
+			"name": "The Boneshaker",
+			"rarity": "special",
+			"mana_cost": "{2/B}{2/B}{2/B}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/17.png"
+			}
+		},
+		{
+			"name": "Crescent Rose",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/18.png"
+			}
+		},
+		{
+			"name": "Paperclip",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/19.png"
+			}
+		},
+		{
+			"name": "Saffron",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/20.png"
+			}
+		},
+		{
+			"name": "Shiny Chariot",
+			"rarity": "special",
+			"mana_cost": "{2/U}{2/R}{2/W}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/21.png"
+			}
+		},
+		{
+			"name": "The Pod",
+			"rarity": "special",
+			"mana_cost": "{2/U}{2/U}{2/U}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/22.png"
+			}
+		},
+		{
+			"name": "The Silver Key",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/23.png"
+			}
+		},
+		{
+			"name": "Contraband Grimoire",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact — Book",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/24.png"
+			}
+		},
+		{
+			"name": "Multivac",
+			"rarity": "special",
+			"mana_cost": "{X}{X}",
+			"type": "Legendary Artifact",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/25.png"
+			}
+		},
+		{
+			"name": "Raincleaver",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/26.png"
+			}
+		},
+		{
+			"name": "Yuki 7",
+			"rarity": "special",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/27.png"
+			}
+		},
+		{
+			"name": "Don Quixote",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/28.png"
+			}
+		},
+		{
+			"name": "Huck",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human Citizen",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/29.png"
+			}
+		},
+		{
+			"name": "Penny Polendina",
+			"rarity": "special",
+			"mana_cost": "{2/G}{2/W}{2/U}",
+			"type": "Legendary Artifact Creature — Ranger",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/30.png"
+			}
+		},
+		{
+			"name": "Tarr",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Ooze",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/31.png"
+			}
+		},
+		{
+			"name": "Library of Babel",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/32.png"
+			}
+		},
+		{
+			"name": "World-Cutting Slash",
+			"rarity": "special",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/33.png"
+			}
+		},
+		{
+			"name": "Subaru Urita",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/34.png"
+			}
+		},
+		{
+			"name": "the vaugarde adventure",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/35.png"
+			}
+		},
+		{
+			"name": "Radiant Goddess's Shard",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/36.png"
+			}
+		},
+		{
+			"name": "Datenseki",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/37.png"
+			}
+		},
+		{
+			"name": "Vessel of High Magic",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/38.png"
+			}
+		},
+		{
+			"name": "Emerald Tablet",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/39.png"
+			}
+		},
+		{
+			"name": "Skul, the Hero Slayer",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Skeleton Warrior",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/40.png"
+			}
+		},
+		{
+			"name": "Naota, Awakened Vessel",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Human Avatar",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/41.png"
+			}
+		},
+		{
+			"name": "Siffrin, Time Looper",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/42.png"
+			}
+		},
+		{
+			"name": "Lio Fotia, Firebrand",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Elemental Rogue",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/43.png"
+			}
+		},
+		{
+			"name": "Haruko Haruhara",
+			"rarity": "special",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/44.png"
+			}
+		},
+		{
+			"name": "Canti",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact Creature — Construct",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/45.png"
+			}
+		},
+		{
+			"name": "Milo Larson, TITLE",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Human Carrier",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/46.png"
+			}
+		},
+		{
+			"name": "Avalon Centrifuge",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Toy Artificer",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/47.png"
+			}
+		},
+		{
+			"name": "Enten's Charm",
+			"rarity": "special",
+			"mana_cost": "{B}{R}",
+			"type": "Instant",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/48.png"
+			}
+		},
+		{
+			"name": "Kuregumo's Charm",
+			"rarity": "special",
+			"mana_cost": "{U}{R}",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/49.png"
+			}
+		},
+		{
+			"name": "Tobimune's Charm",
+			"rarity": "special",
+			"mana_cost": "{W}{B}",
+			"type": "Instant",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/50.png"
+			}
+		},
+		{
+			"name": "Kumeyuri's Charm",
+			"rarity": "special",
+			"mana_cost": "{U}{B}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/51.png"
+			}
+		},
+		{
+			"name": "Magatsumi's Charm",
+			"rarity": "special",
+			"mana_cost": "{B}{G}",
+			"type": "Instant",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/52.png"
+			}
+		},
+		{
+			"name": "Shooting Star",
+			"rarity": "special",
+			"mana_cost": "{2/R}{2/R}{2/R}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/53.png"
+			}
+		},
+		{
+			"name": "Winnie, Star Shimmer",
+			"rarity": "special",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/54.png"
+			}
+		},
+		{
+			"name": "the noita or mina from noita",
+			"rarity": "special",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/55.png"
+			}
+		},
+		{
+			"name": "Medical Mechanica Building",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/56.png"
+			}
+		},
+		{
+			"name": "Medical Mechanica Agenda",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/57.png"
+			}
+		},
+		{
+			"name": "The Package",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/58.png"
+			}
+		},
+		{
+			"name": "Sackboy",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Toy",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/59.png"
+			}
+		},
+		{
+			"name": "Gert, TITLE",
+			"rarity": "special",
+			"mana_cost": "{1}{R/G}",
+			"type": "Legendary Creature — Human Berserker",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/60.png"
+			}
+		},
+		{
+			"name": "Radiant Titan",
+			"rarity": "special",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Giant",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/61.png"
+			}
+		},
+		{
+			"name": "Ilvernath, Ritual Nexus",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Swamp Mountain",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/62.png"
+			}
+		},
+		{
+			"name": "Tower of Tomes",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Island Mountain",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/63.png"
+			}
+		},
+		{
+			"name": "Chai, TITLE",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Human TYPE?",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/64.png"
+			}
+		},
+		{
+			"name": "Ame no Murakumo",
+			"rarity": "special",
+			"mana_cost": "{2/W}{2/W}{2/W}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/65.png"
+			}
+		},
+		{
+			"name": "Galo Thymos",
+			"rarity": "special",
+			"mana_cost": "{1}{W/U}",
+			"type": "Legendary Creature — Human Pilot",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/66.png"
+			}
+		},
+		{
+			"name": "The Old God",
+			"rarity": "special",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Legendary Creature — God",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/67.png"
+			}
+		},
+		{
+			"name": "The Radiant Goddess",
+			"rarity": "special",
+			"mana_cost": "{5}{W}{W}{W}",
+			"type": "Legendary Creature — God",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/68.png"
+			}
+		},
+		{
+			"name": "Zoe's Nova",
+			"rarity": "special",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/69.png"
+			}
+		},
+		{
+			"name": "Chase's Nova",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/70.png"
+			}
+		},
+		{
+			"name": "Quillish, TITLE",
+			"rarity": "special",
+			"mana_cost": "{2/B}{2/G}{2/U}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/71.png"
+			}
+		},
+		{
+			"name": "Shiho",
+			"rarity": "special",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Human Assassin",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/72.png"
+			}
+		},
+		{
+			"name": "Terra",
+			"rarity": "special",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Human Druid",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/73.png"
+			}
+		},
+		{
+			"name": "The Radiant One's Temple",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Mountain Plains",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/75.png"
+			}
+		},
+		{
+			"name": "Giha Village",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Plains Swamp",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/76.png"
+			}
+		},
+		{
+			"name": "Anima City",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest Plains",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/77.png"
+			}
+		},
+		{
+			"name": "The Roach's Armor",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/78.png"
+			}
+		},
+		{
+			"name": "Honnouji Academy",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Mountain Forest",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/79.png"
+			}
+		},
+		{
+			"name": "The Time Machine Plan",
+			"rarity": "special",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Plan",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/80.png"
+			}
+		},
+		{
+			"name": "Master Higuchi, Matchmaker",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — God",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/81.png"
+			}
+		},
+		{
+			"name": "Betting on Natsuki",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Plan",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/82.png"
+			}
+		},
+		{
+			"name": "Hali, Guardian of the Sea",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Human Pilot",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/83.png"
+			}
+		},
+		{
+			"name": "Seitarou Higuchi, Tengu",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Bird Spirit",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/84.png"
+			}
+		},
+		{
+			"name": "Cheline, Sapphire Phoenix",
+			"rarity": "special",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Legendary Creature — Bird God",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/85.png"
+			}
+		},
+		{
+			"name": "Cheth, the Bonefish",
+			"rarity": "special",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Fish God",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/86.png"
+			}
+		},
+		{
+			"name": "Phaedra Philemon",
+			"rarity": "special",
+			"mana_cost": "{W}{U}",
+			"type": "Legendary Creature — Spirit Noble",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/87.png"
+			}
+		},
+		{
+			"name": "Erasure Sigil",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/88.png"
+			}
+		},
+		{
+			"name": "Colossatron",
+			"rarity": "special",
+			"mana_cost": "{X}",
+			"type": "Legendary Artifact Creature — Serpent",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/89.png"
+			}
+		},
+		{
+			"name": "Selicy",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/90.png"
+			}
+		},
+		{
+			"name": "Creatinator",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/91.png"
+			}
+		},
+		{
+			"name": "Macaron, TITLE",
+			"rarity": "special",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/92.png"
+			}
+		},
+		{
+			"name": "Love Machine",
+			"rarity": "special",
+			"mana_cost": "{7}{R}{R}",
+			"type": "Legendary Creature — Construct",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/93.png"
+			}
+		},
+		{
+			"name": "Welcome to Oz",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/94.png"
+			}
+		},
+		{
+			"name": "Hour-Thief Ritual",
+			"rarity": "special",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/95.png"
+			}
+		},
+		{
+			"name": "Beastman Mutation",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/96.png"
+			}
+		},
+		{
+			"name": "Breaking Ilvernath's Spell",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Plan",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/97.png"
+			}
+		},
+		{
+			"name": "Rescue Gear",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/98.png"
+			}
+		},
+		{
+			"name": "Zeus's Nova",
+			"rarity": "special",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/99.png"
+			}
+		},
+		{
+			"name": "Halea, High Priestess",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Zombie Cleric",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/100.png"
+			}
+		},
+		{
+			"name": "The Great Salabay Aquifer",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Plains Island",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/101.png"
+			}
+		},
+		{
+			"name": "Chikane Himemiya",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/102.png"
+			}
+		},
+		{
+			"name": "Gambol Shroud",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/103.png"
+			}
+		},
+		{
+			"name": "Myrtenaster",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/104.png"
+			}
+		},
+		{
+			"name": "Vaugarde, Spellbound Country",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Island Swamp",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/105.png"
+			}
+		},
+		{
+			"name": "BGLAND1",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Swamp Forest",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/106.png"
+			}
+		},
+		{
+			"name": "GULAND1",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest Island",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/107.png"
+			}
+		},
+		{
+			"name": "Cole McGrath",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Human Mutant Scout",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/108.png"
+			}
+		},
+		{
+			"name": "Rookery Bell",
+			"rarity": "special",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/109.png"
+			}
+		},
+		{
+			"name": "God of Used Books",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — God",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/110.png"
+			}
+		},
+		{
+			"name": "The Glass Dial",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/111.png"
+			}
+		},
+		{
+			"name": "Madoka Kaname, Puella Dea",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Warlock God",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/112.png"
+			}
+		},
+		{
+			"name": "Forge the Enchanted Blade",
+			"rarity": "special",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/113.png"
+			}
+		},
+		{
+			"name": "Elevadeer",
+			"rarity": "special",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Horror Elk",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/114.png"
+			}
+		},
+		{
+			"name": "Brushbug",
+			"rarity": "special",
+			"mana_cost": "{G}",
+			"type": "Creature",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/115.png"
+			}
+		},
+		{
+			"name": "Yung Venuz",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — God Bard Rogue",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/116.png"
+			}
+		},
+		{
+			"name": "Midori Asakusa",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Human Artist",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/117.png"
+			}
+		},
+		{
+			"name": "Spiral Power",
+			"rarity": "special",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/118.png"
+			}
+		},
+		{
+			"name": "Croix Meridies",
+			"rarity": "special",
+			"mana_cost": "{2/U}{2/B}{2/R}",
+			"type": "Legendary Creature — Human Artificer Wizard",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/119.png"
+			}
+		},
+		{
+			"name": "Wagandea Allergy",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/120.png"
+			}
+		},
+		{
+			"name": "Maki Zen'in",
+			"rarity": "special",
+			"mana_cost": "{2/B}{2/R}{2/G}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/121.png"
+			}
+		},
+		{
+			"name": "Kyubey",
+			"rarity": "special",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Alien",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/122.png"
+			}
+		},
+		{
+			"name": "GWLAND2",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest Plains",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/123.png"
+			}
+		},
+		{
+			"name": "The Underground",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Swamp Forest",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/124.png"
+			}
+		},
+		{
+			"name": "Mabase",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Plains Swamp",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/125.png"
+			}
+		},
+		{
+			"name": "GULAND2",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Forest Island",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/126.png"
+			}
+		},
+		{
+			"name": "RGLAND2",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Mountain Forest",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/127.png"
+			}
+		},
+		{
+			"name": "BRLAND2",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Swamp Mountain",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/128.png"
+			}
+		},
+		{
+			"name": "WULAND2",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Plains Island",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/129.png"
+			}
+		},
+		{
+			"name": "The Ancient Creator's Paradise",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Mountain Plains",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/130.png"
+			}
+		},
+		{
+			"name": "URLAND2",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Island Mountain",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/131.png"
+			}
+		},
+		{
+			"name": "UBLAND2",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Legendary Land — Island Swamp",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/132.png"
+			}
+		},
+		{
+			"name": "Vash the Stampede",
+			"rarity": "special",
+			"mana_cost": "{1}{R/W}",
+			"type": "Legendary Creature — Human Plant Rogue",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/133.png"
+			}
+		},
+		{
+			"name": "Madoka's Wish",
+			"rarity": "special",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/134.png"
+			}
+		},
+		{
+			"name": "Michiru Kagemori",
+			"rarity": "special",
+			"mana_cost": "{2/G}{2/U}{2/R}",
+			"type": "Legendary Creature — Human Dog Mutant",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/135.png"
+			}
+		},
+		{
+			"name": "Kamina, Hero of Giha",
+			"rarity": "special",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Human Pilot",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/136.png"
+			}
+		},
+		{
+			"name": "Evangeline Morgan",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Advisor Rogue",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/137.png"
+			}
+		},
+		{
+			"name": "AD_84",
+			"rarity": "special",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Artifact Creature — Advisor",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/139.png"
+			}
+		},
+		{
+			"name": "Pedro",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Illusion",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/140.png"
+			}
+		},
+		{
+			"name": "Grief Seed",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/141.png"
+			}
+		},
+		{
+			"name": "Ori",
+			"rarity": "special",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/142.png"
+			}
+		},
+		{
+			"name": "Knight Moralis",
+			"rarity": "special",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard Knight",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/143.png"
+			}
+		},
+		{
+			"name": "Ember Celica",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/144.png"
+			}
+		},
+		{
+			"name": "The Construction Robot",
+			"rarity": "special",
+			"mana_cost": "{2/G}{2/G}{2/G}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/145.png"
+			}
+		},
+		{
+			"name": "Ophelia",
+			"rarity": "special",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Nightmare Knight",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/146.png"
+			}
+		},
+		{
+			"name": "Charlotte",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Nightmare",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/147.png"
+			}
+		},
+		{
+			"name": "Candeloro",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Nightmare",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/148.png"
+			}
+		},
+		{
+			"name": "Homulily",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Nightmare",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/149.png"
+			}
+		},
+		{
+			"name": "Oktavia",
+			"rarity": "special",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Nightmare",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/150.png"
+			}
+		},
+		{
+			"name": "Roxy, the Gunner",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Human Pilot",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/151.png"
+			}
+		},
+		{
+			"name": "Burning Rescue",
+			"rarity": "special",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/152.png"
+			}
+		},
+		{
+			"name": "Confessions of a Rotten Girl",
+			"rarity": "special",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/153.png"
+			}
+		},
+		{
+			"name": "Diavolo's Punishment",
+			"rarity": "special",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/154.png"
+			}
+		},
+		{
+			"name": "Laios Touden",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/155.png"
+			}
+		},
+		{
+			"name": "22-Minute Supernova",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Saga",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/156.png"
+			}
+		},
+		{
+			"name": "Senshi, TITLE",
+			"rarity": "special",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Dwarf Warrior",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/157.png"
+			}
+		},
+		{
+			"name": "Burnish Awakening",
+			"rarity": "special",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/158.png"
+			}
+		},
+		{
+			"name": "Fire EVERYTHING!",
+			"rarity": "special",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/159.png"
+			}
+		},
+		{
+			"name": "Echoes of the Promare",
+			"rarity": "special",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Elemental Avatar",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/160.png"
+			}
+		},
+		{
+			"name": "Serra Ashur",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Artifact Creature — Construct",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/161.png"
+			}
+		},
+		{
+			"name": "Phoenix of the Burning Star",
+			"rarity": "special",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/162.png"
+			}
+		},
+		{
+			"name": "Fata Morgana",
+			"rarity": "special",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Archer",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/163.png"
+			}
+		},
+		{
+			"name": "Ichi the Witch",
+			"rarity": "special",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Human Ranger Warlock",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/164.png"
+			}
+		},
+		{
+			"name": "Desscaras, Abyssal Witch",
+			"rarity": "special",
+			"mana_cost": "{2/W}{2/U}{2/B}",
+			"type": "Legendary Creature — Human Warlock",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/165.png"
+			}
+		},
+		{
+			"name": "Buster Machine",
+			"rarity": "special",
+			"mana_cost": "{3}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/166.png"
+			}
+		},
+		{
+			"name": "N.O. Manifestation",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/167.png"
+			}
+		},
+		{
+			"name": "Atomsk, the Pirate King",
+			"rarity": "special",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Bird Pirate",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/168.png"
+			}
+		},
+		{
+			"name": "Degeneracy Generator",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/169.png"
+			}
+		},
+		{
+			"name": "2-Star Fight Club Uniform",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Equipment",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/170.png"
+			}
+		},
+		{
+			"name": "Kyoko's Sacrifice",
+			"rarity": "special",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/171.png"
+			}
+		},
+		{
+			"name": "marcille resurrects falin",
+			"rarity": "special",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/172.png"
+			}
+		},
+		{
+			"name": "Mugann",
+			"rarity": "special",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/173.png"
+			}
+		},
+		{
+			"name": "Anti-Spiral Decree",
+			"rarity": "special",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/174.png"
+			}
+		},
+		{
+			"name": "Simon the Digger",
+			"rarity": "special",
+			"mana_cost": "{R}{G}",
+			"type": "Legendary Creature — Human Pilot",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/175.png"
+			}
+		},
+		{
+			"name": "Kasane Teto, Spoken For",
+			"rarity": "special",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Human Bard Performer",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/176.png"
+			}
+		},
+		{
+			"name": "Tsubame Mizusaki",
+			"rarity": "special",
+			"mana_cost": "{1}{U/R}{U/R}",
+			"type": "Legendary Creature — Human Artist",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/177.png"
+			}
+		},
+		{
+			"name": "Absolute Reification",
+			"rarity": "special",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/178.png"
+			}
+		},
+		{
+			"name": "Ragna the Bloodedge",
+			"rarity": "special",
+			"mana_cost": "{B/R}{B/R}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/179.png"
+			}
+		},
+		{
+			"name": "Lis, House Spirit",
+			"rarity": "special",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/180.png"
+			}
+		},
+		{
+			"name": "The Malaise, Sealed",
+			"rarity": "special",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://magpyfeather.github.io/sets/FX3-files/img/181.png"
+			}
+		}
+	]
+
+[cube(15)]
+	1 The Veldt
+	1 Basilisk Vandal
+	1 Kriemhild Gretchen
+	1 The Beheaded
+	1 Larry Da Vinci
+	1 Spheromancer Apollo
+	1 GR-18 Delivery Robot
+	1 Squid, Mapmaker AI
+	1 Shining Kuneko
+	1 Grandma
+	1 Himeko Kurusugawa
+	1 The Tatami Galaxy
+	1 Togo Shiba
+	1 Rikki, Star Luminous
+	1 Olruggio of the Torch
+	1 Sayaka Kanamori
+	1 The Acolyte
+	1 The Boneshaker
+	1 Crescent Rose
+	1 Paperclip
+	1 Saffron
+	1 Shiny Chariot
+	1 The Pod
+	1 The Silver Key
+	1 Contraband Grimoire
+	1 Multivac
+	1 Raincleaver
+	1 Yuki 7
+	1 Don Quixote
+	1 Huck
+	1 Penny Polendina
+	1 Tarr
+	1 Library of Babel
+	1 World-Cutting Slash
+	1 Subaru Urita
+	1 the vaugarde adventure
+	1 Radiant Goddess's Shard
+	1 Datenseki
+	1 Vessel of High Magic
+	1 Emerald Tablet
+	1 Skul, the Hero Slayer
+	1 Naota, Awakened Vessel
+	1 Siffrin, Time Looper
+	1 Lio Fotia, Firebrand
+	1 Haruko Haruhara
+	1 Canti
+	1 Milo Larson, TITLE
+	1 Avalon Centrifuge
+	1 Enten's Charm
+	1 Kuregumo's Charm
+	1 Tobimune's Charm
+	1 Kumeyuri's Charm
+	1 Magatsumi's Charm
+	1 Shooting Star
+	1 Winnie, Star Shimmer
+	1 the noita or mina from noita
+	1 Medical Mechanica Building
+	1 Medical Mechanica Agenda
+	1 The Package
+	1 Sackboy
+	1 Gert, TITLE
+	1 Radiant Titan
+	1 Ilvernath, Ritual Nexus
+	1 Tower of Tomes
+	1 Chai, TITLE
+	1 Ame no Murakumo
+	1 Galo Thymos
+	1 The Old God
+	1 The Radiant Goddess
+	1 Zoe's Nova
+	1 Chase's Nova
+	1 Quillish, TITLE
+	1 Shiho
+	1 Terra
+	1 The Radiant One's Temple
+	1 Giha Village
+	1 Anima City
+	1 The Roach's Armor
+	1 Honnouji Academy
+	1 The Time Machine Plan
+	1 Master Higuchi, Matchmaker
+	1 Betting on Natsuki
+	1 Hali, Guardian of the Sea
+	1 Seitarou Higuchi, Tengu
+	1 Cheline, Sapphire Phoenix
+	1 Cheth, the Bonefish
+	1 Phaedra Philemon
+	1 Erasure Sigil
+	1 Colossatron
+	1 Selicy
+	1 Creatinator
+	1 Macaron, TITLE
+	1 Love Machine
+	1 Welcome to Oz
+	1 Hour-Thief Ritual
+	1 Beastman Mutation
+	1 Breaking Ilvernath's Spell
+	1 Rescue Gear
+	1 Zeus's Nova
+	1 Halea, High Priestess
+	1 The Great Salabay Aquifer
+	1 Chikane Himemiya
+	1 Gambol Shroud
+	1 Myrtenaster
+	1 Vaugarde, Spellbound Country
+	1 BGLAND1
+	1 GULAND1
+	1 Cole McGrath
+	1 Rookery Bell
+	1 God of Used Books
+	1 The Glass Dial
+	1 Madoka Kaname, Puella Dea
+	1 Forge the Enchanted Blade
+	1 Elevadeer
+	1 Brushbug
+	1 Yung Venuz
+	1 Midori Asakusa
+	1 Spiral Power
+	1 Croix Meridies
+	1 Wagandea Allergy
+	1 Maki Zen'in
+	1 Kyubey
+	1 GWLAND2
+	1 The Underground
+	1 Mabase
+	1 GULAND2
+	1 RGLAND2
+	1 BRLAND2
+	1 WULAND2
+	1 The Ancient Creator's Paradise
+	1 URLAND2
+	1 UBLAND2
+	1 Vash the Stampede
+	1 Madoka's Wish
+	1 Michiru Kagemori
+	1 Kamina, Hero of Giha
+	1 Evangeline Morgan
+	1 AD_84
+	1 Pedro
+	1 Grief Seed
+	1 Ori
+	1 Knight Moralis
+	1 Ember Celica
+	1 The Construction Robot
+	1 Ophelia
+	1 Charlotte
+	1 Candeloro
+	1 Homulily
+	1 Oktavia
+	1 Roxy, the Gunner
+	1 Burning Rescue
+	1 Confessions of a Rotten Girl
+	1 Diavolo's Punishment
+	1 Laios Touden
+	1 22-Minute Supernova
+	1 Senshi, TITLE
+	1 Burnish Awakening
+	1 Fire EVERYTHING!
+	1 Echoes of the Promare
+	1 Serra Ashur
+	1 Phoenix of the Burning Star
+	1 Fata Morgana
+	1 Ichi the Witch
+	1 Desscaras, Abyssal Witch
+	1 Buster Machine
+	1 N.O. Manifestation
+	1 Atomsk, the Pirate King
+	1 Degeneracy Generator
+	1 2-Star Fight Club Uniform
+	1 Kyoko's Sacrifice
+	1 marcille resurrects falin
+	1 Mugann
+	1 Anti-Spiral Decree
+	1 Simon the Digger
+	1 Kasane Teto, Spoken For
+	1 Tsubame Mizusaki
+	1 Absolute Reification
+	1 Ragna the Bloodedge
+	1 Lis, House Spirit
+	1 The Malaise, Sealed

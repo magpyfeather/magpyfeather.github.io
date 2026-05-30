@@ -26,6 +26,11 @@
             "formats": "extended_play"
         },
         {
+            "set_code": "FX3",
+            "set_name": "Featherfall Crossover Cube",
+            "formats": "cubes"
+        },
+        {
             "set_code": "SZD Demo",
             "set_name": "Seize Divinity Demo",
             "formats": "microsets"

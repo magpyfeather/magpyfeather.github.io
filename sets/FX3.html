@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
-  <title>Extended Play — Death Battle Champions Island</title>
-  <link rel="icon" type="image/x-icon" href="../sets/DBCI-files/icon.png">
+  <title>Featherfall Crossover Cube</title>
+  <link rel="icon" type="image/x-icon" href="../sets/FX3-files/icon.png">
   <link rel="stylesheet" href="../resources/mana.css">
   <link rel="stylesheet" href="../resources/header.css">
   <link rel="stylesheet" href="../resources/card-text.css">
@@ -333,12 +333,12 @@
 	<div class="banner">
 		<div class="banner-container">
 			<div class="set-banner" id="set-banner">
-				<img class="set-logo" src="../sets/DBCI-files/icon.png">
+				<img class="set-logo" src="../sets/FX3-files/icon.png">
 				<div class="banner-text">
-					<div class="set-title">Extended Play — Death Battle Champions Island</div>
-					<div class="extras-container"><a href="../sets/DBCI-files/DBCI-draft.txt" download>Draft</a><div class="dot"> • </div>
+					<div class="set-title">Featherfall Crossover Cube</div>
+					<div class="extras-container"><a href="../sets/FX3-files/FX3-draft.txt" download>Draft</a><div class="dot"> • </div>
 			<a onclick="packOnePickOne()">P1P1</a><div class="dot"> • </div>
-<a href="../sets/DBCI-files/DBCI.xml" download>Play</a><div class="dot"> • </div>
+<a href="../sets/FX3-files/FX3.xml" download>Play</a><div class="dot"> • </div>
 			<a onclick="randomSetCard()">I'm Feeling Lucky</a>
 				</div>
 			</div>
@@ -489,7 +489,7 @@
 				}
 
 
-			await fetch(rootPath + '/sets/DBCI-files/DBCI-draft.txt')
+			await fetch(rootPath + '/sets/FX3-files/FX3-draft.txt')
 				.then(response => response.text())
 				.then(text => {
 					draft_file = text.replace(/},\n\t]/g, '}\n\t]');
@@ -499,7 +499,7 @@
       
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
-				if (card_list_arrayified[i].set == "DBCI")
+				if (card_list_arrayified[i].set == "FX3")
 				{
 					set_list_arrayified.push(card_list_arrayified[i]);
 				}
@@ -1321,7 +1321,7 @@
 			let set_card_list = [];
 			for (card of card_list_arrayified)
 			{
-				if (card.set == "DBCI")
+				if (card.set == "FX3")
 				{
 					set_card_list.push(card);
 				}

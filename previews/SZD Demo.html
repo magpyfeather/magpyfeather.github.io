@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/SZD Demo-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/SZD Demo-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>SZD Demo visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -39,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -126,12 +133,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -173,140 +181,159 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/SZD Demo-files/logo.png" />
-	<img class="preload-hidden" src="/sets/AINT Demo-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ASC Demo-files/icon.png" />
-		<img class="preload-hidden" src="/sets/DBCI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/EP01-files/icon.png" />
-		<img class="preload-hidden" src="/sets/EP02-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SZD Demo-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/SZD Demo-files/logo.png" />
+	<img class="preload-hidden" src="../sets/AINT Demo-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ASC Demo-files/icon.png" />
+		<img class="preload-hidden" src="../sets/DBCI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/EP01-files/icon.png" />
+		<img class="preload-hidden" src="../sets/EP02-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FX3-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SZD Demo-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="SZD Demo"><img src="/sets/SZD Demo-files/icon.png">Seize Divinity Demo</a>
+		<a class="set-bar" href="../previews/SZD Demo"><img src="../sets/SZD Demo-files/icon.png">Seize Divinity Demo</a>
 	
-		<a class="set-bar inactive" href="AINT Demo"><img src="/sets/AINT Demo-files/icon.png">Ain’t Got The Love Demo</a>
+		<a class="set-bar inactive" href="../previews/AINT Demo"><img src="../sets/AINT Demo-files/icon.png">Ain’t Got The Love Demo</a>
 	
-		<a class="set-bar inactive" href="ASC Demo"><img src="/sets/ASC Demo-files/icon.png">Act So Cinematic Demo</a>
+		<a class="set-bar inactive" href="../previews/ASC Demo"><img src="../sets/ASC Demo-files/icon.png">Act So Cinematic Demo</a>
 	
-		<a class="set-bar inactive" href="DBCI"><img src="/sets/DBCI-files/icon.png">Extended Play — Death Battle Champions Island</a>
+		<a class="set-bar inactive" href="../previews/DBCI"><img src="../sets/DBCI-files/icon.png">Extended Play — Death Battle Champions Island</a>
 	
-		<a class="set-bar inactive" href="EP01"><img src="/sets/EP01-files/icon.png">Extended Play 01 — Universes Beyond</a>
+		<a class="set-bar inactive" href="../previews/EP01"><img src="../sets/EP01-files/icon.png">Extended Play 01 — Universes Beyond</a>
 	
-		<a class="set-bar inactive" href="EP02"><img src="/sets/EP02-files/icon.png">Extended Play 02 — Universes Beyond: The Teams</a>
+		<a class="set-bar inactive" href="../previews/EP02"><img src="../sets/EP02-files/icon.png">Extended Play 02 — Universes Beyond: The Teams</a>
+	
+		<a class="set-bar inactive" href="../previews/FX3"><img src="../sets/FX3-files/icon.png">Featherfall Crossover Cube</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/SZD Demo-files/logo.png">
+		<img class="logo" src="../sets/SZD Demo-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\SZD Demo-files\img\3_Emi, the Disgraced.png" id="3_Emi, the Disgraced" data-flag="@X" onclick="openSidebar('3_Emi, the Disgraced',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\13_Deathless Magistrate.png" id="13_Deathless Magistrate" data-flag="@X" onclick="openSidebar('13_Deathless Magistrate',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\18_Challenge Impossible Odds.png" id="18_Challenge Impossible Odds" data-flag="@X" onclick="openSidebar('18_Challenge Impossible Odds',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\29_Shane, Salvager Outcast.png" id="29_Shane, Salvager Outcast" data-flag="@X" onclick="openSidebar('29_Shane, Salvager Outcast',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\33_Traveling Hero.png" id="33_Traveling Hero" data-flag="@X" onclick="openSidebar('33_Traveling Hero',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\8_Sybelle, Hollow Queen.png" id="8_Sybelle, Hollow Queen" data-flag="@X" onclick="openSidebar('8_Sybelle, Hollow Queen',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\12_Ceta's Ensouling.png" id="12_Cetas Ensouling" data-flag="@X" onclick="openSidebar('12_Cetas Ensouling',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\17_Caustic Blade-Dancer.png" id="17_Caustic Blade-Dancer" data-flag="@X" onclick="openSidebar('17_Caustic Blade-Dancer',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\27_Reaver of Ties.png" id="27_Reaver of Ties" data-flag="@X" onclick="openSidebar('27_Reaver of Ties',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\30_Abyssal Seer.png" id="30_Abyssal Seer" data-flag="@X" onclick="openSidebar('30_Abyssal Seer',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\4_Field Consecrators.png" id="4_Field Consecrators" data-flag="@X" onclick="openSidebar('4_Field Consecrators',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\10_Acolyte of Essida.png" id="10_Acolyte of Essida" data-flag="@X" onclick="openSidebar('10_Acolyte of Essida',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\19_Dark-Stained Puppet.png" id="19_Dark-Stained Puppet" data-flag="@X" onclick="openSidebar('19_Dark-Stained Puppet',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\23_Army's Advance.png" id="23_Armys Advance" data-flag="@X" onclick="openSidebar('23_Armys Advance',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\31_Colossal Growth.png" id="31_Colossal Growth" data-flag="@X" onclick="openSidebar('31_Colossal Growth',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\2_Abhorrent Protector.png" id="2_Abhorrent Protector" data-flag="@X" onclick="openSidebar('2_Abhorrent Protector',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\11_Blessed-Steel Wings.png" id="11_Blessed-Steel Wings" data-flag="@X" onclick="openSidebar('11_Blessed-Steel Wings',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\20_Hallowed Blackguard.png" id="20_Hallowed Blackguard" data-flag="@X" onclick="openSidebar('20_Hallowed Blackguard',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\24_Battle-Worn Greatsword.png" id="24_Battle-Worn Greatsword" data-flag="@X" onclick="openSidebar('24_Battle-Worn Greatsword',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\32_Searching for Survivors.png" id="32_Searching for Survivors" data-flag="@X" onclick="openSidebar('32_Searching for Survivors',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\5_Hallowed Memorial.png" id="5_Hallowed Memorial" data-flag="@X" onclick="openSidebar('5_Hallowed Memorial',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\14_Heartless Watcher.png" id="14_Heartless Watcher" data-flag="@X" onclick="openSidebar('14_Heartless Watcher',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\21_Missing Beyond the Walls.png" id="21_Missing Beyond the Walls" data-flag="@X" onclick="openSidebar('21_Missing Beyond the Walls',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\25_Bloodied Bandit.png" id="25_Bloodied Bandit" data-flag="@X" onclick="openSidebar('25_Bloodied Bandit',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\34_Vital Channeler.png" id="34_Vital Channeler" data-flag="@X" onclick="openSidebar('34_Vital Channeler',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\6_Newly-Entrusted Knight.png" id="6_Newly-Entrusted Knight" data-flag="@X" onclick="openSidebar('6_Newly-Entrusted Knight',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\15_Lull Into Sleep.png" id="15_Lull Into Sleep" data-flag="@X" onclick="openSidebar('15_Lull Into Sleep',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\22_Soul Decay.png" id="22_Soul Decay" data-flag="@X" onclick="openSidebar('22_Soul Decay',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\26_Burning-Heart Adherent.png" id="26_Burning-Heart Adherent" data-flag="@X" onclick="openSidebar('26_Burning-Heart Adherent',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\7_Pristine Blade.png" id="7_Pristine Blade" data-flag="@X" onclick="openSidebar('7_Pristine Blade',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\16_Push Through It.png" id="16_Push Through It" data-flag="@X" onclick="openSidebar('16_Push Through It',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\28_Senses Overwhelmed.png" id="28_Senses Overwhelmed" data-flag="@X" onclick="openSidebar('28_Senses Overwhelmed',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\9_Taken by Overgrowth.png" id="9_Taken by Overgrowth" data-flag="@X" onclick="openSidebar('9_Taken by Overgrowth',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\3_Emi, the Disgraced.png" id="SZD Demo_3_Emi, the Disgraced" data-flag="@X" onclick="openSidebar('SZD Demo_3_Emi, the Disgraced',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\13_Deathless Magistrate.png" id="SZD Demo_13_Deathless Magistrate" data-flag="@X" onclick="openSidebar('SZD Demo_13_Deathless Magistrate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\18_Challenge Impossible Odds.png" id="SZD Demo_18_Challenge Impossible Odds" data-flag="@X" onclick="openSidebar('SZD Demo_18_Challenge Impossible Odds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\29_Shane, Salvager Outcast.png" id="SZD Demo_29_Shane, Salvager Outcast" data-flag="@X" onclick="openSidebar('SZD Demo_29_Shane, Salvager Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\33_Traveling Hero.png" id="SZD Demo_33_Traveling Hero" data-flag="@X" onclick="openSidebar('SZD Demo_33_Traveling Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\8_Sybelle, Hollow Queen.png" id="SZD Demo_8_Sybelle, Hollow Queen" data-flag="@X" onclick="openSidebar('SZD Demo_8_Sybelle, Hollow Queen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\12_Ceta's Ensouling.png" id="SZD Demo_12_Cetas Ensouling" data-flag="@X" onclick="openSidebar('SZD Demo_12_Cetas Ensouling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\17_Caustic Blade-Dancer.png" id="SZD Demo_17_Caustic Blade-Dancer" data-flag="@X" onclick="openSidebar('SZD Demo_17_Caustic Blade-Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\27_Reaver of Ties.png" id="SZD Demo_27_Reaver of Ties" data-flag="@X" onclick="openSidebar('SZD Demo_27_Reaver of Ties',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\30_Abyssal Seer.png" id="SZD Demo_30_Abyssal Seer" data-flag="@X" onclick="openSidebar('SZD Demo_30_Abyssal Seer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\4_Field Consecrators.png" id="SZD Demo_4_Field Consecrators" data-flag="@X" onclick="openSidebar('SZD Demo_4_Field Consecrators',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\10_Acolyte of Essida.png" id="SZD Demo_10_Acolyte of Essida" data-flag="@X" onclick="openSidebar('SZD Demo_10_Acolyte of Essida',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\19_Dark-Stained Puppet.png" id="SZD Demo_19_Dark-Stained Puppet" data-flag="@X" onclick="openSidebar('SZD Demo_19_Dark-Stained Puppet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\23_Army's Advance.png" id="SZD Demo_23_Armys Advance" data-flag="@X" onclick="openSidebar('SZD Demo_23_Armys Advance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\31_Colossal Growth.png" id="SZD Demo_31_Colossal Growth" data-flag="@X" onclick="openSidebar('SZD Demo_31_Colossal Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\2_Abhorrent Protector.png" id="SZD Demo_2_Abhorrent Protector" data-flag="@X" onclick="openSidebar('SZD Demo_2_Abhorrent Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\11_Blessed-Steel Wings.png" id="SZD Demo_11_Blessed-Steel Wings" data-flag="@X" onclick="openSidebar('SZD Demo_11_Blessed-Steel Wings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\20_Hallowed Blackguard.png" id="SZD Demo_20_Hallowed Blackguard" data-flag="@X" onclick="openSidebar('SZD Demo_20_Hallowed Blackguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\24_Battle-Worn Greatsword.png" id="SZD Demo_24_Battle-Worn Greatsword" data-flag="@X" onclick="openSidebar('SZD Demo_24_Battle-Worn Greatsword',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\32_Searching for Survivors.png" id="SZD Demo_32_Searching for Survivors" data-flag="@X" onclick="openSidebar('SZD Demo_32_Searching for Survivors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\5_Hallowed Memorial.png" id="SZD Demo_5_Hallowed Memorial" data-flag="@X" onclick="openSidebar('SZD Demo_5_Hallowed Memorial',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\14_Heartless Watcher.png" id="SZD Demo_14_Heartless Watcher" data-flag="@X" onclick="openSidebar('SZD Demo_14_Heartless Watcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\21_Missing Beyond the Walls.png" id="SZD Demo_21_Missing Beyond the Walls" data-flag="@X" onclick="openSidebar('SZD Demo_21_Missing Beyond the Walls',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\25_Bloodied Bandit.png" id="SZD Demo_25_Bloodied Bandit" data-flag="@X" onclick="openSidebar('SZD Demo_25_Bloodied Bandit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\34_Vital Channeler.png" id="SZD Demo_34_Vital Channeler" data-flag="@X" onclick="openSidebar('SZD Demo_34_Vital Channeler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\6_Newly-Entrusted Knight.png" id="SZD Demo_6_Newly-Entrusted Knight" data-flag="@X" onclick="openSidebar('SZD Demo_6_Newly-Entrusted Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\15_Lull Into Sleep.png" id="SZD Demo_15_Lull Into Sleep" data-flag="@X" onclick="openSidebar('SZD Demo_15_Lull Into Sleep',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\22_Soul Decay.png" id="SZD Demo_22_Soul Decay" data-flag="@X" onclick="openSidebar('SZD Demo_22_Soul Decay',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\26_Burning-Heart Adherent.png" id="SZD Demo_26_Burning-Heart Adherent" data-flag="@X" onclick="openSidebar('SZD Demo_26_Burning-Heart Adherent',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\7_Pristine Blade.png" id="SZD Demo_7_Pristine Blade" data-flag="@X" onclick="openSidebar('SZD Demo_7_Pristine Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\16_Push Through It.png" id="SZD Demo_16_Push Through It" data-flag="@X" onclick="openSidebar('SZD Demo_16_Push Through It',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\28_Senses Overwhelmed.png" id="SZD Demo_28_Senses Overwhelmed" data-flag="@X" onclick="openSidebar('SZD Demo_28_Senses Overwhelmed',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\9_Taken by Overgrowth.png" id="SZD Demo_9_Taken by Overgrowth" data-flag="@X" onclick="openSidebar('SZD Demo_9_Taken by Overgrowth',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\38_Ethereal Caretaker.png" id="38_Ethereal Caretaker" data-flag="@X" onclick="openSidebar('38_Ethereal Caretaker',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\39_Lacerator Unit.png" id="39_Lacerator Unit" data-flag="@X" onclick="openSidebar('39_Lacerator Unit',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\41_Muldan Engineering.png" id="41_Muldan Engineering" data-flag="@X" onclick="openSidebar('41_Muldan Engineering',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\40_Lightless Herald.png" id="40_Lightless Herald" data-flag="@X" onclick="openSidebar('40_Lightless Herald',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\36_Avis, Audan Protector.png" id="36_Avis, Audan Protector" data-flag="@X" onclick="openSidebar('36_Avis, Audan Protector',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\37_Crystalline Spellcrafter.png" id="37_Crystalline Spellcrafter" data-flag="@X" onclick="openSidebar('37_Crystalline Spellcrafter',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\35_Armoried Vessel.png" id="35_Armoried Vessel" data-flag="@X" onclick="openSidebar('35_Armoried Vessel',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\0_Shane, Steel Challenger.png" id="0_Shane, Steel Challenger" data-flag="@X" onclick="openSidebar('0_Shane, Steel Challenger',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\38_Ethereal Caretaker.png" id="SZD Demo_38_Ethereal Caretaker" data-flag="@X" onclick="openSidebar('SZD Demo_38_Ethereal Caretaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\39_Lacerator Unit.png" id="SZD Demo_39_Lacerator Unit" data-flag="@X" onclick="openSidebar('SZD Demo_39_Lacerator Unit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\41_Muldan Engineering.png" id="SZD Demo_41_Muldan Engineering" data-flag="@X" onclick="openSidebar('SZD Demo_41_Muldan Engineering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\40_Lightless Herald.png" id="SZD Demo_40_Lightless Herald" data-flag="@X" onclick="openSidebar('SZD Demo_40_Lightless Herald',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\36_Avis, Audan Protector.png" id="SZD Demo_36_Avis, Audan Protector" data-flag="@X" onclick="openSidebar('SZD Demo_36_Avis, Audan Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\37_Crystalline Spellcrafter.png" id="SZD Demo_37_Crystalline Spellcrafter" data-flag="@X" onclick="openSidebar('SZD Demo_37_Crystalline Spellcrafter',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\35_Armoried Vessel.png" id="SZD Demo_35_Armoried Vessel" data-flag="@X" onclick="openSidebar('SZD Demo_35_Armoried Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\0_Shane, Steel Challenger.png" id="SZD Demo_0_Shane, Steel Challenger" data-flag="@X" onclick="openSidebar('SZD Demo_0_Shane, Steel Challenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="SZD Demo_e" data-flag="@E" onclick="openSidebar('SZD Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\44_Icon-1, Shane's Champion.png" id="44_Icon-1, Shanes Champion" data-flag="@X" onclick="openSidebar('44_Icon-1, Shanes Champion',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\43_Essence-Steeped Obelisk.png" id="43_Essence-Steeped Obelisk" data-flag="@X" onclick="openSidebar('43_Essence-Steeped Obelisk',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\42_Blooming Shrine.png" id="42_Blooming Shrine" data-flag="@X" onclick="openSidebar('42_Blooming Shrine',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\45_Infantry Armor.png" id="45_Infantry Armor" data-flag="@X" onclick="openSidebar('45_Infantry Armor',false)"></div>
-				<div class="container"><img alt="/sets\SZD Demo-files\img\46_Warped Vessel.png" id="46_Warped Vessel" data-flag="@X" onclick="openSidebar('46_Warped Vessel',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\44_Icon-1, Shane's Champion.png" id="SZD Demo_44_Icon-1, Shanes Champion" data-flag="@X" onclick="openSidebar('SZD Demo_44_Icon-1, Shanes Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\43_Essence-Steeped Obelisk.png" id="SZD Demo_43_Essence-Steeped Obelisk" data-flag="@X" onclick="openSidebar('SZD Demo_43_Essence-Steeped Obelisk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\42_Blooming Shrine.png" id="SZD Demo_42_Blooming Shrine" data-flag="@X" onclick="openSidebar('SZD Demo_42_Blooming Shrine',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\45_Infantry Armor.png" id="SZD Demo_45_Infantry Armor" data-flag="@X" onclick="openSidebar('SZD Demo_45_Infantry Armor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\SZD Demo-files\img\46_Warped Vessel.png" id="SZD Demo_46_Warped Vessel" data-flag="@X" onclick="openSidebar('SZD Demo_46_Warped Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="SZD Demo_er" data-flag="@E" onclick="openSidebar('SZD Demo_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -319,19 +346,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -366,13 +485,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -398,27 +520,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -430,17 +576,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -473,6 +621,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -482,6 +631,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -498,16 +648,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -517,7 +667,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

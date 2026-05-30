@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/ASC Demo-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/ASC Demo-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>ASC Demo visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -39,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -126,12 +133,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -173,125 +181,144 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/ASC Demo-files/logo.png" />
-	<img class="preload-hidden" src="/sets/AINT Demo-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ASC Demo-files/icon.png" />
-		<img class="preload-hidden" src="/sets/DBCI-files/icon.png" />
-		<img class="preload-hidden" src="/sets/EP01-files/icon.png" />
-		<img class="preload-hidden" src="/sets/EP02-files/icon.png" />
-		<img class="preload-hidden" src="/sets/SZD Demo-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/ASC Demo-files/logo.png" />
+	<img class="preload-hidden" src="../sets/AINT Demo-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ASC Demo-files/icon.png" />
+		<img class="preload-hidden" src="../sets/DBCI-files/icon.png" />
+		<img class="preload-hidden" src="../sets/EP01-files/icon.png" />
+		<img class="preload-hidden" src="../sets/EP02-files/icon.png" />
+		<img class="preload-hidden" src="../sets/FX3-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SZD Demo-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="ASC Demo"><img src="/sets/ASC Demo-files/icon.png">Act So Cinematic Demo</a>
+		<a class="set-bar" href="../previews/ASC Demo"><img src="../sets/ASC Demo-files/icon.png">Act So Cinematic Demo</a>
 	
-		<a class="set-bar inactive" href="AINT Demo"><img src="/sets/AINT Demo-files/icon.png">Ain’t Got The Love Demo</a>
+		<a class="set-bar inactive" href="../previews/AINT Demo"><img src="../sets/AINT Demo-files/icon.png">Ain’t Got The Love Demo</a>
 	
-		<a class="set-bar inactive" href="DBCI"><img src="/sets/DBCI-files/icon.png">Extended Play — Death Battle Champions Island</a>
+		<a class="set-bar inactive" href="../previews/DBCI"><img src="../sets/DBCI-files/icon.png">Extended Play — Death Battle Champions Island</a>
 	
-		<a class="set-bar inactive" href="EP01"><img src="/sets/EP01-files/icon.png">Extended Play 01 — Universes Beyond</a>
+		<a class="set-bar inactive" href="../previews/EP01"><img src="../sets/EP01-files/icon.png">Extended Play 01 — Universes Beyond</a>
 	
-		<a class="set-bar inactive" href="EP02"><img src="/sets/EP02-files/icon.png">Extended Play 02 — Universes Beyond: The Teams</a>
+		<a class="set-bar inactive" href="../previews/EP02"><img src="../sets/EP02-files/icon.png">Extended Play 02 — Universes Beyond: The Teams</a>
 	
-		<a class="set-bar inactive" href="SZD Demo"><img src="/sets/SZD Demo-files/icon.png">Seize Divinity Demo</a>
+		<a class="set-bar inactive" href="../previews/FX3"><img src="../sets/FX3-files/icon.png">Featherfall Crossover Cube</a>
+	
+		<a class="set-bar inactive" href="../previews/SZD Demo"><img src="../sets/SZD Demo-files/icon.png">Seize Divinity Demo</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/ASC Demo-files/logo.png">
+		<img class="logo" src="../sets/ASC Demo-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\ASC Demo-files\img\7_Self-Experimentalist.png" id="7_Self-Experimentalist" data-flag="@X" onclick="openSidebar('7_Self-Experimentalist',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\8_Calm.png" id="8_Calm" data-flag="@X" onclick="openSidebar('8_Calm',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\13_A Dark Whisper.png" id="13_A Dark Whisper" data-flag="@X" onclick="openSidebar('13_A Dark Whisper',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\18_Celebration.png" id="18_Celebration" data-flag="@X" onclick="openSidebar('18_Celebration',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\28_Verdant Repose.png" id="28_Verdant Repose" data-flag="@X" onclick="openSidebar('28_Verdant Repose',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\2_Deconstitute.png" id="2_Deconstitute" data-flag="@X" onclick="openSidebar('2_Deconstitute',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\9_Flight of Fancy.png" id="9_Flight of Fancy" data-flag="@X" onclick="openSidebar('9_Flight of Fancy',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\14_Fateful Encounter.png" id="14_Fateful Encounter" data-flag="@X" onclick="openSidebar('14_Fateful Encounter',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\19_Combat Apprentice.png" id="19_Combat Apprentice" data-flag="@X" onclick="openSidebar('19_Combat Apprentice',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\23_Greatsword Student.png" id="23_Greatsword Student" data-flag="@X" onclick="openSidebar('23_Greatsword Student',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\3_Deep-Focus Automaton.png" id="3_Deep-Focus Automaton" data-flag="@X" onclick="openSidebar('3_Deep-Focus Automaton',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\10_Rooftop Runners.png" id="10_Rooftop Runners" data-flag="@X" onclick="openSidebar('10_Rooftop Runners',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\15_Junkyard Emergent.png" id="15_Junkyard Emergent" data-flag="@X" onclick="openSidebar('15_Junkyard Emergent',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\20_Patchwork Collector.png" id="20_Patchwork Collector" data-flag="@X" onclick="openSidebar('20_Patchwork Collector',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\24_Internal Weaponcraft.png" id="24_Internal Weaponcraft" data-flag="@X" onclick="openSidebar('24_Internal Weaponcraft',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\4_Leadership.png" id="4_Leadership" data-flag="@X" onclick="openSidebar('4_Leadership',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\11_Soaring Gearheads.png" id="11_Soaring Gearheads" data-flag="@X" onclick="openSidebar('11_Soaring Gearheads',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\16_Model Weapon.png" id="16_Model Weapon" data-flag="@X" onclick="openSidebar('16_Model Weapon',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\21_Roving Skaters.png" id="21_Roving Skaters" data-flag="@X" onclick="openSidebar('21_Roving Skaters',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\25_New Sights to See.png" id="25_New Sights to See" data-flag="@X" onclick="openSidebar('25_New Sights to See',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\5_Mana-Thrust Skater.png" id="5_Mana-Thrust Skater" data-flag="@X" onclick="openSidebar('5_Mana-Thrust Skater',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\12_Tune In.png" id="12_Tune In" data-flag="@X" onclick="openSidebar('12_Tune In',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\17_Rearm.png" id="17_Rearm" data-flag="@X" onclick="openSidebar('17_Rearm',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\22_Weapon Surge.png" id="22_Weapon Surge" data-flag="@X" onclick="openSidebar('22_Weapon Surge',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\26_Outpace.png" id="26_Outpace" data-flag="@X" onclick="openSidebar('26_Outpace',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\6_Quick Slash.png" id="6_Quick Slash" data-flag="@X" onclick="openSidebar('6_Quick Slash',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\27_Traveling Aspirants.png" id="27_Traveling Aspirants" data-flag="@X" onclick="openSidebar('27_Traveling Aspirants',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\7_Self-Experimentalist.png" id="ASC Demo_7_Self-Experimentalist" data-flag="@X" onclick="openSidebar('ASC Demo_7_Self-Experimentalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\8_Calm.png" id="ASC Demo_8_Calm" data-flag="@X" onclick="openSidebar('ASC Demo_8_Calm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\13_A Dark Whisper.png" id="ASC Demo_13_A Dark Whisper" data-flag="@X" onclick="openSidebar('ASC Demo_13_A Dark Whisper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\18_Celebration.png" id="ASC Demo_18_Celebration" data-flag="@X" onclick="openSidebar('ASC Demo_18_Celebration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\28_Verdant Repose.png" id="ASC Demo_28_Verdant Repose" data-flag="@X" onclick="openSidebar('ASC Demo_28_Verdant Repose',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\2_Deconstitute.png" id="ASC Demo_2_Deconstitute" data-flag="@X" onclick="openSidebar('ASC Demo_2_Deconstitute',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\9_Flight of Fancy.png" id="ASC Demo_9_Flight of Fancy" data-flag="@X" onclick="openSidebar('ASC Demo_9_Flight of Fancy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\14_Fateful Encounter.png" id="ASC Demo_14_Fateful Encounter" data-flag="@X" onclick="openSidebar('ASC Demo_14_Fateful Encounter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\19_Combat Apprentice.png" id="ASC Demo_19_Combat Apprentice" data-flag="@X" onclick="openSidebar('ASC Demo_19_Combat Apprentice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\23_Greatsword Student.png" id="ASC Demo_23_Greatsword Student" data-flag="@X" onclick="openSidebar('ASC Demo_23_Greatsword Student',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\3_Deep-Focus Automaton.png" id="ASC Demo_3_Deep-Focus Automaton" data-flag="@X" onclick="openSidebar('ASC Demo_3_Deep-Focus Automaton',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\10_Rooftop Runners.png" id="ASC Demo_10_Rooftop Runners" data-flag="@X" onclick="openSidebar('ASC Demo_10_Rooftop Runners',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\15_Junkyard Emergent.png" id="ASC Demo_15_Junkyard Emergent" data-flag="@X" onclick="openSidebar('ASC Demo_15_Junkyard Emergent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\20_Patchwork Collector.png" id="ASC Demo_20_Patchwork Collector" data-flag="@X" onclick="openSidebar('ASC Demo_20_Patchwork Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\24_Internal Weaponcraft.png" id="ASC Demo_24_Internal Weaponcraft" data-flag="@X" onclick="openSidebar('ASC Demo_24_Internal Weaponcraft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\4_Leadership.png" id="ASC Demo_4_Leadership" data-flag="@X" onclick="openSidebar('ASC Demo_4_Leadership',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\11_Soaring Gearheads.png" id="ASC Demo_11_Soaring Gearheads" data-flag="@X" onclick="openSidebar('ASC Demo_11_Soaring Gearheads',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\16_Model Weapon.png" id="ASC Demo_16_Model Weapon" data-flag="@X" onclick="openSidebar('ASC Demo_16_Model Weapon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\21_Roving Skaters.png" id="ASC Demo_21_Roving Skaters" data-flag="@X" onclick="openSidebar('ASC Demo_21_Roving Skaters',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\25_New Sights to See.png" id="ASC Demo_25_New Sights to See" data-flag="@X" onclick="openSidebar('ASC Demo_25_New Sights to See',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\5_Mana-Thrust Skater.png" id="ASC Demo_5_Mana-Thrust Skater" data-flag="@X" onclick="openSidebar('ASC Demo_5_Mana-Thrust Skater',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\12_Tune In.png" id="ASC Demo_12_Tune In" data-flag="@X" onclick="openSidebar('ASC Demo_12_Tune In',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\17_Rearm.png" id="ASC Demo_17_Rearm" data-flag="@X" onclick="openSidebar('ASC Demo_17_Rearm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\22_Weapon Surge.png" id="ASC Demo_22_Weapon Surge" data-flag="@X" onclick="openSidebar('ASC Demo_22_Weapon Surge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\26_Outpace.png" id="ASC Demo_26_Outpace" data-flag="@X" onclick="openSidebar('ASC Demo_26_Outpace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\6_Quick Slash.png" id="ASC Demo_6_Quick Slash" data-flag="@X" onclick="openSidebar('ASC Demo_6_Quick Slash',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\27_Traveling Aspirants.png" id="ASC Demo_27_Traveling Aspirants" data-flag="@X" onclick="openSidebar('ASC Demo_27_Traveling Aspirants',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\39_Soaring Masterwork.png" id="39_Soaring Masterwork" data-flag="@X" onclick="openSidebar('39_Soaring Masterwork',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\36_Introspection.png" id="36_Introspection" data-flag="@X" onclick="openSidebar('36_Introspection',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\31_Ambition.png" id="31_Ambition" data-flag="@X" onclick="openSidebar('31_Ambition',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\41_Town Trasher.png" id="41_Town Trasher" data-flag="@X" onclick="openSidebar('41_Town Trasher',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\43_Wanderlust.png" id="43_Wanderlust" data-flag="@X" onclick="openSidebar('43_Wanderlust',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\40_Spellwork Enthusiast.png" id="40_Spellwork Enthusiast" data-flag="@X" onclick="openSidebar('40_Spellwork Enthusiast',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\34_Free-Wheeling Musician.png" id="34_Free-Wheeling Musician" data-flag="@X" onclick="openSidebar('34_Free-Wheeling Musician',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\37_Local Hero.png" id="37_Local Hero" data-flag="@X" onclick="openSidebar('37_Local Hero',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\29_Ambient Shellcrafter.png" id="29_Ambient Shellcrafter" data-flag="@X" onclick="openSidebar('29_Ambient Shellcrafter',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\42_Vivid Pyrokinetic.png" id="42_Vivid Pyrokinetic" data-flag="@X" onclick="openSidebar('42_Vivid Pyrokinetic',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\30_Ambient Summoner.png" id="30_Ambient Summoner" data-flag="@X" onclick="openSidebar('30_Ambient Summoner',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\32_Crafty Combatant.png" id="32_Crafty Combatant" data-flag="@X" onclick="openSidebar('32_Crafty Combatant',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\33_Creation.png" id="33_Creation" data-flag="@X" onclick="openSidebar('33_Creation',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\0_Love.png" id="0_Love" data-flag="@X" onclick="openSidebar('0_Love',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\35_Genius Attuner.png" id="35_Genius Attuner" data-flag="@X" onclick="openSidebar('35_Genius Attuner',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\39_Soaring Masterwork.png" id="ASC Demo_39_Soaring Masterwork" data-flag="@X" onclick="openSidebar('ASC Demo_39_Soaring Masterwork',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\36_Introspection.png" id="ASC Demo_36_Introspection" data-flag="@X" onclick="openSidebar('ASC Demo_36_Introspection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\31_Ambition.png" id="ASC Demo_31_Ambition" data-flag="@X" onclick="openSidebar('ASC Demo_31_Ambition',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\41_Town Trasher.png" id="ASC Demo_41_Town Trasher" data-flag="@X" onclick="openSidebar('ASC Demo_41_Town Trasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\43_Wanderlust.png" id="ASC Demo_43_Wanderlust" data-flag="@X" onclick="openSidebar('ASC Demo_43_Wanderlust',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\40_Spellwork Enthusiast.png" id="ASC Demo_40_Spellwork Enthusiast" data-flag="@X" onclick="openSidebar('ASC Demo_40_Spellwork Enthusiast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\34_Free-Wheeling Musician.png" id="ASC Demo_34_Free-Wheeling Musician" data-flag="@X" onclick="openSidebar('ASC Demo_34_Free-Wheeling Musician',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\37_Local Hero.png" id="ASC Demo_37_Local Hero" data-flag="@X" onclick="openSidebar('ASC Demo_37_Local Hero',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\29_Ambient Shellcrafter.png" id="ASC Demo_29_Ambient Shellcrafter" data-flag="@X" onclick="openSidebar('ASC Demo_29_Ambient Shellcrafter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\42_Vivid Pyrokinetic.png" id="ASC Demo_42_Vivid Pyrokinetic" data-flag="@X" onclick="openSidebar('ASC Demo_42_Vivid Pyrokinetic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\30_Ambient Summoner.png" id="ASC Demo_30_Ambient Summoner" data-flag="@X" onclick="openSidebar('ASC Demo_30_Ambient Summoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\32_Crafty Combatant.png" id="ASC Demo_32_Crafty Combatant" data-flag="@X" onclick="openSidebar('ASC Demo_32_Crafty Combatant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\33_Creation.png" id="ASC Demo_33_Creation" data-flag="@X" onclick="openSidebar('ASC Demo_33_Creation',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\0_Love.png" id="ASC Demo_0_Love" data-flag="@X" onclick="openSidebar('ASC Demo_0_Love',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\35_Genius Attuner.png" id="ASC Demo_35_Genius Attuner" data-flag="@X" onclick="openSidebar('ASC Demo_35_Genius Attuner',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\1_Potential.png" id="1_Potential" data-flag="@X" onclick="openSidebar('1_Potential',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\44_Infused Heirloom.png" id="44_Infused Heirloom" data-flag="@X" onclick="openSidebar('44_Infused Heirloom',false)"></div>
-				<div class="container"><img alt="/sets\ASC Demo-files\img\45_Personal Headphones.png" id="45_Personal Headphones" data-flag="@X" onclick="openSidebar('45_Personal Headphones',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\1_Potential.png" id="ASC Demo_1_Potential" data-flag="@X" onclick="openSidebar('ASC Demo_1_Potential',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\44_Infused Heirloom.png" id="ASC Demo_44_Infused Heirloom" data-flag="@X" onclick="openSidebar('ASC Demo_44_Infused Heirloom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASC Demo-files\img\45_Personal Headphones.png" id="ASC Demo_45_Personal Headphones" data-flag="@X" onclick="openSidebar('ASC Demo_45_Personal Headphones',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASC Demo_e" data-flag="@E" onclick="openSidebar('ASC Demo_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASC Demo_er" data-flag="@E" onclick="openSidebar('ASC Demo_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -304,19 +331,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -351,13 +470,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -383,27 +505,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -415,17 +561,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -458,6 +606,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -467,6 +616,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -483,16 +633,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -502,7 +652,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

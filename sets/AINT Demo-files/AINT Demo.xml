@@ -1,0 +1,803 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>AINT Demo</name>
+			<longname>Ain&apos;t Got The Love Demo</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-05-30</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Wonder at the Skies</name>
+			<text>When Wonder at the Skies enters, create a 1/1 white Soldier creature token.
+{2}{W}, Sacrifice Wonder at the Skies: Create a 1/1 blue Bird creature token with flying. Draw a card. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/6_Wonder at the Skies.png" num="6">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Long-Lost Weapon</name>
+			<text>When Long-Lost Weapon enters, create two 1/1 white Human creature tokens.
+Equipped creature gets +2/+1.
+Equip {3}</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/3_Long-Lost Weapon.png" num="3">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Meet Again</name>
+			<text>(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)
+When Meet Again enters or is defeated, return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/4_Meet Again.png" num="4">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Challenge</type>
+				<maintype>Battle</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>6</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shining Bravery</name>
+			<text>Instrumental {2}{W} (You may cast this as a noncreature enchantment with &quot;At the beginning of combat on your turn, target creature you control gains the following abilities until end of turn.&quot;)
+During your turn, Shining Bravery has first strike.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/5_Shining Bravery.png" num="5">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prototype Aerobot</name>
+			<text>Flying
+Rebuild 1 {3}{U} ({3}{U}: Return this card from your graveyard to the battlefield with a finality counter and a +1/+1 counter on it. Rebuild as a sorcery.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/12_Prototype Aerobot.png" num="12">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Look Within the Self</name>
+			<text>(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)
+When Look Within the Self enters or is defeated, mill two cards, then put a card from among the milled cards into your hand.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/9_Look Within the Self.png" num="9">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Challenge</type>
+				<maintype>Battle</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>6</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Part for the Night</name>
+			<text>This spell costs {1} less to cast if it targets a noncreature permanent.
+Target nonland permanent&apos;s owner puts it on their choice of the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/11_Part for the Night.png" num="11">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Freedom of Movement</name>
+			<text>Instrumental {2}{U} (You may cast this as a noncreature enchantment with &quot;At the beginning of combat on your turn, target creature you control gains the following abilities until end of turn.&quot;)
+Flying</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/8_Freedom of Movement.png" num="8">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Strategic Halt</name>
+			<text>Counter target spell unless its controller pays {2}. If they do, draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/13_Strategic Halt.png" num="13">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Possessed Ravager</name>
+			<text>As an additional cost to cast this spell, pay {3} or claim a vessel. (To claim a vessel, sacrifice a creature. If you already sacrificed one this turn, the effect is free.)
+Whenever Possessed Ravager attacks, each opponent loses 2 life and you gain 2 life.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/16_Possessed Ravager.png" num="16">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Demon Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lurking Danger</name>
+			<text>Instrumental {3}{B} (You may cast this as a noncreature enchantment with &quot;At the beginning of combat on your turn, target creature you control gains the following abilities until end of turn.&quot;)
+Menace</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/15_Lurking Danger.png" num="15">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charged Runaway</name>
+			<text>{T}: Add {R}.
+{4}{R}, {T}, Discard a card: Draw a card.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/21_Charged Runaway.png" num="21">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Smooth Rider</name>
+			<text>Haste
+Rebuild 1 {3}{R}{R} ({3}{R}{R}: Return this card from your graveyard to the battlefield with a finality counter and a +1/+1 counter on it. Rebuild as a sorcery.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/24_Smooth Rider.png" num="24">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Into the Action</name>
+			<text>(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)
+When Into the Action enters or is defeated, exile the top two cards of your library. You may play them until the end of your next turn.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/23_Into the Action.png" num="23">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Challenge</type>
+				<maintype>Battle</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>6</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unyielding Will</name>
+			<text>Instrumental {1}{R} (You may cast this as a noncreature enchantment with &quot;At the beginning of combat on your turn, target creature you control gains the following abilities until end of turn.&quot;)
+Trample</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/25_Unyielding Will.png" num="25">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reclaim and Reuse</name>
+			<text>When Reclaim and Reuse enters, mill three cards, then put up to one permanent card from among the milled cards into your hand.
+{3}{G}, Sacrifice Reclaim and Reuse: Return target nonenchantment permanent card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/29_Reclaim and Reuse.png" num="29">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reliable Hauler</name>
+			<text>Trample
+Rebuild 2 {4}{G}{G} ({4}{G}{G}: Return this card from your graveyard to the battlefield with a finality counter and two +1/+1 counters on it. Rebuild as a sorcery.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/30_Reliable Hauler.png" num="30">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Push It To The Limit</name>
+			<text>(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)
+When Push It To The Limit enters or is defeated, put two +1/+1 counters on target creature you control.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/28_Push It To The Limit.png" num="28">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Challenge</type>
+				<maintype>Battle</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>6</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Imposing Appearance</name>
+			<text>Instrumental {2}{G} (You may cast this as a noncreature enchantment with &quot;At the beginning of combat on your turn, target creature you control gains the following abilities until end of turn.&quot;)
+This creature can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/27_Imposing Appearance.png" num="27">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slapdash Surveyor</name>
+			<text>When Slapdash Surveyor enters, search your library for a basic land card, reveal it, shuffle, then put that card on top.
+Slapdash Surveyor can&apos;t block.
+Rebuild 1 {5} ({5}: Return this card from your graveyard to the battlefield with a finality counter and a +1/+1 counter on it. Rebuild as a sorcery.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/45_Slapdash Surveyor.png" num="45">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Excavated Titan</name>
+			<text>{2}, {T}: Exile target card from a graveyard. If it was a creature card, you gain 1 life.
+{7}, {T}, Sacrifice Excavated Titan: Excavated Titan deals 10 damage to target creature, planeswalker, or battle.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/42_Excavated Titan.png" num="42">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hyper-Tuned Headgear</name>
+			<text>Equipped creature gets +2/+0 and &quot;Whenever this creature attacks, surveil 1.&quot; (To surveil 1, look at the top card of your library. You may put it into your graveyard.)
+Equip {2}</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/43_Hyper-Tuned Headgear.png" num="43">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Emi&apos;s Protege</name>
+			<text>Flying
+Whenever Emi&apos;s Protege enters or attacks, you may claim a vessel. If you do, put a +1/+1 counter on Emi&apos;s Protege. (To claim a vessel, sacrifice a creature. If you already sacrificed one this turn, the effect is free.)</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/37_Emi&apos;s Protege.png" num="37">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Demon Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Battle-Worn Kineticist</name>
+			<text>Noncreature spells you cast cost {1} less.
+Each battle an opponent protects enters with one less defense counter on it.
+Whenever you cast a noncreature spell, Battle-Worn Kineticist deals 1 damage to each opponent and to each battle they protect.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/34_Battle-Worn Kineticist.png" num="34">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Old-Model Veteran</name>
+			<text>Vigilance, menace
+Rebuild 3—{6}{B}{G} ({6}{B}{G}: Return this card from your graveyard to the battlefield with a finality counter and three +1/+1 counters on it. Rebuild as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/38_Old-Model Veteran.png" num="38">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Squadron Leader</name>
+			<text>During your turn, Squadron Leader has first strike.
+Whenever you attack with three or more creatures, those creatures get +1/+0 and gain menace until end of turn. (This creature can&apos;t be blocked except by two or more creatures.)</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/40_Squadron Leader.png" num="40">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dark-Stained Student</name>
+			<text>Whenever you attack, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{1}, {T}: Draw a card. Then discard a card unless there are four or more card types among cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/35_Dark-Stained Student.png" num="35">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ceta, Self-Reassembler</name>
+			<text>Ceta gets +1/+1 for each artifact you control.
+Whenever another artifact you control enters, target creature you control gains flying until end of turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/7_Ceta, Self-Reassembler.png" num="7">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avis, Rising Fledgling</name>
+			<text>Whenever you attack, put a +1/+1 counter on target creature if you control three or more creatures. Then if that creature has power 5 or greater, it gains first strike and trample until end of turn. (It can gain the keywords even if you have two or less creatures.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/33_Avis, Rising Fledgling.png" num="33">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ray, the Socialite</name>
+			<text>Whenever another creature you control enters, it deals 1 damage to each opponent.
+Whenever you attack, you may discard a card. If you do, draw a card. Then if the discarded card was a creature card, you may cast it from your graveyard this turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/39_Ray, the Socialite.png" num="39">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tobi, Roaming Shadow</name>
+			<text>Whenever Tobi enters or attacks, target creature can&apos;t be blocked by creatures with power 3 or greater until end of turn.
+Whenever Tobi deals combat damage to a player, draw a card. Then discard a card unless you pay 2 life.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/41_Tobi, Roaming Shadow.png" num="41">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scrapyard Shieldbearer</name>
+			<text>Whenever Scrapyard Shieldbearer enters or attacks, another target creature you control gets +X/+X until end of turn, where X is Scrapyard Shieldbearer&apos;s power.
+Rebuild 2—{5}{G}{G} ({5}{G}{G}: Return this card from your graveyard to the battlefield with a finality counter and two +1/+1 counters on it. Rebuild as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/31_Scrapyard Shieldbearer.png" num="31">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Programmed Super-Fighter</name>
+			<text>When Programmed Super-Fighter enters, search your library for a battle card, reveal it, put it into your hand, then shuffle.
+Programmed Super-Fighter can&apos;t attack players unless it has a counter on it.
+Whenever a battle an opponent protects is defeated, put a +1/+1 counter on Programmed Super-Fighter.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/44_Programmed Super-Fighter.png" num="44">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Armament Fascination</name>
+			<text>Instrumental {3}{R} (You may cast this as a noncreature enchantment with &quot;At the beginning of combat on your turn, target creature you control gains the following abilities until end of turn.&quot;)
+Double strike</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/20_Armament Fascination.png" num="20">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dreamcraft</name>
+			<text>Delirium — Whenever you attack, target creature gets +1/+1 until end of turn. Untap it. If there are four or more card types among permanents you control, instead put a +1/+1 counter on that creature and untap it.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/2_Dreamcraft.png" num="2">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Master One&apos;s Magic</name>
+			<text>(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)
+When Master One&apos;s Magic enters or is defeated, return target noncreature, nonland card from your graveyard to your hand.
+When Master One&apos;s Magic is defeated, exile it.</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/10_Master One&apos;s Magic.png" num="10">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Challenge</type>
+				<maintype>Battle</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unchecked Aggression</name>
+			<text>Instrumental {3}{B} (You may cast this as a noncreature enchantment with &quot;At the beginning of combat on your turn, target creature you control gains the following abilities until end of turn.&quot;)
+Deathtouch</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/18_Unchecked Aggression.png" num="18">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Incarnation</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Duelist&apos;s Augments</name>
+			<text>When Duelist&apos;s Augments enters, attach it to up to one target creature you control. If you do, that creature fights target creature you don&apos;t control. (Each deals damage equal to its power to the other.)
+Equipped creature gets +1/+2 and has reach.
+Equip {3}</text>
+			<set rarity="uncommon" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/26_Duelist&apos;s Augments.png" num="26">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Break Apart</name>
+			<text>Destroy target artifact, enchantment, or tapped creature.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/1_Break Apart.png" num="1">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Floriosis</name>
+			<text>Target creature gets -3/-3 until end of turn.
+Delirium — That creature gets -6/-6 until end of turn instead if there are four or more card types among cards in your graveyard.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/14_Floriosis.png" num="14">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aimed Fireburst</name>
+			<text>Aimed Fireburst deals 6 damage to target player, planeswalker, or battle.
+{1}{R}, Discard Aimed Fireburst and another card: Draw two cards.</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/19_Aimed Fireburst.png" num="19">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shattered Wings</name>
+			<text>Destroy target artifact, enchantment, or creature with flying. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/32_Shattered Wings.png" num="32">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Emi, Tainted Outsider</name>
+			<text>At the beginning of combat on your turn, if a card left your graveyard this turn, put a +1/+1 counter on Emi.
+{3}{W}{B}, Sacrifice a creature with power 5 or greater: Create Clara&apos;s Demon, a legendary 5/5 white and black Demon creature token with flying.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/36_Emi, Tainted Outsider.png" num="36">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>In Ambition&apos;s Audience</name>
+			<text>(As a Challenge enters, choose an opponent to protect it. You and others can attack it. Whenever you attack, remove a defense counter from this Challenge at end of combat.)
+When In Ambition&apos;s Audience enters or is defeated, target opponent may pay 5 life. If they don&apos;t, draw three cards.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/22_In Ambition&apos;s Audience.png" num="22">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Battle — Challenge</type>
+				<maintype>Battle</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<loyalty>6</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Supercharged Hooligan</name>
+			<text>When Supercharged Hooligan enters, you draw a card and lose 1 life.
+Rebuild 1 {4}{B}{B} ({4}{B}{B}: Return this card from your graveyard to the battlefield with a finality counter and a +1/+1 counter on it. Rebuild as a sorcery.)</text>
+			<set rarity="common" picurl="https://magpyfeather.github.io/sets/AINT Demo-files/img/17_Supercharged Hooligan.png" num="17">AINT Demo</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

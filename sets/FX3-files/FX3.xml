@@ -1,0 +1,3294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>FX3</name>
+			<longname>Featherfall Crossover Cube</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-05-30</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>The Veldt</name>
+			<text>(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)
+I — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+II — Create a 2/1 white Cat creature token.
+III — Put a +1/+1 counter and a trample counter on target creature.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/0.png" num="105">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Basilisk Vandal</name>
+			<text>Menace
+Boast — {2}{B}: Create a black enchantment token named NAME1 with &quot;At the beginning of each player&apos;s upkeep, that player loses 1 life.&quot; (Activate only if this creature attacked this turn and only once each turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/1.png" num="43">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artist Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kriemhild Gretchen</name>
+			<text>Pyre (Each creature you tap while casting this spell pays for {1}. Each other creature you sacrifice pays for {2} instead.)
+Flying, vigilance
+At the beginning of combat on your turn, create a 0/0 black Nightmare creature token with haste, then put a +1/+1 counter on each creature you control other than Kriemhild Gretchen.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/2.png" num="138">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>8W/BW/B</manacost>
+				<cmc>10</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Beheaded</name>
+			<text>Artifact spells you cast cost {1} less to cast.
+Whenever you cast an artifact spell, The Beheaded gains double strike until end of turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/3.png" num="66">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ooze Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Larry Da Vinci</name>
+			<text>Whenever you cast a spell, put a +1/+1 counter on each creature you control with X or less power or toughness, where X is the amount of mana you spent on that spell.
+Whenever you cast a noncreature spell, create a 1/1 Construct creature token.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/4.png" num="139">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Toy Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/UW/U</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spheromancer Apollo</name>
+			<text>Noncreature spells your opponents cast cost {1} more.
+Noncreature spells you cast that don&apos;t target creatures cost {1} more.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/5.png" num="18">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Avatar Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>GR-18 Delivery Robot</name>
+			<text>When GR-18 Delivery Robot enters, search your library for a card with a basic land type, put it onto the battlefield tapped, then shuffle.
+Whenever GR-18 Delivery Robot attacks, draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/6.png" num="151">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Robot Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Squid, Mapmaker AI</name>
+			<text>Whenever a creature attacks you, its controller may put a -1/-1 counter on it. If they don&apos;t, they lose 1 life.
+Exhaust — {4}{B}{B}: If this isn&apos;t a token, create a token that&apos;s a copy of this, except it&apos;s an artifact named Squid&apos;s Level. (It&apos;s not a creature. Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/7.png" num="62">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shining Kuneko</name>
+			<text>Prototype {3} — 3/3 (You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)
+Shining Kuneko has vigilance if you control a white permanent. The same is true for blue and flying, black and menace, red and haste, and green and trample.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/8.png" num="129">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Cat Angel Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>WUBRG</manacost>
+				<cmc>5</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grandma</name>
+			<text>Increment (Whenever you cast a spell, if the amount of mana you spent is greater than this creature&apos;s power or toughness, put a +1/+1 counter on this creature.)
+Feast — As long as you&apos;ve gained life or created a token this turn, creatures you control have trample.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/9.png" num="94">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elder Human</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Himeko Kurusugawa</name>
+			<text>Artifact spells you cast cost {1} less to cast.
+Whenever one or more Vehicles you control attack, put a +1/+1 counter on one of them and untap Himeko.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/10.png" num="7">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Tatami Galaxy</name>
+			<text>Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)
+I, II — Draw two cards, then discard a card. When you discard a nonland card this way, put a +1/+1 counter on target creature.
+III — Return target noncreature card from your graveyard to your hand.
+​</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/11.png" num="37">FX3</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Togo Shiba // Wicked Trick</name>
+			<text>Flash
+Flying
+You may cast spells as though they had flash.
+
+---
+
+You may cast spells as though they had flash this turn. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/12.png" num="40">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU // 1U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rikki, Star Luminous</name>
+			<text>Flash
+Whenever Rikki, Star Luminous enters or attacks, target permanent phases out. (Treat it and anything attached to it as though they don&apos;t exist until its controller&apos;s next turn.)
+Whenever Rikki, Star Luminous or another permanent phases in, put a +1/+1 counter on Rikki, Star Luminous.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/13.png" num="17">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Olruggio of the Torch</name>
+			<text>Ward—Pay 3 life. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3 life.)
+The first enchantment spell you cast during each of your turns costs {2} less to cast. The same is true for artifact, instant, and sorcery.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/14.png" num="124">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sayaka Kanamori</name>
+			<text>{T}: Add {U} or {B}. You can&apos;t spend this mana to cast a creature spell.
+Whenever you expend 4, draw a card. Then discard a card unless you pay 2 life. (You expend 4 as you spend your fourth total mana to cast spells during a turn.)
+Whenever you expend 8, draw two cards.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/15.png" num="127">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Acolyte</name>
+			<text>ABILITYWORD — As long as permanents you control have total mana value 5 or greater, The Acolyte has lifelink.
+Exhaust — {2W}{2W}{2W}: Put two +1/+1 counters on The Acolyte. You and target opponent each draw three cards. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/16.png" num="1">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Boneshaker</name>
+			<text>Menace
+Whenever a creature you control deals combat damage to an opponent, you draw a card and lose 1 life.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/17.png" num="44">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2/B2/B2/B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Crescent Rose</name>
+			<text>As Crescent Rose enters, choose Scythe or Sniper—
+• Scythe — Equipped creature gets +3/+1 and has trample and haste.
+• Sniper — Equipped creature gets +1/+3 and has &quot;Whenever you cast a noncreature spell, this creature deals 2 damage to each opponent.&quot;
+Equip {2}</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/18.png" num="71">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Paperclip</name>
+			<text>When Paperclip enters, draw a card.
+{1}, {T}: Add one mana of any color.
+{2}, {T}, Sacrifice a permanent not named Paperclip or discard a card: Create a token that&apos;s a copy of Paperclip.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/19.png" num="155">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Saffron // Reload</name>
+			<text>Saffron enters prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+At the beginning of your end step, Saffron deals X damage to any target, where X is the number of noncreature spells you&apos;ve cast this turn.
+
+---
+
+Discard your hand, then draw three cards.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/20.png" num="84">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR // 2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shiny Chariot</name>
+			<text>Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature&apos;s color.)
+Flying, vigilance
+The first noncreature spell you cast each turn has convoke.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/21.png" num="130">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2/U2/R2/W</manacost>
+				<cmc>6</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Pod</name>
+			<text>Flying
+If you would draw one or more cards, instead draw that many cards plus one, then discard a card.
+Crew 2</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/22.png" num="32">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2/U2/U2/U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Silver Key</name>
+			<text>The Silver Key enters tapped.
+{T}: Add {U}.
+Exhaust — {2U}{2U}{2U}{2U}, {T}: The Silver Key gains &quot;You may look at the top card of your library at any time.&quot; and &quot;You may play lands and cast spells from the top of your library.&quot; (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/23.png" num="158">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Contraband Grimoire</name>
+			<text>Hideaway 5 (When this artifact enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.)
+{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast instant or sorcery spells.
+{2}, {T}: Put the exiled card into its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/24.png" num="147">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Book</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Multivac</name>
+			<text>Multivac enters with X charge counters on it.
+{T}: Add {C} for each charge counter on Multivac.
+Exhaust — {10}: Shuffle your hand and graveyard into your library, then draw seven cards. (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/25.png" num="153">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>XX</manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Raincleaver // Repelling Edge</name>
+			<text>Equipped creature gets +2/+1 and has &quot;Whenever this creature attacks, tap target creature defending player controls.&quot;
+Equip {3}
+
+---
+
+Tap target creature and put three stun counters on it. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/26.png" num="33">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Artifact — Equipment // Instant — Adventure</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U // 1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Yuki 7</name>
+			<text>Whenever Yuki 7 deals combat damage to a player, draw a card.
+Spells you cast cost {1} less to cast as long as it&apos;s not your main phase.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/27.png" num="42">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Don Quixote</name>
+			<text>Don Quixote attacks each turn if able.
+Whenever Don Quixote attacks, exile the top card of your library. You may play it until end of turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/28.png" num="72">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huck // find someone</name>
+			<text>You and creatures you control have ward {2}. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+
+---
+
+Search your library for a legendary card, reveal it, and put it into your hand. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/29.png" num="8">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Citizen // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW // 2W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Penny Polendina</name>
+			<text>Modified creatures you control have vigilance. (Equipment, Auras you control, and counters are modifications.)
+Whenever Penny Polendina enters or attacks, create a Weapon token. (It&apos;s an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/30.png" num="143">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2/G2/W2/U</manacost>
+				<cmc>6</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tarr</name>
+			<text>{T}, Pay 1 life: Add one mana of any color.
+Whenever you cast a multicolored spell, put a +1/+1 counter on Tarr. You draw a card and lose 1 life.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/31.png" num="63">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ooze</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Library of Babel</name>
+			<text>When Library of Babel enters, roll a d6. Note the result.
+{T}: Add {C}.
+{2}, {T}: If the number of cards in your hand is equal to the last number noted for Library of Babel, draw a card. Roll a d6. Note the result.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/32.png" num="172">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>World-Cutting Slash</name>
+			<text>Spree (Choose one or more additional costs.)
++{R} — World-Cutting Slash deals 3 damage to target creature.
++{R} — World-Cutting Slash deals 1 damage to each creature target player controls.
++{3}{R} — Target opponent loses half their life, rounded up.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/33.png" num="86">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Subaru Urita</name>
+			<text>If one or more tokens would be created under your control, those tokens plus a Weapon token are created instead. (A Weapon token is an artifact with &quot;Equipped creature gets +1/+1&quot; and has equip {2}.)
+Feast — At the beginning of your end step, if you&apos;ve gained life or created a token this turn, draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/34.png" num="132">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>the vaugarde adventure</name>
+			<text>Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)
+I, II — Look at the top four cards of your library. You may reveal a creature card with power 3 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order. 
+III — Put a +1/+1 counter on each of up to four target creatures.
+​</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/35.png" num="19">FX3</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Radiant Goddess&apos;s Shard</name>
+			<text>Radiant Goddess&apos;s Shard enters tapped.
+{T}: Add {W}.
+Exhaust — {2W}{2W}{2W}{2W}, {T}: Radiant Goddess&apos;s Shard gains &quot;At the beginning of your upkeep, you may exile target creature card with mana value 3 or less from your graveyard. If you do, create a token that&apos;s a copy of it.&quot; (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/36.png" num="156">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Datenseki</name>
+			<text>Datenseki enters tapped.
+{T}: Add {B}.
+Exhaust — {2B}{2B}{2B}{2B}, {T}: Datenseki gains &quot;At the beginning of your first main phase, mill two cards. For each of those cards, you may pay 3 life. If you do, put that card into your hand.&quot; (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/37.png" num="148">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vessel of High Magic</name>
+			<text>Vessel of High Magic enters tapped.
+{T}: Add {R}.
+Exhaust — {2R}{2R}{2R}{2R}, {T}: Vessel of High Magic gains &quot;Whenever you cast your first instant or sorcery spell each turn, you may pay {2}. If you do, copy it. You may choose new targets for the copy.&quot; (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/38.png" num="159">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Emerald Tablet</name>
+			<text>Emerald Tablet enters tapped.
+{T}: Add {G}.
+Exhaust — {2G}{2G}{2G}{2G}, {T}: Emerald Tablet gains &quot;{T}: Add {G}{G}{G}.&quot; (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/39.png" num="150">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Skul, the Hero Slayer</name>
+			<text>As long as Skul is equipped, he has menace.
+Whenever an artifact you control enters, you may return Skul from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/40.png" num="61">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Skeleton Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Naota, Awakened Vessel</name>
+			<text>Flying, haste
+{T}: Exile target artifact, instant, or sorcery card from your graveyard. Copy it. You may cast the copy. Its cost is reduced by {X}, where X is Naota&apos;s power. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/41.png" num="123">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Siffrin, Time Looper</name>
+			<text>Flash
+When Siffrin enters, return to your hand target card in your graveyard that was put there from anywhere this turn.
+Wander {3}{B}. Wander only outside of combat. (You may cast this from the battlefield for its wander cost.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/42.png" num="60">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lio Fotia, Firebrand</name>
+			<text>Menace
+Ward—Pay life equal to Lio&apos;s power.
+If a source you control would deal less than X damage to a permanent of player, where X is Lio&apos;s power, you may have it deal X damage instead.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/43.png" num="77">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elemental Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haruko Haruhara</name>
+			<text>Menace
+Whenever Haruko deals combat damage to a player, exile the top card of each player&apos;s library. You may cast any number of spells from among those cards without paying their mana costs.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/44.png" num="115">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Canti</name>
+			<text>When Canti enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.
+Power-up — {7}: Put a +1/+1 counter on Canti. When you do, destroy target permanent. (Activate each power-up ability only once. Reduce the cost by this creature&apos;s mana cost if it entered this turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/45.png" num="145">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Milo Larson, TITLE</name>
+			<text>Multitude {4}{U}{U} (You may cast this for {4}{U}{U}. When you do, copy it.)
+You may have Milo enter as a copy of a creature you control, except its name is Milo Larson, TITLE, and he&apos;s not legendary.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/46.png" num="30">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Carrier</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avalon Centrifuge</name>
+			<text>Artifact spells you cast cost {1} less to cast.
+When Avalon enters, if you cast him, create a token that&apos;s a copy of another target nonland permanent, except it&apos;s a 3/2 colorless Vehicle artifact token with crew 1.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/47.png" num="22">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Toy Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Enten&apos;s Charm</name>
+			<text>Choose one—
+• Target creature gains deathtouch and indestructible until end of turn.
+• You may choose new targets for target spell or ability.
+• Creatures you control gain trample and haste until end of turn. Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/48.png" num="113">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kuregumo&apos;s Charm</name>
+			<text>Choose one—
+• Tap target creature and put two stun counters on it.
+• Kuregumo&apos;s Charm deals 1 damage to target opponent and to each creature they control..
+• Discard your hand, then draw two cards.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/49.png" num="118">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tobimune&apos;s Charm</name>
+			<text>Choose one—
+• Return target creature card with mana value 3 or less from your graveyard to the battlefield. Put a flying counter on it.
+• Exile target creature. Return it to the battlefield at the beginning of the next end step. You may put a flying counter on it.
+• Surveil 2, then draw a card. You lose 1 life.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/50.png" num="133">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kumeyuri&apos;s Charm</name>
+			<text>Choose one—
+• Counter target spell unless its controller pays {2} and 2 life.
+• Target artifact becomes a 4/3 Performer artifact creature until end of turn.
+• Sacrifice a permanent. If you do, draw two cards.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/51.png" num="117">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Magatsumi&apos;s Charm</name>
+			<text>Choose one—
+• Each opponent sacrifices a creature.
+• Destroy target enchantment.
+• Each opponent loses 3 life and you gain 3 life.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/52.png" num="120">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shooting Star</name>
+			<text>When Shooting Star enters, it becomes an artifact creature until end of turn.
+Trample, haste
+{4}{R}{R}, Tap an untapped Wizard you control: Put a flying counter on Shooting Star. It becomes an artifact creature (indefinitely).</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/53.png" num="85">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2/R2/R2/R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Winnie, Star Shimmer</name>
+			<text>Whenever you cast a noncreature spell, put a +1/+1 counter on Winnie. When you do, tap up to one target creature.
+Discard a card: Until end of turn. Winnie becomes a land and gains &quot;{T}: Add {U}.&quot; (She&apos;s not a creature this turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/54.png" num="41">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>the noita or mina from noita</name>
+			<text>When the noita or mina from noita enters, return target instant or sorcery card from your graveyard to your hand.
+Whenever you cast an instant or sorcery spell from your hand, you may cast target instant or sorcery card from your graveyard. If that spell would be put into your graveyard, exile it instead. (You still pay its costs.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/55.png" num="38">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Medical Mechanica Building</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice Medical Mechanica Building: Destroy target nonbasic land. Each player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/56.png" num="174">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Medical Mechanica Agenda</name>
+			<text>Escalate {2} (Pay this cost for each mode chosen beyond the first.)
+• Exile target artifact.
+• Exile target enchantment.
+• Exile target tapped creature. Its controller creates a 1/1 white Human creature token.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/57.png" num="12">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Package</name>
+			<text>Equipped creature gets +1/+1 and has &quot;Discard a card: This creature gains menace and haste until end of turn&quot; and &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;
+Equip {1}</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/58.png" num="154">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sackboy</name>
+			<text>When Sackboy enters, scry 2.
+Exhaust — {4}: Each player may put a permanent card from their hand onto the battlefield. Activate only as a sorcery. (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/59.png" num="35">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Toy</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gert, TITLE</name>
+			<text>Riot (This creature enters with your choice of a +1/+1 counter or haste.)
+When Gert enters, you may pay {G}. If you do, destroy target artifact or enchantment.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/60.png" num="137">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Berserker</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/G</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Radiant Titan</name>
+			<text>Vigilance
+When Radiant Titan enters or attacks, put a +1/+1 counter on each other creature you control.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/61.png" num="16">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ilvernath, Ritual Nexus</name>
+			<text>({T}: Add {B} or {R}.)
+Mana abilities of Ilvernath cost an additional 1 life to activate.
+{1}, {T}, Sacrifice Ilvernath: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/62.png" num="171">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tower of Tomes</name>
+			<text>({T}: Add {U} or {R}.)
+As Tower of Tomes enters, you may behold an Island or a Mountain. If you don&apos;t, Tower of Tomes enters tapped. (To behold an Island or a Mountain, choose an Island or a Mountain you control or reveal an Island or a Mountain card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/63.png" num="177">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Chai, TITLE</name>
+			<text>Whenever you amp it up, put a +1/+1 counter on Chai. He gains first strike until end of turn. (You amp it up by casting your second spell each turn and/or by attacking with three or more creatures.)
+At the beginning of your second main phase, if you&apos;ve amped it up twice this turn, untap each creature you control. After this phase, there is an additional combat phase.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/64.png" num="69">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human TYPE?</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ame no Murakumo</name>
+			<text>Vigilance, reach
+Other creatures you control get +1/+1.
+Crew 7 (Tap any number of creatures you control with total power 7 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/65.png" num="3">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2/W2/W2/W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>9/9</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Galo Thymos</name>
+			<text>Whenever Galo or another artifact you control enters, put a stun counter on target creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)
+Galo crews Vehicles as though his power was 2 greater.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/66.png" num="136">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>1W/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Old God // NAME</name>
+			<text>Flying, haste
+Whenever The Old God attacks, you may sacrifice another attacking creature. If you do, create a tapped and attacking 4/4 red Hand creature token with flying.
+
+---
+
+Create a 4/4 red Hand creature token with flying. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/67.png" num="80">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — God // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>6RR // 2RR</manacost>
+				<cmc>8</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Radiant Goddess // Purification</name>
+			<text>Affinity for creatures (This spell costs {1} less to cast for each creature you control.)
+Flying, double strike
+
+---
+
+Target creature you control gains indestructible until end of turn. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/68.png" num="15">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — God // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>5WWW // 1W</manacost>
+				<cmc>8</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zoe&apos;s Nova</name>
+			<text>Spree (Choose one or more additional costs.)
++{1} — Destroy target enchantment.
++{1}{G} — Put three +1/+1 counters on target creature.
++{1}{G} — Target creature gains hexproof until end of turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/69.png" num="108">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chase&apos;s Nova</name>
+			<text>Spree (Choose one or more additional costs.)
++{1} — Each opponent sacrifices a creature.
++{2}{B} — Each opponent discards two cards.
++{3}{B} — Each opponent loses 5 life and you gain 5 life.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/70.png" num="45">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Quillish, TITLE</name>
+			<text>When Quillish enters and whenever you cast a black spell, you draw a card and lose 1 life.
+When Quillish enters and whenever you cast a green spell, put a +1/+1 counter on target creature.
+When Quillish enters and whenever you cast a blue spell, target creature gains flying until end of turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/71.png" num="126">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2/B2/G2/U</manacost>
+				<cmc>6</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shiho // Activate Trap</name>
+			<text>Menace
+Whenever Shiho enters or attacks, he becomes prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Target player loses 3 life unless they discard a card or sacrifice a creature.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/72.png" num="59">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Assassin // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>2B // 1B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Terra // Tectonic Shift</name>
+			<text>Terra gets +1/+1 for each land you control.
+Whenever Terra enters or attacks, she becomes prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Return target land card from your graveyard to the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/73.png" num="104">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Druid // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG // 1G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Radiant One&apos;s Temple</name>
+			<text>({T}: Add {R} or {W}.)
+As The Radiant One&apos;s Temple enters, you may behold a Mountain or a Plains. If you don&apos;t, The Radiant One&apos;s Temple enters tapped. (To behold a Mountain or a Plains, choose a Mountain or a Plains you control or reveal a Mountain or a Plains card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/75.png" num="175">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Giha Village</name>
+			<text>({T}: Add {W} or {B}.)
+As Giha Village enters, you may behold a Plains or a Swamp. If you don&apos;t, Giha Village enters tapped. (To behold a Plains or a Swamp, choose a Plains or a Swamp you control or reveal a Plains or a Swamp card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/76.png" num="164">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Anima City</name>
+			<text>({T}: Add {G} or {W}.)
+As Anima City enters, you may behold a Forest or a Plains. If you don&apos;t, Anima City enters tapped. (To behold a Forest or a Plains, choose a Forest or a Plains you control or reveal a Forest or a Plains card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/77.png" num="161">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>The Roach&apos;s Armor</name>
+			<text>Enchant nontoken creature you control
+When enchanted creature dies, create a token that&apos;s a copy of it, except it has decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)
+Escape—{2}{B}, Exile two other cards from your graveyard (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/78.png" num="58">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Honnouji Academy</name>
+			<text>({T}: Add {R} or {G}.)
+As Honnouji Academy enters, you may behold a Mountain or a Forest. If you don&apos;t, Honnouji Academy enters tapped. (To behold a Mountain or a Forest, choose a Mountain or a Forest you control or reveal a Mountain or a Forest card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/79.png" num="170">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>The Time Machine Plan</name>
+			<text>Whenever you amp it up, put a plan counter on The Time Machine Plan. Draw a card, then discard a card. (You amp it up by casting your second spell each turn and/or by attacking with three or more creatures.)
+When the eighth plan counter is put on The Time Machine Plan, sacrifice it. When you do, take an extra turn after this one.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/80.png" num="39">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Plan</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Master Higuchi, Matchmaker // Meet at Izumo</name>
+			<text>Amity — Whenever you attack with exactly two creatures, put a +1/+1 counter on each of them.
+
+---
+
+Mill three cards. Then put a permanent card from among the milled cards into your hand. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/81.png" num="99">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — God // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>2G // 2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Betting on Natsuki</name>
+			<text>Whenever you attack, put a plan counter on Betting on Natsuki. When you do, put a +1/+1 counter on target creature.
+{1}{W}, Remove X plan counters from Betting on Natsuki and sacrifice it: Return any number of target creature cards with mana value X or less from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/82.png" num="5">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Plan</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hali, Guardian of the Sea</name>
+			<text>Spirited 
+{3}{G}{G}: Until end of turn, target artifact or land you control becomes a 5/5 creature with reach and haste in addition to its other types.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/83.png" num="95">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seitarou Higuchi, Tengu</name>
+			<text>Ward {2}
+Celebration — At the beginning of combat on your turn, if two or more nonland permanents entered the battlefield under your control this turn, target creature you control must be blocked this turn if able.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/84.png" num="101">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cheline, Sapphire Phoenix // Force Silence</name>
+			<text>Flying
+At the beginning of combat on your turn, put your choice of a flying counter or stun counter on up to one other target creature.
+
+---
+
+Counter target spell. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/85.png" num="24">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird God // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU // 1UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cheth, the Bonefish // Summon Soul</name>
+			<text>Each creature card in your graveyard has dredge 2. (If you would draw a card, you may mill two cards instead. If you do, return a creature card from your graveyard to your hand.)
+
+---
+
+Create a token that&apos;s a copy of target card in a graveyard. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/86.png" num="46">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fish God // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB // 4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phaedra Philemon</name>
+			<text>First strike
+Whenever Phaedra deals combat damage to a player, draw a card, then discard a card.
+Escape—{2}{W}{U}, Exile four other cards from your graveyard (You may cast this card from your graveyard for its escape cost.)
+Phaedra escapes with a flying counter on her.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/87.png" num="125">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Erasure Sigil</name>
+			<text>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. You lose 3 life unless you discard a card or sacrifice a creature.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/88.png" num="49">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Colossatron</name>
+			<text>Colossatron enters with X +1/+1 counters on it.
+When Colossatron dies, if it has one or more +1/+1 counters on it, discover X, where X is the number of +1/+1 counters on it. (Exile cards from the top of your library until you exile a nonland card with mana value X or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/89.png" num="146">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>X</manacost>
+				<cmc>0</cmc>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Selicy // Ice Step</name>
+			<text>Whenever you cast a noncreature spell from your hand, Selicy becomes prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+Target creature you control gets +1/+0 and can&apos;t be blocked this turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/90.png" num="36">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>1U // 1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Creatinator</name>
+			<text>When Creatinator enters, exile target instant or sorcery card from your graveyard with mana value 2 or less.
+Equipped creature gets +1/+1 and has &quot;Whenever this creature attacks, copy the exiled card. You may cast it.&quot; (You still pay its costs.)
+Equip {2}</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/91.png" num="25">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Macaron, TITLE // Wall Assist</name>
+			<text>Whenever a creature you control attacks, you may have its base power be equal to its base toughness until end of turn.
+Creatures you control can attack as though they didn&apos;t have defender.
+
+---
+
+Create a 0/3 Wall artifact creature token with defender. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/92.png" num="97">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG // 1G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Love Machine // Hack</name>
+			<text>Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+When Love Machine enters, each player may discard their hand and draw seven cards.
+
+---
+
+Destroy target artifact. If you controlled it, draw a card. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/93.png" num="78">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Construct // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>7RR // 1R</manacost>
+				<cmc>9</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Welcome to Oz</name>
+			<text>When Welcome to Oz enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{W}{U}{B}{R}{G}, Sacrifice Welcome to Oz: Draw two cards.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/94.png" num="107">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hour-Thief Ritual</name>
+			<text>At the beginning of your end step, create a Treasure token and draw a card. You lose 3 life. (It&apos;s an artifact with &quot;{T}, Sacrifice this token: Add one mana of any color.&quot;)
+Whenever a creature you control deals combat damage to an opponent, they lose 1 life and you gain 1 life.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/95.png" num="53">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Beastman Mutation</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Search your library for a creature card with mana value 1 greater than the sacrificed creature&apos;s, put it onto the battlefield, then shuffle.
+Flashback {2}{G}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/96.png" num="89">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Breaking Ilvernath&apos;s Spell</name>
+			<text>Whenever you discard a card, put a plan counter on Breaking Ilvernath&apos;s Spell. Each opponent loses 1 life.
+Remove seven plan counters from Breaking Ilvernath&apos;s Spell and sacrifice it: Exile the top seven cards of your library. You may play them until your next end step.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/97.png" num="67">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Plan</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rescue Gear</name>
+			<text>Flash
+Vigilance
+When Rescue Gear enters, counter target spell unless its controller pays {3}.
+Crew 2</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/98.png" num="34">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Zeus&apos;s Nova</name>
+			<text>Spree (Choose one or more additional costs.)
++{1} or tap an untapped creature you control — Tap target creature.
++{W} — Players can&apos;t cast noncreature spells this turn.
++{1}{W} — Exile target creature. Its controller gains life equal to its power.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/99.png" num="20">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Halea, High Priestess</name>
+			<text>ABILITYWORD — As long as permanents you control have total mana value 5 or greater, Halea has flying.
+Exhaust — {2U}{2U}{2U}: Put a +1/+1 counter on Halea. When you do, return target instant or sorcery card from your graveyard to your hand. (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/100.png" num="28">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zombie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Great Salabay Aquifer</name>
+			<text>({T}: Add {W} or {U}.)
+As The Great Salabay Aquifer enters, you may behold a Plains or an Island. If you don&apos;t, The Great Salabay Aquifer enters tapped. (To behold a Plains or an Island, choose a Plains or an Island you control or reveal a Plains or an Island card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/101.png" num="166">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Chikane Himemiya</name>
+			<text>ABILITYWORD — As long as permanents you control have total mana value 5 or greater, Chikane has menace.
+Exhaust — {2B}{2B}{2B}: Put two +1/+1 counters on Chikane. You may sacrifice a nonland permanent. If you do, draw two cards. (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/102.png" num="47">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gambol Shroud</name>
+			<text>As Gambol Shroud enters, choose Swords or Submachine—
+• Swords — Equipped creature gets +2/+1 and has menace.
+• Submachine — Equipped creature gets +1/+2 and has deathtouch.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/103.png" num="51">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Myrtenaster</name>
+			<text>As Myrtenaster enters, choose Rapier or Revolver —
+• Rapier — Equipped creature gets +1/+1 and has &quot;Whenever this creature attacks, if it isn&apos;t a token, create a 1/1 white Soldier creature token.&quot;
+• Revolver — Equipped creature gets +1/+1 and has vigilance.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/104.png" num="13">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Vaugarde, Spellbound Country</name>
+			<text>({T}: Add {U} or {B}.)
+Mana abilities of Vaugarde cost an additional 1 life to activate.
+{1}, {T}, Sacrifice Vaugarde: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/105.png" num="181">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>BGLAND1</name>
+			<text>({T}: Add {B} or {G}.)
+As BGLAND1 enters, you may behold a Swamp or a Forest. If you don&apos;t, BGLAND1 enters tapped. (To behold a Swamp or a Forest, choose a Swamp or a Forest you control or reveal a Swamp or a Forest card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/106.png" num="162">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>GULAND1</name>
+			<text>({T}: Add {G} or {U}.)
+As GULAND1 enters, you may behold a Forest or an Island. If you don&apos;t, GULAND1 enters tapped. (To behold a Forest or an Island, choose a Forest or an Island you control or reveal a Forest or an Island card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/107.png" num="167">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Cole McGrath</name>
+			<text>Whenever you cast a noncreature spell, Cole deals 2 damage to each opponent.
+{2}{W}: If Cole is a Scout, put a +1/+1 counter and a lifelink counter on him. He becomes a Human Mutant Hero.
+{2}{B}: If Cole is a Scout, put a +1/+1 counter and a menace counter on him. He becomes a Human Mutant Villain.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/108.png" num="70">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mutant Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rookery Bell</name>
+			<text>When Rookery Bell enters, search your library for a card with mana value 5 or greater, reveal it, put it into your hand, and shuffle.
+{T}: Add {C}{C}.
+Basic landcycling {1} ({1}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/109.png" num="157">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>God of Used Books // Book Festival</name>
+			<text>Menace
+God of Used Books&apos;s base power and toughness are each equal to the number of cards in your hand.
+
+---
+
+Draw three cards. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/110.png" num="27">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — God // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU // 3UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Glass Dial</name>
+			<text>{T}: Add one mana of any color. You lose 1 life unless you attacked this turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/111.png" num="165">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Madoka Kaname, Puella Dea // Broken Loop</name>
+			<text>Flying
+If a card would be put into a graveyard, instead exile it.
+
+---
+
+Exile target player&apos;s graveyard. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/112.png" num="10">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Warlock God // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW // 1W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forge the Enchanted Blade</name>
+			<text>As an additional cost to cast this spell, sacrifice an artifact.
+Search your library for an artifact card, put that card onto the battlefield, then shuffle. When you put an Equipment onto the battlefield this way, attach it to target creature you control.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/113.png" num="26">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Elevadeer // NAME</name>
+			<text>Vigilance, reach, trample, ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+
+---
+
+Destroy target creature with flying. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/114.png" num="93">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Horror Elk // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG // 2G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brushbug</name>
+			<text>{T}: Add {C}.
+{T}: Add one mana of any color. Spend this mana only to cast instant or sorcery spells.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/115.png" num="90">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Yung Venuz // Pop Pop</name>
+			<text>Double strike
+Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+
+---
+
+Pop Pop deals 2 damage divided among one or two targets. (Then exile this card. You may cast the creature later from exile.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/116.png" num="87">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — God Bard Rogue // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR // 1R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Midori Asakusa</name>
+			<text>ABILITYWORD — As long as permanents you control have total mana value 5 or greater, Asakusa has vigilance.
+Exhaust — {2G}{2G}{2G}: Put two +1/+1 counters on Asakusa. Search your library for a card for a land card, put it onto the battlefield tapped, then shuffle. (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/117.png" num="100">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spiral Power</name>
+			<text>Whenever you attack, put a charge counter on Spiral Power. When you do, put X +1/+1 counters on target creature or Vehicle you control, where X is the number of charge counters on Spiral Power.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/118.png" num="103">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Croix Meridies</name>
+			<text>Affinity for tapped creatures (This spell costs {1} less to cast for each tapped creature you control.)
+Flying, trample
+The first noncreature spell you cast each turn has affinity for tapped creatures.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/119.png" num="110">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2/U2/B2/R</manacost>
+				<cmc>6</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wagandea Allergy</name>
+			<text>Choose one—
+• Destroy target enchantment.
+• Destroy target creature with flying.
+• Put a deathtouch counter on target creature.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/120.png" num="106">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Maki Zen&apos;in</name>
+			<text>Trample, haste
+Whenever Maki becomes the target of a spell or ability an opponent controls, she deals damage equal to her power to any target.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/121.png" num="121">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2/B2/R2/G</manacost>
+				<cmc>6</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kyubey</name>
+			<text>When Kyubey enters, draw a card.
+Escape—{2}{U}, Exile two other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/122.png" num="29">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Alien</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>GWLAND2</name>
+			<text>({T}: Add {G} or {W}.)
+Mana abilities of GWLAND2 cost an additional 1 life to activate.
+{1}, {T}, Sacrifice GWLAND2: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/123.png" num="169">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>The Underground</name>
+			<text>({T}: Add {B} or {G}.)
+As The Underground enters, you may behold a Swamp or a Forest. If you don&apos;t, The Underground enters tapped. (To behold a Swamp or a Forest, choose a Swamp or a Forest you control or reveal a Swamp or a Forest card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/124.png" num="179">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mabase</name>
+			<text>({T}: Add {W} or {B}.)
+Mana abilities of Mabase cost an additional 1 life to activate.
+{1}, {T}, Sacrifice Mabase: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/125.png" num="173">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>GULAND2</name>
+			<text>({T}: Add {G} or {U}.)
+Mana abilities of GULAND2 cost an additional 1 life to activate.
+{1}, {T}, Sacrifice GULAND2: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/126.png" num="168">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>RGLAND2</name>
+			<text>({T}: Add {R} or {G}.)
+Mana abilities of RGLAND2 cost an additional 1 life to activate.
+{1}, {T}, Sacrifice RGLAND2: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/127.png" num="176">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>BRLAND2</name>
+			<text>({T}: Add {B} or {R}.)
+As BRLAND2 enters, you may behold a Swamp or a Mountain. If you don&apos;t, BRLAND2 enters tapped. (To behold a Swamp or a Mountain, choose a Swamp or a Mountain you control or reveal a Swamp or a Mountain card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/128.png" num="163">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>WULAND2</name>
+			<text>({T}: Add {W} or {U}.)
+Mana abilities of WULAND2 cost an additional 1 life to activate.
+{1}, {T}, Sacrifice WULAND2: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/129.png" num="182">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>The Ancient Creator&apos;s Paradise</name>
+			<text>({T}: Add {R} or {W}.)
+Mana abilities of The Ancient Creator&apos;s Paradise cost an additional 1 life to activate.
+{1}, {T}, Sacrifice The Ancient Creator&apos;s Paradise: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/130.png" num="160">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>URLAND2</name>
+			<text>({T}: Add {U} or {R}.)
+Mana abilities of URLAND2 cost an additional 1 life to activate.
+{1}, {T}, Sacrifice URLAND2: Draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/131.png" num="180">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>UBLAND2</name>
+			<text>({T}: Add {U} or {B}.)
+As UBLAND2 enters, you may behold an Island or a Swamp. If you don&apos;t, UBLAND2 enters tapped. (To behold an Island or a Swamp, choose an Island or a Swamp you control or reveal an Island or a Swamp card from your hand.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/132.png" num="178">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Vash the Stampede</name>
+			<text>Whenever Vash attacks, tap target creature defending player controls.
+Exhaust — {3}{RW}: Put two +1/+1 counters on Vash. (Activate each exhaust ability only once.)
+Exhaust — {5}{RW}: Put a double strike counter on Vash.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/133.png" num="142">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Plant Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Madoka&apos;s Wish</name>
+			<text>Destroy all creatures. You may reveal a creature card you own from outside the game and put it into your hand.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/134.png" num="11">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Michiru Kagemori</name>
+			<text>Improve {2G} ({2G}: Put a +1/+1 counter on this creature. This costs {1} more to activate for each +1/+1 counter on it. Improve only as a sorcery.)
+{2}{U}: Return Michiru to her owner&apos;s hand.
+{R}: Michiru gains trample and haste until end of turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/135.png" num="122">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Dog Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2/G2/U2/R</manacost>
+				<cmc>6</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kamina, Hero of Giha</name>
+			<text>ABILITYWORD — As long as permanents you control have total mana value 5 or greater, Kamina has trample.
+Exhaust — {2R}{2R}{2R}: Put two +1/+1 counters on Kamina. When you do, if it&apos;s your main phase, gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn. (Activate each exhaust ability only once.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/136.png" num="75">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evangeline Morgan</name>
+			<text>Ward—Discard a card
+Whenever Morgan attacks, until end of turn, you may play lands and cast noncreature spells not named Evangeline Morgan from your graveyard, and if a noncreature card would be put into your graveyard from anywhere this turn, exile it instead.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/137.png" num="114">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>AD_84</name>
+			<text>Reach
+Ward {2}
+No more than one creature can attack each combat.
+No more than one creature can block each combat.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/139.png" num="2">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pedro</name>
+			<text>Flying
+Encourage ({T}: Another target creature you control gets +1/+1 until end of turn. Encourage only as a sorcery.)
+Whenever Pedro encourages a creature, that creature gains your choice of menace or deathtouch until end of turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/140.png" num="57">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grief Seed</name>
+			<text>Pyre (Each creature you tap while casting this spell pays for {1}. Each other creature you sacrifice pays for {2} instead.)
+Grief Seed enters tapped.
+{T}: Add {C}{C}.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/141.png" num="152">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ori</name>
+			<text>Whenever you cast a noncreature spell, create a 1/1 white Spirit creature token. If it&apos;s an enchantment spell, put a flying counter on that token.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/142.png" num="14">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Knight Moralis</name>
+			<text>Flying, vigilance
+Opponents can&apos;t cast spells during your turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/143.png" num="9">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ember Celica</name>
+			<text>As Ember Celica enters, choose Gauntlets or Wrist-Mounted—
+• Gauntlets — Equipped creature has double strike.
+• Wrist-Mounted — Equipped creature gets +3/+2.
+Equip {2}</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/144.png" num="112">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Construction Robot</name>
+			<text>When The Construction Robot enters or attacks, surveil 2.
+You may play land cards from your graveyard.
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/145.png" num="92">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2/G2/G2/G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ophelia</name>
+			<text>Emerge {5}{R} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature&apos;s mana value.)
+Whenever a creature you control attacks, add {R} and exile the top card of your library. Until end of turn, you may play those cards, and you don&apos;t lose the mana added this way as steps and phases end.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/146.png" num="81">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nightmare Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charlotte</name>
+			<text>Emerge {4}{G} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature&apos;s mana value.)
+Charlotte emerges with two +1/+1 counters and a trample counter on it.
+{G}: Exile target card from a graveyard. If it&apos;s a nonland permanent, put a +1/+1 counter on Charlotte.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/147.png" num="91">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Candeloro</name>
+			<text>Emerge {3}{W} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature&apos;s mana value.)
+Whenever you attack, create a tapped and attacking 1/1 black Nightmare creature token.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/148.png" num="6">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Homulily</name>
+			<text>Emerge {4}{B} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature&apos;s mana value.)
+When Homulily enters, each player loses 3 life unless they discard a card or sacrifice a creature.
+You may cast Homulily from your graveyard for her emerge cost.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/149.png" num="52">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oktavia</name>
+			<text>Emerge {3}{U} (You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature&apos;s mana value.)
+When Oktavia enters, choose two other target creatures controlled by different players. You may return those creatures to their owners&apos; hands.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/150.png" num="31">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roxy, the Gunner</name>
+			<text>{T}: Add {R}{R}. You can&apos;t spend this mana to cast nonartifact permanent spells.
+Whenever another artifact or creature you control enters, Roxy deals 1 damage to each opponent.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/151.png" num="83">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burning Rescue</name>
+			<text>Spree (Choose one or more additional costs.)
++{1} — Target creature you control gains flying until end of turn.
++{1} — Create a 3/2 colorless Vehicle artifact token with crew 1.
++{1}{U} — Return target creature to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/152.png" num="23">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Confessions of a Rotten Girl</name>
+			<text>Whenever another creature you control you control enters, you gain 1 life.
+Pay 2 life, Tap two untapped creatures you control: Choose one. Activate only once during each of your turns.
+• Each opponent loses 2 life.
+• Surveil 1, then draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/153.png" num="109">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Diavolo&apos;s Punishment</name>
+			<text>Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)
+I — Return target creature card from your graveyard to the battlefield with a fate counter on it.
+II — Target creature you control gains menace until end of turn.
+III — Sacrifice each creature you control with a fate counter on it.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/154.png" num="48">FX3</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Laios Touden</name>
+			<text>Whenever Laios enters or attacks, he explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)
+Feast — As long as you&apos;ve gained life or created a token this turn, creatures you control can&apos;t be blocked by creatures with power 2 or less.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/155.png" num="119">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>22-Minute Supernova</name>
+			<text>Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)
+I, II — Exile the top card of your library. You may play cards exiled with 22-Minute Supernova this turn.
+III — Put each card exiled with 22-Minute Supernova into its owner&apos;s graveyard. 22-Minute Supernova deals 1 damage to each opponent for each card put into a graveyard this way.
+​</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/156.png" num="64">FX3</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Senshi, TITLE</name>
+			<text>When Senshi, TITLE enters, create a Food token. (It&apos;s an artifact with &quot;{2}, {T}, Sacrifice this token: You gain 3 life.&quot;)
+Feast — As long as you&apos;ve gained life or created a token this turn, you may play an additional land this turn.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/157.png" num="102">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burnish Awakening</name>
+			<text>Target creature gets +3/+1 until end of turn. Put a menace counter on it.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/158.png" num="68">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fire EVERYTHING!</name>
+			<text>Fire EVERYTHING! deals X damage to any target.
+You may cast up to one target instant or sorcery card with mana value X or less from your graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/159.png" num="74">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Echoes of the Promare</name>
+			<text>Trample
+At the beginning of combat on your turn, create a token that&apos;s a copy of target creature you control, except it has haste and &quot;At the beginning of the end step, sacrifice this token.&quot;
+Warp {2}{R} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/160.png" num="73">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Serra Ashur</name>
+			<text>Whenever another creature you control enters, put a +1/+1 counter on it.
+Whenever you attack with two or more creatures, draw a card.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/161.png" num="128">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phoenix of the Burning Star</name>
+			<text>Flying, haste
+Encourage ({T}: Another target creature you control gets +1/+1 until end of turn. Encourage only as a sorcery.)
+Whenever Phoenix encourages a creature, that creature gains flying and haste until end of turn.
+Escape—{R}, Exile three other cards from your graveyard (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/162.png" num="82">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fata Morgana</name>
+			<text>When Fata Morgana enters, each player sacrifices a creature. You create a 2/2 Zombie creature token with decayed. (It can&apos;t block. When it attacks, sacrifice it at end of combat.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/163.png" num="50">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ichi the Witch</name>
+			<text>Whenever another creature you control enters or dies, if that creature&apos;s power is greater than Ichi&apos;s, put a +1/+1 counter on Ichi.
+Whenever you cast a noncreature spell, you may tap any number of untapped creatures you control with total power 6 or greater. If you do, copy that spell. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/164.png" num="116">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Ranger Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Desscaras, Abyssal Witch</name>
+			<text>Flying
+When Desscaras enters, search your library for a noncreature, nonland card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/165.png" num="111">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2/W2/U2/B</manacost>
+				<cmc>6</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Buster Machine</name>
+			<text>Flying
+When Buster Machine enters, you may search your library for a land card, reveal it, put it into your hand, then shuffle.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/166.png" num="144">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>N.O. Manifestation</name>
+			<text>You may put a creature or Vehicle card from your hand or graveyard onto the battlefield. It becomes an artifact creature and gains haste. Exile it at the beginning of the next end step.
+Escape—{3}{R}{R}, Exile five other cards from your graveyard (You may cast this card from your graveyard for its escape cost.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/167.png" num="79">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Atomsk, the Pirate King</name>
+			<text>Flying
+Whenever Atomsk enters or attacks, target opponent may have him deal 4 damage to them. If that player doesn&apos;t, you draw two cards.
+{3}{R}{R}{R}, Discard X cards: Exile the top X cards of target opponent&apos;s library. You may play lands and cast spells from among cards exiled this way without paying their mana costs.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/168.png" num="65">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Pirate</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Degeneracy Generator</name>
+			<text>Degeneracy Generator enters with a charge counter on it.
+{T}: Add {C}.
+{X}{X}, {T}: Put X charge counters on Degeneracy Generator.
+{3}, {T}, Sacrifice Degeneracy Generator: Destroy each nonland permanent with mana value equal to the number of charge counters on Degeneracy Generator.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/169.png" num="149">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>2-Star Fight Club Uniform</name>
+			<text>When 2-Star Fight Club Uniform enters, create a 1/1 colorless Human creature token, then attach this to it.
+Equipped creature gets +3/+2 and has &quot;This creature can&apos;t be blocked by more than one creature.&quot;
+Equip {4}</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/170.png" num="88">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kyoko&apos;s Sacrifice</name>
+			<text>Choose one—
+• Kyoko&apos;s Sacrifice deals 3 damage to each creature.
+• Sacrifice a creature. When you do, it deals damage equal to its power to any target.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/171.png" num="76">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>marcille resurrects falin</name>
+			<text>As an additional cost to cast this spell, exile X cards from your graveyard.
+Return target creature card from your graveyard to the battlefield. You lose life equal to its mana value minus X.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/172.png" num="55">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mugann</name>
+			<text>When Mugann enters, destroy target creature.
+Flying
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/173.png" num="56">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Anti-Spiral Decree</name>
+			<text>Each player chooses any number of creatures they control with total power 5 or less, then sacrifices all other creatures they control.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/174.png" num="4">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Simon the Digger</name>
+			<text>Whenever Simon or an artifact you control enters, put a +1/+1 counter on target creature or Vehicle. It gains trample and haste until end of turn.
+Ferocious — Whenever you attack, proliferate if you control a creature with power 4 or greater. (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/175.png" num="131">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kasane Teto, Spoken For // NAME</name>
+			<text>At the beginning of your end step, you lose 1 life. Teto becomes prepared. (While it&apos;s prepared, you may cast a copy of its spell. Doing so unprepares it.)
+
+---
+
+You draw a card and lose 1 life.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/176.png" num="54">FX3</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard Performer // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>2B // B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tsubame Mizusaki</name>
+			<text>Flash
+When Mizusaki enters, if she was cast, copy target instant or sorcery spell. You may choose new targets for the copy.
+Whenever you cast an instant or sorcery spell, you may pay its mana cost (again). If you do, exile Mizusaki. You may cast her without paying her mana cost.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/177.png" num="141">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artist</type>
+				<maintype>Creature</maintype>
+				<manacost>1U/RU/R</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Absolute Reification</name>
+			<text>Multitude {2}{U} (You may cast this for {2}{U}. When you do, copy it.)
+Enchant creature
+Enchanted creature loses all abilities and has base power and toughness 1/1.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/178.png" num="21">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ragna the Bloodedge</name>
+			<text>Menace
+Whenever you cast a spell that targets an opponent or a permanent you control, put a +1/+1 counter on Ragna. If it was a black spell, you gain 2 life.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/179.png" num="140">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>B/RB/R</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lis, House Spirit</name>
+			<text>When Lis enters, choose one—
+• Destroy target artifact or enchantment.
+• Destroy target nonbasic land. Its controller searches their library for a basic land card, puts it onto the battlefield, then shuffles.
+• Return target noncreature permanent card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/180.png" num="96">FX3</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Malaise, Sealed</name>
+			<text>Time loop (As this Saga enters and after your draw step, add a lore counter. Remove them all after III.)
+I, II — Put a +1/+1 counter on target creature you control.
+III — Creatures you control get +1/+1 and gain trample until end of turn.
+​</text>
+			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/181.png" num="98">FX3</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
