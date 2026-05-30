@@ -908,7 +908,7 @@ When Avalon enters, if you cast him, create a token that&apos;s a copy of anothe
 			<name>Kuregumo&apos;s Charm</name>
 			<text>Choose one—
 • Tap target creature and put two stun counters on it.
-• Kuregumo&apos;s Charm deals 1 damage to target opponent and to each creature they control..
+• Kuregumo&apos;s Charm deals 1 damage to target opponent and to each creature they control.
 • Discard your hand, then draw two cards.</text>
 			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/49.png" num="118">FX3</set>
 			<prop>
@@ -1510,7 +1510,7 @@ Mill three cards. Then put a permanent card from among the milled cards into you
 		</card>
 		<card>
 			<name>Hali, Guardian of the Sea</name>
-			<text>Spirited 
+			<text>Spirited (When this creature enters, you may activate one of its activated abilities without paying its cost.)
 {3}{G}{G}: Until end of turn, target artifact or land you control becomes a 5/5 creature with reach and haste in addition to its other types.</text>
 			<set rarity="rare" picurl="https://magpyfeather.github.io/sets/FX3-files/img/83.png" num="95">FX3</set>
 			<prop>

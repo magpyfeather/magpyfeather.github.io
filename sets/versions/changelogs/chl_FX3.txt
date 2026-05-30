@@ -1,4 +1,26 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Kuregumo's Charm
+rules_text: Choose one—
+• Tap target creature and put two stun counters on it.
+• Kuregumo's Charm deals 1 damage to target opponent and to each creature they control..
+• Discard your hand, then draw two cards. => Choose one—
+• Tap target creature and put two stun counters on it.
+• Kuregumo's Charm deals 1 damage to target opponent and to each creature they control.
+• Discard your hand, then draw two cards.
+
+Hali, Guardian of the Sea
+rules_text: Spirited 
+{3}{G}{G}: Until end of turn, target artifact or land you control becomes a 5/5 creature with reach and haste in addition to its other types. => Spirited [i](When this creature enters, you may activate one of its activated abilities without paying its cost.)[/i]
+{3}{G}{G}: Until end of turn, target artifact or land you control becomes a 5/5 creature with reach and haste in addition to its other types.
+
+Evangeline Morgan
+
+
+VERSION 3 CHANGELOG
 ====================
 
 
