@@ -1,4 +1,786 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Claimh Solais added.
+FLAVOR Negate added.
+Saving Vaugarde added.
+Stellapen added.
+Milo Larson, Mirrormancer added.
+Mina added.
+Gert, Done With This added.
+Chai, Aspiring Rockstar added.
+Quillish, Dark Magical added.
+Queen Miasma added.
+Kamina City added.
+Macaron, Gentle Giant added.
+Crown Vault added.
+Angel Island added.
+Seattle Tower added.
+Park Planet added.
+Crisis City added.
+Serannian added.
+Promepolis added.
+The Manor added.
+Emma Rockford added.
+Senshi, Dungeon Survivalist added.
+Forbidden Resurrection added.
+Reva added.
+Barkley, Man's Best Friend added.
+Cathedral Terra added.
+The Serpent added.
+Alice, Bibliomaniac added.
+Violetta added.
+Yachiyo Runami, Admin added.
+Princess Kaguya added.
+Iroha, Reluctant Producer added.
+Chihiro Rokuhira added.
+The Winged Lion added.
+Siffrin's Wish added.
+Sen-I-Soshitsu added.
+Lunarian Edict added.
+Mushroom Boi added.
+Tengen Toppa Gurren Lagann added.
+Giga Drill Break added.
+Core Drill added.
+Knight of the Wind added.
+Cut Space added.
+Life Projection added.
+Parry added.
+Grimm Dragon added.
+Nono, Buster Machine No. 7 added.
+Snake Plant added.
+Nazuna Hiwatashi, Silver Wolf added.
+The Ark added.
+Felix, Inspiration Seeker added.
+Viola, Lady of Messaline added.
+Eugene, the Protector added.
+Meredith, Electrician added.
+Kayleigh, Neighborhood Ranger added.
+Ranger Captain Skip added.
+Ranger Captain Wallace added.
+Ranger Captain Zedd added.
+Ranger Captain Judas added.
+Ranger Captain Clee-0 added.
+Ranger Captain Penny Dreadful added.
+Ranger Captain Lodestein added.
+Ranger Captain Gladiola added.
+Ranger Captain Heather added.
+Ranger Captain Buffy added.
+Ranger Captain Cybil added.
+Ranger Captain Codey added.
+Morgante, Spirit of Rebellion added.
+Aleph, Red King of Conquest added.
+Poppetox, Master of Puppets added.
+Mourningstar, Serpent God added.
+Nowhere Monarch, King of Nothing added.
+Heckahedron, Neoplatonic Solid added.
+Alice, Wonderland's Exiled Queen added.
+Robin Goodfellow added.
+Babelith, Tower of Ignorance added.
+Lenna, Hero of Another Story added.
+Lamento Mori, Dreams of Death added.
+Lal'C Melk Mark added.
+Green added.
+the green stuff added.
+Gildedguy added.
+Victim added.
+Yellow added.
+Blue added.
+Red added.
+The Dark Lord added.
+Marcille Donato added.
+Paint-Infused Sword added.
+Talaria added.
+Iris Black added.
+Lillium White added.
+Penny, Helping Hands added.
+Begonia Amour added.
+The Storehouse added.
+Helia, Power of Fusion added.
+Quillish's Tome added.
+Living Armor added.
+Chilchuck Tims, added.
+Falin Touden added.
+Dr. McNinja added.
+Councilwoman Dan added.
+Lotus, Moon Mercenary added.
+Sunny, Recovering Capitalist added.
+Mammon, Head Landkeeper added.
+Irid Black added.
+Ensoul Artifact added.
+Madam added.
+The Mer-Line added.
+Azalea Blood added.
+Shock Collar added.
+The Escape Plan added.
+Irid's Hideout added.
+Godeye, From Beyond the Door added.
+Enae, the Turned Star added.
+Fenic, Hero of Market Square added.
+Heather Hua added.
+Peppermint, Master Hacker added.
+Korsica, Head of Security added.
+Gex added.
+hexaghost spell added.
+Empress Tahmonai added.
+Ven, Moon Founder added.
+Spawncamper Raiding Party added.
+Planet Wisp added.
+Sword of Protection added.
+The Awakened One added.
+Lagavulin added.
+Slime Boss added.
+Bronze Automaton added.
+Guardian Construct added.
+Chiaki Soga added.
+Akemura Soga added.
+Walpurgisnacht added.
+Giant Head added.
+Shirou Ogami, Silver Wolf added.
+Blaze the Cat added.
+Treasure Insects added.
+Sonic the Werehog added.
+Super Spiral Universe added.
+Silver the Hedgehog added.
+King Orange added.
+Heartbeat added.
+Malediction added.
+The Factory of a Better Tomorrow added.
+Avalonia added.
+Victoria's Laboratory added.
+Eve's Asylum added.
+Da Vinci's Hideout added.
+Power Through added.
+Teppelin, Beastman Capital added.
+Radiation Beam added.
+Godzilla Ultima added.
+Uroro's Protection added.
+Death for Death added.
+Iris Deconstruction added.
+Kyle Rayner added.
+Snecko Eye added.
+Chaos Control added.
+Super Sonic added.
+Indigo Magnetism added.
+Beat the Badnik added.
+get rings added.
+Concrete Manipulation added.
+Brooke Augustine added.
+Video Manipulation added.
+Smoke Manipulation added.
+Neon Manipulation added.
+Hound of Tindalos added.
+Victoria von Bathysphere added.
+Clive Handforth added.
+Eve Silva Paragorica added.
+Dr. Herbert Higginbotham added.
+Huge Spaceship added.
+The Merini Dungeon added.
+Kiryuin Mansion Secret Lab added.
+Harbourtown added.
+Green Hill Zone added.
+The Cursed Apple added.
+Hell, Our Home added.
+Snowdwell added.
+A Long Hallway added.
+The Domed City added.
+Glastonbury Tor, Leyline Terminal added.
+Goose Neck Valley added.
+Future's Promise added.
+Tsukuyomi added.
+The Palace added.
+Hyun's Dojo added.
+New Wirral added.
+Craftworld added.
+The Outernet added.
+Sapphire Ridge added.
+CrossWorlds added.
+Vermillion Wasteland added.
+Bergen Trail added.
+Maroon Valley added.
+Gaia's Garden added.
+I'm Here added.
+Second Chance Mushrooms added.
+Macromedia Flash 8 added.
+Diebuster added.
+Gunbuster added.
+Kyle Rayner, White Lantern added.
+Arakune added.
+
+Paperclip removed.
+Raincleaver removed.
+Yuki 7 removed.
+the vaugarde adventure removed.
+Milo Larson, TITLE removed.
+the noita or mina from noita removed.
+Gert, TITLE removed.
+Chai, TITLE removed.
+Quillish, TITLE removed.
+The Time Machine Plan removed.
+Betting on Natsuki removed.
+Macaron, TITLE removed.
+Breaking Ilvernath's Spell removed.
+BGLAND1 removed.
+GULAND1 removed.
+Rookery Bell removed.
+GWLAND2 removed.
+GULAND2 removed.
+RGLAND2 removed.
+BRLAND2 removed.
+WULAND2 removed.
+URLAND2 removed.
+UBLAND2 removed.
+Senshi, TITLE removed.
+marcille resurrects falin removed.
+
+Basilisk Vandal
+rules_text: Menace
+Boast — {2}{B}: Create a black enchantment token named NAME1 with “At the beginning of each player's upkeep, that player loses 1 life.” [i](Activate only if this creature attacked this turn and only once each turn.)[/i] => Menace
+Boast — {2}{B}: Create a black enchantment token named BLIT with “At the beginning of each player's upkeep, that player loses 1 life.” [i](Activate only if this creature attacked this turn and only once each turn.)[/i]
+
+Kriemhild Gretchen
+rules_text: Pyre [i](Each creature you tap while casting this spell pays for {1}. Each other creature you sacrifice pays for {2} instead.)[/i]
+Flying, vigilance
+At the beginning of combat on your turn, create a 0/0 black Nightmare creature token with haste, then put a +1/+1 counter on each creature you control other than Kriemhild Gretchen. => Pyre [i](Each creature you tap while casting this spell pays for {1}. Each other creature you sacrifice pays for {2} instead.)[/i]
+Flying, vigilance
+At the beginning of your end step, create a 1/1 black Nightmare creature token, then put a +1/+1 counter on each creature you control.
+pt: 5/5 => 4/4
+
+Larry Da Vinci
+type: Legendary Creature — Toy Artist => Legendary Creature — Toy Artificer Artist
+
+Shining Kuneko
+rules_text: Prototype {3} — 3/3 [i](You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)[/i]
+Shining Kuneko has vigilance if you control a white permanent. The same is true for blue and flying, black and menace, red and haste, and green and trample. => Prototype {3} — 4/4 [i](You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)[/i]
+Shining Kuneko has vigilance if you control a white permanent. The same is true for blue and flying, black and menace, red and haste, and green and trample.
+pt: 5/5 => 6/6
+special_text: Prototype {3} — 3/3 [i](You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)[/i]
+Shining Kuneko has vigilance if you control a white permanent. The same is true for blue and flying, black and menace, red and haste, and green and trample. => Prototype {3} — 4/4 [i](You may cast this spell with different mana cost, color, and size. It keeps its abilities and types.)[/i]
+Shining Kuneko has vigilance if you control a white permanent. The same is true for blue and flying, black and menace, red and haste, and green and trample.
+
+Himeko Kurusugawa
+rules_text: Artifact spells you cast cost {1} less to cast.
+Whenever one or more Vehicles you control attack, put a +1/+1 counter on one of them and untap Himeko. => Artifact spells you cast cost {1} less to cast.
+Whenever one or more Vehicles and/or Spacecraft you control attack, put a +1/+1 counter on one of them and untap Himeko.
+
+Togo Shiba
+
+Rikki, Star Luminous
+rules_text: Flash
+Whenever Rikki, Star Luminous enters or attacks, target permanent phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]
+Whenever Rikki, Star Luminous or another permanent phases in, put a +1/+1 counter on Rikki, Star Luminous. => Flash
+Whenever Rikki enters or attacks, target permanent phases out. [i](Treat it and anything attached to it as though they don't exist until its controller's next turn.)[/i]
+Whenever Rikki or another permanent phases in, put a +1/+1 counter on Rikki.
+
+Olruggio of the Torch
+type: Legendary Creature — Human Wizard Artificer => Legendary Creature — Human Artificer Wizard
+
+The Acolyte
+cost: {1}{W} => {1}{W}{W}
+rules_text: [i]ABILITYWORD[/i] — As long as permanents you control have total mana value 5 or greater, The Acolyte has lifelink.
+Exhaust — {2W}{2W}{2W}: Put two +1/+1 counters on The Acolyte. You and target opponent each draw three cards. Activate only as a sorcery. [i](Activate each exhaust ability only once.)[/i] => Ward {3} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)[/i]
+At the beginning of your upkeep, you and target opponent each draw a card.
+pt: 2/2 => 3/3
+
+Saffron
+
+Shiny Chariot
+cost: {2U}{2R}{2W} => {U}{R}{W}
+rules_text: Convoke [i](Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)[/i]
+Flying, vigilance
+The first noncreature spell you cast each turn has convoke. => Flying, vigilance
+Noncreature spells you cast have convoke. [i](Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)[/i]
+pt: 4/4 => 3/3
+
+The Pod
+
+The Silver Key
+rules_text: The Silver Key enters tapped.
+{T}: Add {U}.
+Exhaust — {2U}{2U}{2U}{2U}, {T}: The Silver Key gains “You may look at the top card of your library at any time.” and “You may play lands and cast spells from the top of your library.” [i](Activate each exhaust ability only once.)[/i] => {T}: Add {U}.
+Exhaust — {2U}{2U}{2U}{2U}, {T}: The Silver Key gains “You may look at the top card of your library at any time.” and “You may play lands and cast spells from the top of your library.” [i](Activate each exhaust ability only once.)[/i]
+
+Contraband Grimoire
+
+Multivac
+
+Don Quixote
+
+Huck
+rules_text: You and creatures you control have ward {2}. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i] => Whenever Huck enters or attacks, up to one other target creature gains indestructible until end of turn.
+
+Penny Polendina
+cost: {2G}{2W}{2U} => {G}{W}{U}
+rules_text: Modified creatures you control have vigilance. [i](Equipment, Auras you control, and counters are modifications.)[/i]
+Whenever Penny Polendina enters or attacks, create a Weapon token. [i](It's an artifact with “Equipped creature gets +1/+1” and has equip {2}.)[/i] => Modified creatures you control have vigilance. [i](Equipment, Auras you control, and counters are modifications.)[/i]
+Whenever Penny Polendina enters or attacks, create a Weapon token. [i](It's an Equipment with “Equipped creature gets +1/+1” and has equip {2}.)[/i]
+
+Tarr
+
+Library of Babel
+rules_text: When Library of Babel enters, roll a d6. Note the result.
+{T}: Add {C}.
+{2}, {T}: If the number of cards in your hand is equal to the last number noted for Library of Babel, draw a card. Roll a d6. Note the result. => As Library of Babel enters, roll a d6. Note the result.
+{T}: Add {C}.
+{1}, {T}: If the number of cards in your hand is equal to the last number noted for Library of Babel, draw a card. Roll a d6. Note the result.
+
+World-Cutting Slash
+cost: {R} => {2}{R}
+rules_text: Spree [i](Choose one or more additional costs.)[/i]
++{R} — World-Cutting Slash deals 3 damage to target creature.
++{R} — World-Cutting Slash deals 1 damage to each creature target player controls.
++{3}{R} — Target opponent loses half their life, rounded up. => Suspend 3—{R} [i](Rather than cast this card from your hand, you may pay {R} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)[/i]
+World-Cutting Slash deals 4 damage to any target. Excess damage dealt to a creature this way is dealt to its controller instead.
+
+Subaru Urita
+rules_text: If one or more tokens would be created under your control, those tokens plus a Weapon token are created instead. [i](A Weapon token is an artifact with “Equipped creature gets +1/+1” and has equip {2}.)[/i]
+[i][i]Feast[/i][/i] — At the beginning of your end step, if you've gained life or created a token this turn, draw a card. => If one or more tokens would be created under your control, those tokens plus a Weapon token are created instead. [i](It's an Equipment with “Equipped creature gets +1/+1” and has equip {2}.)[/i]
+[i][i]Feast[/i][/i] — At the beginning of your end step, if you've gained life or created a token this turn, draw a card.
+
+Radiant Goddess's Shard
+rules_text: Radiant Goddess's Shard enters tapped.
+{T}: Add {W}.
+Exhaust — {2W}{2W}{2W}{2W}, {T}: Radiant Goddess's Shard gains “At the beginning of your upkeep, you may exile target creature card with mana value 3 or less from your graveyard. If you do, create a token that's a copy of it.” [i](Activate each exhaust ability only once.)[/i] => {T}: Add {W}.
+Exhaust — {2W}{2W}{2W}{2W}, {T}: Radiant Goddess's Shard gains “At the beginning of your upkeep, you may exile target creature card with mana value 3 or less from your graveyard. If you do, create a token that's a copy of it.” [i](Activate each exhaust ability only once.)[/i]
+
+Datenseki
+rules_text: Datenseki enters tapped.
+{T}: Add {B}.
+Exhaust — {2B}{2B}{2B}{2B}, {T}: Datenseki gains “At the beginning of your first main phase, mill two cards. For each of those cards, you may pay 3 life. If you do, put that card into your hand.” [i](Activate each exhaust ability only once.)[/i] => {T}: Add {B}.
+Exhaust — {2B}{2B}{2B}{2B}, {T}: Datenseki gains “At the beginning of your first main phase, mill two cards. For each of those cards, you may pay 3 life. If you do, put that card into your hand.” [i](Activate each exhaust ability only once.)[/i]
+
+Vessel of High Magic
+rules_text: Vessel of High Magic enters tapped.
+{T}: Add {R}.
+Exhaust — {2R}{2R}{2R}{2R}, {T}: Vessel of High Magic gains “Whenever you cast your first instant or sorcery spell each turn, you may pay {2}. If you do, copy it. You may choose new targets for the copy.” [i](Activate each exhaust ability only once.)[/i] => {T}: Add {R}.
+Exhaust — {2R}{2R}{2R}{2R}, {T}: Vessel of High Magic gains “Whenever you cast your first instant or sorcery spell each turn, you may pay {2}. If you do, copy it. You may choose new targets for the copy.” [i](Activate each exhaust ability only once.)[/i]
+
+Skul, the Hero Slayer
+
+Naota, Awakened Vessel
+
+Siffrin, Time Looper
+cost: {1}{B} => {1}{WB}
+rules_text: Flash
+When Siffrin enters, return to your hand target card in your graveyard that was put there from anywhere this turn.
+Wander {3}{B}. Wander only outside of combat. [i](You may cast this from the battlefield for its wander cost.)[/i] => Flash
+When Siffrin enters, return to your hand target card in your graveyard that was put there from your library, hand, or the battlefield this turn.
+Wander {3}{WB}. Wander only outside of combat. [i](You may cast this from the battlefield for its wander cost.)[/i]
+
+Lio Fotia, Firebrand
+
+Haruko Haruhara
+
+Canti
+rules_text: When Canti enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.
+Power-up — {7}: Put a +1/+1 counter on Canti. When you do, destroy target permanent. [i](Activate each power-up ability only once. Reduce the cost by this creature's mana cost if it entered this turn.)[/i] => When Canti enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top.
+Power-up — {7}: Put a +1/+1 counter on Canti. Destroy target permanent. [i](Activate each power-up ability only once. Reduce the cost by this creature's mana cost if it entered this turn.)[/i]
+
+Avalon Centrifuge
+
+Enten's Charm
+
+Kuregumo's Charm
+rules_text: Choose one—
+• Tap target creature and put two stun counters on it.
+• Kuregumo's Charm deals 1 damage to target opponent and to each creature they control.
+• Discard your hand, then draw two cards. => Choose one—
+• Tap target creature and put two stun counters on it.
+• Kuregumo's Charm deals 2 damage to any target.
+• Discard your hand, then draw two cards.
+
+Tobimune's Charm
+
+Kumeyuri's Charm
+
+Magatsumi's Charm
+
+Shooting Star
+rules_text: When Shooting Star enters, it becomes an artifact creature until end of turn.
+Trample, haste
+{4}{R}{R}, Tap an untapped Wizard you control: Put a flying counter on Shooting Star. It becomes an artifact creature [i](indefinitely)[/i]. => When Shooting Star enters, it becomes an artifact creature until end of turn.
+Trample, haste
+{4}{R}{R}: Put a flying counter on Shooting Star. It becomes an artifact creature [i](indefinitely)[/i].
+
+Winnie, Star Shimmer
+
+Medical Mechanica Building
+rules_text: {T}: Add {C}.
+{T}, Sacrifice Medical Mechanica Building: Destroy target nonbasic land. Each player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles. => {T}: Add {C}.
+{T}, Sacrifice Medical Mechanica Building: Destroy target nonbasic land. Its controller searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles. Then search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+
+Medical Mechanica Agenda
+cost: {1}{W} => {2}{W}
+
+The Package
+type: Legendary Artifact — Equipment => Legendary Artifact
+cost: {2} => {10}
+rules_text: Equipped creature gets +1/+1 and has “Discard a card: This creature gains menace and haste until end of turn” and “Whenever this creature deals combat damage to a player, draw a card.”
+Equip {1} => Affinity for tapped creatures [i](This spell costs {1} less to cast for each tapped creature you control.)[/i]
+When The Package enters, draw three cards.
+{T}: Add three mana of any one color.
+
+Sackboy
+cost: {1}{U}{U} => {1}{GU}{GU}
+
+Radiant Titan
+
+Ilvernath, Ritual Nexus
+
+Tower of Tomes
+
+Ame no Murakumo
+
+Galo Thymos
+rules_text: Whenever Galo or another artifact you control enters, put a stun counter on target creature. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]
+Galo crews Vehicles as though his power was 2 greater. => Whenever Galo or another artifact you control enters, put a stun counter on target creature. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]
+Galo crews Vehicles and stations Spacecraft as though his power was 2 greater.
+
+The Old God
+
+The Radiant Goddess
+
+Zoe's Nova
+
+Chase's Nova
+rules_text: Spree [i](Choose one or more additional costs.)[/i]
++{1} — Each opponent sacrifices a creature.
++{2}{B} — Each opponent discards two cards.
++{3}{B} — Each opponent loses 5 life and you gain 5 life. => Spree [i](Choose one or more additional costs.)[/i]
++{1} — Each opponent sacrifices a creature of their choice.
++{2}{B} — Each opponent discards two cards.
++{3}{B} — Each opponent loses 5 life and you gain 5 life.
+
+Shiho
+
+Terra
+
+The Radiant One's Temple
+rules_text: [i]({T}: Add {R} or {W}.)[/i]
+As The Radiant One's Temple enters, you may behold a Mountain or a Plains. If you don't, The Radiant One's Temple enters tapped. [i](To behold a Mountain or a Plains, choose a Mountain or a Plains you control or reveal a Mountain or a Plains card from your hand.)[/i] => [i]({T}: Add {R} or {W}.)[/i]
+As The Radiant One's Temple enters, you may behold a Mountain or Plains. If you don't, The Radiant One's Temple enters tapped. [i](To behold a Mountain or Plains, choose a Mountain or Plains you control or reveal a Mountain or Plains card from your hand.)[/i]
+
+Giha Village
+rules_text: [i]({T}: Add {W} or {B}.)[/i]
+As Giha Village enters, you may behold a Plains or a Swamp. If you don't, Giha Village enters tapped. [i](To behold a Plains or a Swamp, choose a Plains or a Swamp you control or reveal a Plains or a Swamp card from your hand.)[/i] => [i]({T}: Add {W} or {B}.)[/i]
+As Giha Village enters, you may behold a Plains or Swamp. If you don't, Giha Village enters tapped. [i](To behold a Plains or Swamp, choose a Plains or Swamp you control or reveal a Plains or Swamp card from your hand.)[/i]
+
+Anima City
+rules_text: [i]({T}: Add {G} or {W}.)[/i]
+As Anima City enters, you may behold a Forest or a Plains. If you don't, Anima City enters tapped. [i](To behold a Forest or a Plains, choose a Forest or a Plains you control or reveal a Forest or a Plains card from your hand.)[/i] => [i]({T}: Add {G} or {W}.)[/i]
+As Anima City enters, you may behold a Forest or Plains. If you don't, Anima City enters tapped. [i](To behold a Forest or Plains, choose a Forest or Plains you control or reveal a Forest or Plains card from your hand.)[/i]
+
+The Roach's Armor
+
+Master Higuchi, Matchmaker
+
+Hali, Guardian of the Sea
+rules_text: Spirited [i](When this creature enters, you may activate one of its activated abilities without paying its cost.)[/i]
+{3}{G}{G}: Until end of turn, target artifact or land you control becomes a 5/5 creature with reach and haste in addition to its other types. => Spirited [i](When this creature enters, you may activate one of its activated abilities without paying its cost.)[/i]
+{2}{G}{G}: Until end of turn, target artifact or land you control becomes a 5/5 creature with reach and haste in addition to its other types.
+
+Seitarou Higuchi, Tengu
+cost: {1}{G} => {1}{R}{G}
+rules_text: Ward {2}
+[i]Celebration[/i] — At the beginning of combat on your turn, if two or more nonland permanents entered the battlefield under your control this turn, target creature you control must be blocked this turn if able. => At the beginning of your end step, you may discard your hand. If you do, draw X cards, where X is the number of permanents that entered under your control this turn.
+pt: 2/3 => 3/3
+
+Cheline, Sapphire Phoenix
+
+Cheth, the Bonefish
+
+Phaedra Philemon
+
+Erasure Sigil
+rules_text: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. You lose 3 life unless you discard a card or sacrifice a creature. => Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. You lose 3 life unless you discard a card or sacrifice a nonland permanent.
+
+Colossatron
+rules_text: Colossatron enters with X +1/+1 counters on it.
+When Colossatron dies, if it has one or more +1/+1 counters on it, discover X, where X is the number of +1/+1 counters on it. [i](Exile cards from the top of your library until you exile a nonland card with mana value X or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)[/i] => Colossatron enters with X +1/+1 counters on it.
+When Colossatron dies, if it had one or more +1/+1 counters on it, discover X, where X is the number of +1/+1 counters on it. [i](Exile cards from the top of your library until you exile a nonland card with mana value X or less. Cast it without paying its mana cost or put it into your hand. Put the rest on the bottom in a random order.)[/i]
+
+Selicy
+type: Legendary Creature — Human Artificer => Legendary Creature — Human Rogue
+
+Creatinator
+cost: {1}{U} => {1}{UR}
+
+Love Machine
+
+Welcome to Oz
+
+Hour-Thief Ritual
+
+Beastman Mutation
+
+Rescue Gear
+
+Zeus's Nova
+
+Halea, High Priestess
+rules_text: [i]ABILITYWORD[/i] — As long as permanents you control have total mana value 5 or greater, Halea has flying.
+Exhaust — {2U}{2U}{2U}: Put a +1/+1 counter on Halea. When you do, return target instant or sorcery card from your graveyard to your hand. [i](Activate each exhaust ability only once.)[/i] => {T}: Draw a card, then discard a card.
+[i]Threshold[/i] — As long as there are seven or more cards in your graveyard, Halea has flying and vigilance.
+
+The Great Salabay Aquifer
+rules_text: [i]({T}: Add {W} or {U}.)[/i]
+As The Great Salabay Aquifer enters, you may behold a Plains or an Island. If you don't, The Great Salabay Aquifer enters tapped. [i](To behold a Plains or an Island, choose a Plains or an Island you control or reveal a Plains or an Island card from your hand.)[/i] => [i]({T}: Add {W} or {U}.)[/i]
+As The Great Salabay Aquifer enters, you may behold a Plains or Island. If you don't, The Great Salabay Aquifer enters tapped. [i](To behold a Plains or Island, choose a Plains or Island you control or reveal a Plains or Island card from your hand.)[/i]
+
+Chikane Himemiya
+cost: {1}{B} => {3}{B}
+rules_text: [i]ABILITYWORD[/i] — As long as permanents you control have total mana value 5 or greater, Chikane has menace.
+Exhaust — {2B}{2B}{2B}: Put two +1/+1 counters on Chikane. You may sacrifice a nonland permanent. If you do, draw two cards. [i](Activate each exhaust ability only once.)[/i] => When Chikane enters, return target artifact or creature card from your graveyard to your hand. 
+Whenever an artifact you control enters, each opponent loses 1 life and you gain 1 life.
+pt: 2/2 => 2/4
+
+Gambol Shroud
+
+Myrtenaster
+
+Vaugarde, Spellbound Country
+rules_text: [i]({T}: Add {U} or {B}.)[/i]
+Mana abilities of Vaugarde cost an additional 1 life to activate.
+{1}, {T}, Sacrifice Vaugarde: Draw a card. => [i]({T}: Add {U} or {B}.)[/i]
+As Vaugarde enters, you may behold an Island or Swamp. If you don't, Vaugarde enters tapped. [i](To behold an Island or Swamp, choose an Island or Swamp you control or reveal an Island or Swamp card from your hand.)[/i]
+
+Cole McGrath
+type: Legendary Creature — Human Mutant Scout => Legendary Creature — Mutant Scout
+cost: {1}{R}{R} => {2}{R}
+rules_text: Whenever you cast a noncreature spell, Cole deals 2 damage to each opponent.
+{2}{W}: If Cole is a Scout, put a +1/+1 counter and a lifelink counter on him. He becomes a Human Mutant Hero.
+{2}{B}: If Cole is a Scout, put a +1/+1 counter and a menace counter on him. He becomes a Human Mutant Villain. => Whenever you cast a noncreature spell, Cole deals 2 damage to each opponent.
+Power-up — {4}{R}: Put a +1/+1 counter on Cole. If {W} was spent to activate this ability, put a lifelink counter on him. If {B} was spent to activate this ability, put a menace counter on him. [i](Activate each power-up ability only once. Reduce the cost by this creature's mana cost if it entered this turn.)[/i]
+
+God of Used Books
+rules_text: Menace
+God of Used Books's base power and toughness are each equal to the number of cards in your hand. => Whenever you draw a card, put a +1/+1 counter on God of Used Books.
+Power-up — {3}{U}{U}: Put a menace counter on God of Used Books. Draw three cards. [i](Activate each power-up ability only once. Reduce the cost by this creature's mana cost if it entered this turn.)[/i]
+pt: */* => 2/2
+
+The Glass Dial
+
+Madoka Kaname, Puella Dea
+
+Forge the Enchanted Blade
+
+Elevadeer
+
+Brushbug
+
+Yung Venuz
+
+Midori Asakusa
+cost: {1}{G} => {G}{U}
+rules_text: [i]ABILITYWORD[/i] — As long as permanents you control have total mana value 5 or greater, Asakusa has vigilance.
+Exhaust — {2G}{2G}{2G}: Put two +1/+1 counters on Asakusa. Search your library for a card for a land card, put it onto the battlefield tapped, then shuffle. [i](Activate each exhaust ability only once.)[/i] => Haste
+{T}: Add {G} or {U}.
+{T}: Add {G}{U}. You can't spend this mana to cast spells with mana value 4 or less.
+{T}: Draw a card, then discard a card.
+pt: 2/2 => 1/3
+
+Spiral Power
+cost: {2}{G}{G} => {1}{G}{G}
+rules_text: Whenever you attack, put a charge counter on Spiral Power. When you do, put X +1/+1 counters on target creature or Vehicle you control, where X is the number of charge counters on Spiral Power. => Whenever you attack, put your choice of a +1/+1 counter or two charge counters on up to one target permanent.
+{3}{G}: Resurge. [i](For each permanent you control with a +1/+1 counter, give it another. Repeat this with charge counters.)[/i]
+
+Croix Meridies
+cost: {2U}{2B}{2R} => {U}{B}{R}
+rules_text: Affinity for tapped creatures [i](This spell costs {1} less to cast for each tapped creature you control.)[/i]
+Flying, trample
+The first noncreature spell you cast each turn has affinity for tapped creatures. => Flying, trample
+Noncreature spells you cast have affinity for tapped creatures. [i](They cost {1} less to cast for each tapped creature you control.)[/i]
+pt: 4/4 => 3/3
+
+Wagandea Allergy
+
+Maki Zen'in
+cost: {2B}{2R}{2G} => {B}{R}{G}
+
+Kyubey
+cost: {1}{U} => {1}{UB}
+rules_text: When Kyubey enters, draw a card.
+Escape—{2}{U}, Exile two other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i] => When Kyubey enters, you draw a card and lose 1 life.
+Escape—{2}{UB}, Exile two other cards from your graveyard. [i](You may cast this card from your graveyard for its escape cost.)[/i]
+
+The Underground
+rules_text: [i]({T}: Add {B} or {G}.)[/i]
+As The Underground enters, you may behold a Swamp or a Forest. If you don't, The Underground enters tapped. [i](To behold a Swamp or a Forest, choose a Swamp or a Forest you control or reveal a Swamp or a Forest card from your hand.)[/i] => [i]({T}: Add {B} or {G}.)[/i]
+As The Underground enters, you may behold a Swamp or Forest. If you don't, The Underground enters tapped. [i](To behold a Swamp or Forest, choose a Swamp or Forest you control or reveal a Swamp or Forest card from your hand.)[/i]
+
+Mabase
+
+Honnouji Academy
+rules_text: [i]({T}: Add {R} or {G}.)[/i]
+As Honnouji Academy enters, you may behold a Mountain or a Forest. If you don't, Honnouji Academy enters tapped. [i](To behold a Mountain or a Forest, choose a Mountain or a Forest you control or reveal a Mountain or a Forest card from your hand.)[/i] => [i]({T}: Add {R} or {G}.)[/i]
+Mana abilities of Honnouji Academy cost an additional 1 life to activate.
+{1}, {T}, Sacrifice Honnouji Academy: Draw a card.
+
+The Ancient Creator's Paradise
+
+Vash the Stampede
+
+Madoka's Wish
+
+Michiru Kagemori
+type: Legendary Creature — Human Dog Mutant => Legendary Creature — Human Dog
+cost: {2G}{2U}{2R} => {G}{U}{R}
+rules_text: Improve {2G} [i]({2G}: Put a +1/+1 counter on this creature. This costs {1} more to activate for each +1/+1 counter on it. Improve only as a sorcery.)[/i]
+{2}{U}: Return Michiru to her owner's hand.
+{R}: Michiru gains trample and haste until end of turn. => Improve {1}{G} [i]({1}{G}: Put a +1/+1 counter on this creature. This costs {1} more to activate for each +1/+1 counter on it. Improve only as a sorcery.)[/i]
+{2}{U}: Return Michiru to her owner's hand.
+{R}: Michiru gains trample and haste until end of turn.
+pt: 4/4 => 4/5
+
+Kamina, Hero of Giha
+cost: {1}{R} => {2}{R}
+rules_text: [i]ABILITYWORD[/i] — As long as permanents you control have total mana value 5 or greater, Kamina has trample.
+Exhaust — {2R}{2R}{2R}: Put two +1/+1 counters on Kamina. When you do, if it's your main phase, gain control of target artifact or creature until end of turn. Untap it. It gains haste until end of turn. [i](Activate each exhaust ability only once.)[/i] => Haste
+Mentor [i](Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)[/i]
+Whenever Kamina attacks, target attacking creature gains first strike and trample until end of turn.
+pt: 2/2 => 3/2
+
+Evangeline Morgan
+rules_text: Ward—Discard a card
+Whenever Morgan attacks, until end of turn, you may play lands and cast noncreature spells not named Evangeline Morgan from your graveyard, and if a noncreature card would be put into your graveyard from anywhere this turn, exile it instead. => Ward—Discard a card
+Whenever Morgan attacks, until end of turn, you may play lands and cast noncreature spells from your graveyard, and if a noncreature card would be put into your graveyard from anywhere this turn, exile it instead.
+
+AD_84
+
+Pedro
+
+Grief Seed
+
+Ori
+
+Knight Moralis
+cost: {2}{W} => {2}{WU}
+
+Ember Celica
+
+The Construction Robot
+
+Ophelia
+
+Charlotte
+rules_text: Emerge {4}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Charlotte emerges with two +1/+1 counters and a trample counter on it.
+{G}: Exile target card from a graveyard. If it's a nonland permanent, put a +1/+1 counter on Charlotte. => Emerge {4}{G} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+Charlotte emerges with two +1/+1 counters and a trample counter on it.
+{G}: Exile target card from a graveyard. If it's a nonland permanent card, put a +1/+1 counter on Charlotte.
+
+Candeloro
+
+Homulily
+
+Oktavia
+cost: {1}{U}{U} => {2}{U}{U}
+rules_text: Emerge {3}{U} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+When Oktavia enters, choose two other target creatures controlled by different players. You may return those creatures to their owners' hands. => Emerge {4}{U} [i](You may cast this spell by sacrificing a creature and paying the emerge cost reduced by that creature's mana value.)[/i]
+When Oktavia enters, choose two other target creatures controlled by different players. You may return those creatures to their owners' hands.
+
+Roxy, the Gunner
+
+Burning Rescue
+rules_text: Spree [i](Choose one or more additional costs.)[/i]
++{1} — Target creature you control gains flying until end of turn.
++{1} — Create a 3/2 colorless Vehicle artifact token with crew 1.
++{1}{U} — Return target creature to its owner's hand. => Return target creature to its owner's hand. If you controlled it, draw a card.
+
+Diavolo's Punishment
+
+Laios Touden
+
+22-Minute Supernova
+
+Burnish Awakening
+
+Fire EVERYTHING!
+cost: {X}{R}{R} => {X}{R}
+
+Echoes of the Promare
+rules_text: Trample
+At the beginning of combat on your turn, create a token that's a copy of target creature you control, except it has haste and “At the beginning of the end step, sacrifice this token.”
+Warp {2}{R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i] => Trample
+Creatures you control have +2/+0.
+Warp {2}{R} [i](You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)[/i]
+
+Serra Ashur
+
+Phoenix of the Burning Star
+
+Fata Morgana
+
+Ichi the Witch
+rules_text: Whenever another creature you control enters or dies, if that creature's power is greater than Ichi's, put a +1/+1 counter on Ichi.
+Whenever you cast a noncreature spell, you may tap any number of untapped creatures you control with total power 6 or greater. If you do, copy that spell. You may choose new targets for the copy. => Whenever another creature you control enters or dies, if that creature's power is greater than Ichi's, put a +1/+1 counter on Ichi.
+Whenever you cast a noncreature spell, you may tap any number of untapped creatures you control with total power 4 or greater. If you do, copy that spell. You may choose new targets for the copy.
+
+Desscaras, Abyssal Witch
+cost: {2W}{2U}{2B} => {W}{U}{B}
+
+Buster Machine
+
+N.O. Manifestation
+rules_text: You may put a creature or Vehicle card from your hand or graveyard onto the battlefield. It becomes an artifact creature and gains haste. Exile it at the beginning of the next end step.
+Escape—{3}{R}{R}, Exile five other cards from your graveyard [i](You may cast this card from your graveyard for its escape cost.)[/i] => You may put a creature or Vehicle card from your hand or graveyard onto the battlefield. It becomes an artifact creature and gains haste. Sacrifice it at the beginning of the next end step.
+Escape—{3}{R}{R}, Exile five other cards from your graveyard [i](You may cast this card from your graveyard for its escape cost.)[/i]
+
+Atomsk, the Pirate King
+cost: {2}{R}{R} => {2}{BR}{BR}
+rules_text: Flying
+Whenever Atomsk enters or attacks, target opponent may have him deal 4 damage to them. If that player doesn't, you draw two cards.
+{3}{R}{R}{R}, Discard X cards: Exile the top X cards of target opponent's library. You may play lands and cast spells from among cards exiled this way without paying their mana costs. => Flying
+Whenever Atomsk enters or attacks, target opponent may have him deal 4 damage to them. If that player doesn't, you draw two cards.
+{3}{BR}{BR}{BR}, Discard X cards: Exile the top X cards of target opponent's library. You may play lands and cast spells from among cards exiled this way without paying their mana costs.
+
+Degeneracy Generator
+
+2-Star Fight Club Uniform
+
+Kyoko's Sacrifice
+
+Mugann
+rules_text: When Mugann enters, destroy target creature.
+Flying
+Crew 4 [i](Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)[/i] => When Mugann enters, destroy target creature.
+Flying
+Crew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+
+Anti-Spiral Decree
+
+Simon the Digger
+rules_text: Whenever Simon or an artifact you control enters, put a +1/+1 counter on target creature or Vehicle. It gains trample and haste until end of turn.
+[i]Ferocious[/i] — Whenever you attack, proliferate if you control a creature with power 4 or greater. [i](To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i] => Whenever Simon or an artifact you control enters, put your choice of a +1/+1 counter or a charge counter on target permanent. It gains trample and haste until end of turn.
+[i]Ferocious[/i] — Whenever you attack, resurge if you control a creature with power 4 or greater. [i](For each permanent you control with a +1/+1 counter, give it another. Repeat this with charge counters.)[/i]
+
+Kasane Teto, Spoken For
+type: Legendary Creature — Human Bard Performer => Legendary Creature — Chimera Bard Performer
+
+Tsubame Mizusaki
+
+Absolute Reification
+
+Ragna the Bloodedge
+rules_text: Menace
+Whenever you cast a spell that targets an opponent or a permanent you control, put a +1/+1 counter on Ragna. If it was a black spell, you gain 2 life. => Menace
+Whenever you cast a spell that targets an opponent or a permanent, put a +1/+1 counter on Ragna. If it was a black spell, you gain 2 life.
+
+Lis, House Spirit
+
+The Malaise, Sealed
+
+Emerald Tablet
+rules_text: Emerald Tablet enters tapped.
+{T}: Add {G}.
+Exhaust — {2G}{2G}{2G}{2G}, {T}: Emerald Tablet gains “{T}: Add {G}{G}{G}.” [i](Activate each exhaust ability only once.)[/i] => {T}: Put a gold counter on Emerald Tablet.
+{T}: Add {C}{C}. Activate only if Emerald Tablet has two or more gold counters on it.
+{T}: Create a Treasure token and draw a card. Activate only if Emerald Tablet has five or more gold counters on it.
+
+Confessions of a Rotten Girl
+
+
+VERSION 5 CHANGELOG
 ====================
 
 
